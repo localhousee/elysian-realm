@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 13,
 			name: 'Palatinus Equinox',
-			imageSrc: './src/assets/images/palatinus-equinox.jpg',
+			imageSrc: './public/images/palatinus-equinox.jpg',
 			imageAlt: 'Palatinus Equinox',
 			position: 'object-top',
 		};

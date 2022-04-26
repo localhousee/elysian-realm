@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 9,
 			name: 'Infinite Ouroboros',
-			imageSrc: './src/assets/images/infinite-ouroboros.png',
+			imageSrc: './public/images/infinite-ouroboros.png',
 			imageAlt: 'Infinite Ouroboros',
 			position: 'object-[-10rem]',
 		};

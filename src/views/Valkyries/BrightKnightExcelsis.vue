@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 2,
 			name: 'Bright Knight: Excelsis',
-			imageSrc: './src/assets/images/bright-knight-excelsis.jpg',
+			imageSrc: './public/images/bright-knight-excelsis.jpg',
 			imageAlt: 'Bright Knight: Excelsis',
 			position: 'object-center',
 		};

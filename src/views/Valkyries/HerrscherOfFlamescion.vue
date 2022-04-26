@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 5,
 			name: 'Herrscher of Flamescion',
-			imageSrc: './src/assets/images/herrscher-of-flamescion.jpg',
+			imageSrc: './public/images/herrscher-of-flamescion.jpg',
 			imageAlt: 'Herrscher of Flamescion',
 			position: 'object-[-4rem]',
 		};

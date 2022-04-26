@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 4,
 			name: 'Fallen Rosemary',
-			imageSrc: './src/assets/images/fallen-rosemary.png',
+			imageSrc: './public/images/fallen-rosemary.png',
 			imageAlt: 'Fallen Rosemary',
 			position: 'object-center',
 		};

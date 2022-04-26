@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 17,
 			name: 'Silverwing: N-EX',
-			imageSrc: './src/assets/images/silverwing-nex.jpg',
+			imageSrc: './public/images/silverwing-nex.jpg',
 			imageAlt: 'Silverwing: N-EX',
 			position: 'object-center',
 		};

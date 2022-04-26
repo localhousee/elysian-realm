@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 19,
 			name: 'Starchasm Nyx',
-			imageSrc: './src/assets/images/starchasm-nyx.png',
+			imageSrc: './public/images/starchasm-nyx.png',
 			imageAlt: 'Starchasm Nyx',
 			position: 'object-[-4rem]',
 		};

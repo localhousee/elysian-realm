@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 14,
 			name: 'Prinzessin der Verurteilung',
-			imageSrc: './src/assets/images/prinzessin-der-verurteilung.jpg',
+			imageSrc: './public/images/prinzessin-der-verurteilung.jpg',
 			imageAlt: 'Prinzessin der Verurteilung',
 			position: 'object-top',
 		};

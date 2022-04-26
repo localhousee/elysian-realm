@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 8,
 			name: 'Herrscher Of Thunder',
-			imageSrc: './src/assets/images/herrscher-of-thunder.jpg',
+			imageSrc: './public/images/herrscher-of-thunder.jpg',
 			imageAlt: 'Herrscher Of Thunder',
 			position: 'object-top',
 		};

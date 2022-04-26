@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 20,
 			name: 'Striker Fulminata',
-			imageSrc: './src/assets/images/striker-fulminata.jpeg',
+			imageSrc: './public/images/striker-fulminata.jpeg',
 			imageAlt: 'Striker Fulminata',
 			position: 'object-center',
 		};

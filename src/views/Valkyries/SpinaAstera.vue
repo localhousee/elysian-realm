@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 18,
 			name: 'Spina Astera',
-			imageSrc: './src/assets/images/spina-astera.jpg',
+			imageSrc: './public/images/spina-astera.jpg',
 			imageAlt: 'Spina Astera',
 			position: 'object-top',
 		};

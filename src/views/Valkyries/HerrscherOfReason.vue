@@ -8,7 +8,7 @@
 	const valkyrie = {
 		id: 6,
 		name: 'Herrscher Of Reason',
-		imageSrc: './src/assets/images/herrscher-of-reason.jpg',
+		imageSrc: './public/images/herrscher-of-reason.jpg',
 		imageAlt: 'Herrscher Of Reason',
 		position: 'object-center',
 	};

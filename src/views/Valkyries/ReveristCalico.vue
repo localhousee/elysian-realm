@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 15,
 			name: 'Reverist Calico',
-			imageSrc: './src/assets/images/reverist-calico.jpg',
+			imageSrc: './public/images/reverist-calico.jpg',
 			imageAlt: 'Reverist Calico',
 			position: 'object-[-4rem]',
 		};

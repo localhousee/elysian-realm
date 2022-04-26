@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 12,
 			name: 'Miss Pink Elf',
-			imageSrc: './src/assets/images/miss-pink-elf.jpg',
+			imageSrc: './public/images/miss-pink-elf.jpg',
 			imageAlt: 'Miss Pink Elf',
 			position: 'object-center',
 		};
