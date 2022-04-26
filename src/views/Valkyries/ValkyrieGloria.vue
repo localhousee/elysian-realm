@@ -8,7 +8,7 @@ import Card from '../../components/Card.vue';
 const valkyrie = {
 	id: 24,
 	name: 'Valkyrie Gloria',
-	imageSrc: './public/images/valkyrie-gloria.jpg',
+	imageSrc: '/images/valkyrie-gloria.jpg',
 	imageAlt: 'Valkyrie Gloria',
 	position: 'object-[-10rem]',
 };

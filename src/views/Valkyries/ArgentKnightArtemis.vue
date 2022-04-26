@@ -8,7 +8,7 @@
 	const valkyrie = {
 		id: 1,
 		name: 'Argent Knight: Artemis',
-		imageSrc: './public/images/argent-knight-artemis.jpg',
+		imageSrc: '/images/argent-knight-artemis.jpg',
 		imageAlt: 'Argent Knight: Artemis',
 		position: 'object-center',
 	};

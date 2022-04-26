@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 16,
 			name: 'Ritual Imayoh',
-			imageSrc: './public/images/ritual-imayoh.jpg',
+			imageSrc: '/images/ritual-imayoh.jpg',
 			imageAlt: 'Ritual Imayoh',
 			position: 'object-right-top',
 		};

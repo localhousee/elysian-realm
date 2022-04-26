@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 3,
 			name: 'Dea Anchora',
-			imageSrc: './public/images/dea-anchora.jpg',
+			imageSrc: '/images/dea-anchora.jpg',
 			imageAlt: 'Dea Anchora',
 			position: 'object-right-top',
 		};

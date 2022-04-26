@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 22,
 			name: 'Sweet N Spicy',
-			imageSrc: './public/images/sweet-n-spicy.jpg',
+			imageSrc: '/images/sweet-n-spicy.jpg',
 			imageAlt: 'Sweet N Spicy',
 			position: 'object-[-3rem]',
 		};

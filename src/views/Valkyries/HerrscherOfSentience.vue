@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 7,
 			name: 'Herrscher Of Sentience',
-			imageSrc: './public/images/herrscher-of-sentience.jpg',
+			imageSrc: '/images/herrscher-of-sentience.jpg',
 			imageAlt: 'Herrscher Of Sentience',
 			position: 'object-top',
 		};

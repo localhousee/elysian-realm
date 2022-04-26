@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 10,
 			name: 'Luna Kindred',
-			imageSrc: './public/images/luna-kindred.png',
+			imageSrc: '/images/luna-kindred.png',
 			imageAlt: 'Luna Kindred',
 			position: 'object-[-11rem]',
 		};

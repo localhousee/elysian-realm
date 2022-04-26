@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 23,
 			name: 'Twilight Paladin',
-			imageSrc: './public/images/twilight-paladin.png',
+			imageSrc: '/images/twilight-paladin.png',
 			imageAlt: 'Twilight Paladin',
 			position: 'object-right',
 		};
