@@ -34,7 +34,47 @@
                     <div class="w-full max-w-md px-2 py-4 sm:px-0">
                       <div class="w-full px-4 space-y-3">
                         <div class="w-full max-w-md p-2 mx-auto bg-white rounded-2xl">
-                          <Build :build="signets" />
+                          <TabGroup>
+                            <TabList class="flex p-1 space-x-1 bg-blue-500 rounded-xl">
+                              <Tab
+                                v-for="signet in signets.builds"
+                                as="template"
+                                :key="signet.id"
+                                v-slot="{ selected }"
+                              >
+                                <button
+                                  :class="[
+                                    'w-full py-2.5 text-sm leading-5 font-medium text-blue-700 rounded-lg',
+                                    'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
+                                    selected
+                                      ? 'bg-white shadow'
+                                      : 'text-blue-100 hover:bg-white/[0.12] hover:text-white',
+                                  ]"
+                                >
+                                  {{ signet.name }}
+                                </button>
+                              </Tab>
+                            </TabList>
+
+                            <TabPanels class="mt-2">
+                              <TabPanel
+                                v-for="signet in signets.builds"
+                                :key="signet"
+                                :class="[
+                                  'bg-white rounded-xl p-3',
+                                  'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
+                                ]"
+                              >
+                                <div
+                                  v-for="sign in signet.signets"
+                                  :key="sign.id"
+                                  class="relative p-3 rounded-md hover:bg-coolGray-100"
+                                >
+                                  <Signet :signet="sign" />
+                                </div>
+                              </TabPanel>
+                            </TabPanels>
+                          </TabGroup>
                         </div>
                       </div>
                     </div>
@@ -51,10 +91,10 @@
 </template>
 
 <script setup>
-import Build from './Build.vue'
+import Signet from './Signet.vue'
 import { ref } from 'vue'
 import { XIcon } from '@heroicons/vue/outline'
-import { Dialog, DialogOverlay, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import { TabGroup, TabList, TabPanel, Tab, Dialog, DialogOverlay, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
 
 defineProps({
   valkyrie: Object,

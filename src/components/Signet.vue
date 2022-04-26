@@ -23,6 +23,6 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { ChevronUpIcon } from '@heroicons/vue/solid'
 
 defineProps({
-  signet: Object,
+  signet: Array,
 })
 </script>
