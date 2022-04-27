@@ -1,4 +1,3 @@
-<template>
 <Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
@@ -6,11 +5,11 @@
     import Card from '../../components/Card.vue';
 
     const valkyrie = {
-        id: 2,
-        name: 'Bright Knight: Excelsis',
-        imageSrc: '/images/bright-knight-excelsis.jpg',
-        imageAlt: 'Bright Knight: Excelsis',
-        position: 'object-center',
+        id: 3,
+        name: 'Dea Anchora',
+        imageSrc: '/images/dea-anchora.jpg',
+        imageAlt: 'Dea Anchora',
+        position: 'object-right-top',
     };
 
     const signets = {
@@ -25,33 +24,33 @@
                         lists: [
                             {
                                 id: 1,
-                                name: 'Blessing of Gambit',
-                                desc: "Triggering Retaliation or Ultimate Evasion boosts Physical DMG by 25% for 8s. If triggered outside Burst mode, Valkyrie gains Iron Body for 8s; if triggered in Burst mode, Valkyrie additionally unleashes a counterattack cross strike before Phantom Cleave to deal 1200% ATK of Physical DMG",
-                                priority: 'Start',
-                            },
-                            {
-                                id: 2,
-                                name: 'Blessing of Glory',
-                                desc: "In Burst mode, Weapon Active has 70% shorter CD and can deal 2400% ATK of bonus Physical DMG at the cost of 12 SP. Weapon Active gains 4% Total DMG boost per second, and the boost resets when Burst mode is activated again",
+                                name: 'Blessing of Stars',
+                                desc: 'Ultimate deals 50% bonus Total DMG',
                                 priority: '1st',
                             },
                             {
-                                id: 3,
-                                name: 'Blessing of Paragon',
-                                desc: "Ultimate grants 5 stacks of Paragon, each of which boosts Total DMG by 4% for 15s",
+                                id: 2,
+                                name: 'Blessing of Halo',
+                                desc: 'Voidstar Anchor, Voidstar Anchor EX, Astral Flares, and Astral Flares EX deal 2000% ATK of Fire DMG to enemies within 8 meters of the target hit, gather them, and restore 50 Astrum. CD: 10s',
                                 priority: '2nd',
                             },
                             {
+                                id: 3,
+                                name: 'Blessing of Sheen',
+                                desc: 'Voidstar Anchor EX and Astral Flares EX do not suspend Astrum cosumption, but Seirios Ballista doesnt end Astral Harness and clear Astrum. Seirios Ballista costs 65 SP at most',
+                                priority: '3rd',
+                            },
+                            {
                                 id: 4,
-                                name: 'Blessing of Holy Lance',
-                                desc: "During Basic ATK SEQ 4, tap [ATK] repeatedly to thrust the lance at enemies in an increasingly violent manner to deal a total of 6000% ATK of Physical DMG, and Valkyrie is immune to frontal and flank attacks. When Valkyrie's SEQ 4 attack reaches its peak, Basic ATK SEQ 5 will be enhanced to deal 3500% ATK of bonus Physical DMG to enemies in a large area",
-                                priority: 'No',
+                                name: 'Blessing of Brilliance',
+                                desc: 'Voidstar Anchor and Astral Flares EX cost no SP and restore 3 SP. Every 30 SP restored deals 800% ATK of Fire DMG to enemies within 10 meters. CD: 6s',
+                                priority: 'Filler',
                             },
                             {
                                 id: 5,
-                                name: 'Blessing of Formation',
-                                desc: "Basic ATK SEQ 5 creates a 3-sec Grav Singularity that pulls in surrounding enemies and deals 2100% ATK of Physical DMG to them. Basic ATK SEQ 4 & 5 and the explosion of the Grav Singularity boost Valkyrie's Total DMG by 3% for 40s (15 stacks max)",
-                                priority: 'No',
+                                name: 'Blessing of Gale',
+                                desc: 'In Astral Hamess, all attacks ignite enemies hit and ignited enemies take 25% bonus Total DMG for 10s',
+                                priority: 'Filler',
                             }
                         ],
                     },
@@ -61,154 +60,178 @@
                         lists: [
                             {
                                 id: 1,
-                                name: 'Mask of the Predator',
-                                desc: 'Ultimate boosts Physical Breach by 25% for 5s',
+                                name: 'Artifact of the Inhibitor',
+                                desc: 'Ultimate boosts Elemental Breach by 20% for 5s',
                                 priority: '1st',
                             },
                             {
                                 id: 2,
-                                name: 'Pendant of the Watcher',
-                                desc: 'Ultimate boosts Physical DMG by 30% for 5s',
+                                name: 'Brand of the Undead',
+                                desc: 'Ultimate boosts Elemental DMG by 30% for 5s',
                                 priority: '2nd',
                             },
                             {
                                 id: 3,
-                                name: 'Goblet of the Giver',
-                                desc: 'Ultimate boosts Total DMG by 35% for 5s',
+                                name: 'Rochet of the Pilgrim',
+                                desc: 'Ultimate restores 3 SP per second for 5s',
                                 priority: '3rd',
                             },
                             {
                                 id: 4,
-                                name: 'Nexus Signet: Blade of the Deliverer',
-                                desc: 'Core',
-                                priority: '',
+                                name: 'Goblet of the Giver',
+                                desc: 'Ultimate boosts Total DMG by 35% for 5s',
+                                priority: 'Filler',
                             },
                             {
                                 id: 5,
-                                name: 'Echo of the Deliverer',
-                                desc: 'Duration of Final Battle and all buffs provided by Normal Signets of Deliverance are extended to 8s',
-                                priority: 'YES',
+                                name: 'Nexus Signet: Blade of the Deliverer',
+                                desc: 'Core',
+                                priority: '',
                             },
                             {
                                 id: 6,
                                 name: 'Crusade of the Deliverer',
                                 desc: 'After 3s into Final Battle, all buffs provided by Normal Signets of Deliverance increase by 90% instead of 50%',
                                 priority: '1st',
+                            },
+                            {
+                                id: 7,
+                                name: 'Echo of the Deliverer',
+                                desc: 'Duration of Final Battle and all buffs provided by Normal Signets of Deliverance are extended to 8s',
+                                priority: 'Filler',
                             }
                         ],
                     },
                     {
                         id: 3,
-                        name: 'Sakura 1',
+                        name: 'Eden 2',
                         lists: [
                             {
                                 id: 1,
-                                name: 'Bountiful Blossom: Koyo', 
-                                desc: 'Triggering Ultimate Evasion Skill boosts Total DMG taken by all enemies by 30% for 8s',
+                                name: 'Recitatif of Creeks',
+                                desc: 'Every 10 SP left boosts Physical & Elemental DMG by 2.5%',
                                 priority: '1st',
                             },
                             {
                                 id: 2,
-                                name: 'Bountiful Blossom: Ayame',
-                                desc: 'Triggering Ultimate Evasion Skill restores 12.0 bonus SP',
+                                name: 'Recitatif of Eden',
+                                desc: 'Every 10 SP left boost Total DMG by 3.0%',
                                 priority: '2nd',
                             },
                             {
                                 id: 3,
-                                name: 'Bountiful Blossom: Fuji',
-                                desc: 'Ultimate Evasion Skill has 1 more charge and 10% reduced CD',
+                                name: 'Recitatif of Fine Jade',
+                                desc: 'Initial SP and max SP increase by 30',
                                 priority: '3rd',
                             },
                             {
                                 id: 4,
-                                name: 'Nexus Signet Setsuna Blade: Sakura ni Maku',
-                                desc: 'Core',
-                                priority: '',
+                                name: 'Recitatif of Birds',
+                                desc: 'Every 10 SP left reduces Total DMG taken by 2.5%',
+                                priority: 'Optional (see info at the bottom of this build)',
                             },
                             {
                                 id: 5,
-                                name: 'Setsuna Blade: Ame-Shiko',
-                                desc: 'Activating Sakura Screen resets Ultimate CD and weapon active CD',
-                                priority: 'YES',
-                            },
-                        ],
-                    },
-                    {
-                        id: 4,
-                        name: 'Griseo 1',
-                        lists: [
-                            {
-                                id: 1,
-                                name: 'Red & Hot',
-                                desc: 'Using a weapon active taints enemies nearby with red paint for 8s and makes them take 25% bonus Physical and Elemental MG (cannot stack). Triggering it again resets the duration',
-                                priority: '1st',
-                            },
-                            {
-                                id: 2,
-                                name: 'Yellow & Warm',
-                                desc: 'Using an Ultimate taints enemies nearby with yellow paint for 8s and makes them take 30% bonus Total DMG. Triggering it again resets the duration',
-                                priority: '2nd',
-                            },
-                            {
-                                id: 3,
-                                name: 'Grey & Empty',
-                                desc: 'Enemies stay tainted for 5s longer',
-                                priority: '3rd',
-                            },
-                            {
-                                id: 4,
-                                name: 'Blue & Cold',
-                                desc: 'Triggering an Ultimate Evasion Skill taints enemies nearby with blue paint for 8s and reduces their Total DMG and Move Speed by 30%. Triggering it again resets the duration',
-                                priority: '4th',
-                            },
-                            {
-                                id: 5,
-                                name: 'Nexus Signet: Shine like Stars',
+                                name: 'Nexus Signet: Echo of Gold',
                                 desc: 'Core',
                                 priority: '',
                             },
                             {
                                 id: 6,
-                                name: 'Blooming like Flowers',
-                                desc: 'When enemies of countering types are tainted with both blue and red paints, Valkyries deal 50% bonus Total DMG to them (cannot stack)',
+                                name: 'Echo of Silent Night',
+                                desc: 'After lasting over 7s, reduce ATK, DEF, ele resists of enemies nearby',
                                 priority: 'YES',
-                            },
+                            }
                         ],
                     },
                     {
-                        id: 5,
-                        name: 'Kalpas 2',
+                        id: 4,
+                        name: 'Su 2',
                         lists: [
                             {
                                 id: 1,
-                                name: 'Bone, Blood, and Ribbon',
-                                desc: 'Every 100 HP loss boosts Physical & Elemental DMG by 0.8%',
+                                name: 'Motto of Dibba-Cakkhu',
+                                desc: 'Combo hits are reset at to boost Total DMG taken by all enemies by 35% for 10s',
                                 priority: '1st',
                             },
                             {
                                 id: 2,
-                                name: 'Blade, Grave, and Scar',
-                                desc: 'Every 100 HP loss boosts Total DMG by 1.0%',
+                                name: 'Motto of Asavakkhaya',
+                                desc: 'Attacks grant 25 bonus combo hits on hit. CD: 5s',
                                 priority: '2nd',
                             },
                             {
                                 id: 3,
-                                name: 'Path, Misfortune, and Written Fate',
-                                desc: 'Max HP increases by 25%',
+                                name: 'Motto of Iddhi-Vidha',
+                                desc: 'Combo hits are increased to 60 when below 60. CD: 10s',
                                 priority: '3rd',
                             },
                             {
                                 id: 4,
-                                name: 'Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter',
+                                name: 'Motto of Dibba-Sota',
+                                desc: 'Combo hits are reset at to reduce Total DMG taken by the Valkyrie by 32% for 10s',
+                                priority: 'Optional (see info at bottom of this build)',
+                            },
+                            {
+                                id: 5,
+                                name: 'Nexus Signet: Dictum of Bodhi',
+                                desc: 'Core',
+                                priority: '',
+                            },
+                            {
+                                id: 6,
+                                name: 'Dictum of Anatman',
+                                desc: 'Eyes Open debuffs last 3s longer. Every debuff on enemy makes it take 5% more TDM',
+                                priority: '1st',
+                            },
+                            {
+                                id: 7,
+                                name: 'Dictum of Santam',
+                                desc: 'Inflict 3 random debuffs when Eyes Open hit',
+                                priority: 'Filler',
+                            }
+                        ],
+                    },
+                    {
+                        id: 5,
+                        name: 'Hua 2 (optional core if you chose Total DMG Reduction signets)',
+                        lists: [
+                            {
+                                id: 1,
+                                name: "Old Dreams Again",
+                                desc: "Elemental Breach increases by 0.6% per second",
+                                priority: '1st',
+                            },
+                            {
+                                id: 2,
+                                name: "Dark Garb No More",
+                                desc: "Elemental DMG increases by 0.8% per second",
+                                priority: "2nd",
+                            },
+                            {
+                                id: 3,
+                                name: "Lost and Found",
+                                desc: "Total DMG taken decreases by 0.8% per second",
+                                priority: '3rd',
+                            },
+                            {
+                                id: 4,
+                                name: "Nexus Signet: Suffering Mass",
                                 desc: 'Core',
                                 priority: '',
                             },
                             {
                                 id: 5,
-                                name: 'Death, Life, Oblivion, and Existence',
-                                desc: 'If [Bloodboil Garment] exceeds 1500, when taking damage, reduces damage taken by 1% of [Bloodboil Garment]',
-                                priority: 'Filler',
+                                name: "Worldly Troubles",
+                                desc: "With Soldier's Remembrance, gain TDM equal to 50% of total damage reduction from signets",
+                                priority: 'YES',
                             },
+                            {
+                                id: 6,
+                                name: "Broken Dream",
+                                desc: "When possessing Soldier's Remembrance., increase the maximum stack of normal Vicissitude signets by 20",
+                                priority: '2nd',
+                            }
                         ],
                     }
                 ]
