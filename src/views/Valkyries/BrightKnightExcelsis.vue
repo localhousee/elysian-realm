@@ -79,7 +79,7 @@
                             },
                             {
                                 id: 4,
-                                name: 'Nexus Signet 1: Blade of the Deliverer',
+                                name: 'Nexus Signet: Blade of the Deliverer',
                                 desc: 'Core',
                                 priority: '',
                             },
@@ -121,7 +121,7 @@
                             },
                             {
                                 id: 4,
-                                name: 'Nexus Signet 1 Setsuna Blade: Sakura ni Maku',
+                                name: 'Nexus Signet Setsuna Blade: Sakura ni Maku',
                                 desc: 'Core',
                                 priority: '',
                             },
@@ -163,7 +163,7 @@
                             },
                             {
                                 id: 5,
-                                name: 'Nexus Signet 1: Shine like Stars',
+                                name: 'Nexus Signet: Shine like Stars',
                                 desc: 'Core',
                                 priority: '',
                             },
@@ -199,7 +199,7 @@
                             },
                             {
                                 id: 4,
-                                name: 'Nexus Signet 2: Soldiers, Scissors, Spoils, and Slaughter',
+                                name: 'Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter',
                                 desc: 'Core',
                                 priority: '',
                             },
