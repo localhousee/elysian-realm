@@ -47,7 +47,36 @@
                 </DialogTitle>
                 <div class="mt-2">
                   <p class="text-sm text-gray-500">
-                    This Page made with love by ******
+                    <div class="center">
+                    <p>This page was made with love by the HI3 community.</p>
+                    </div>
+
+                    <h2>Credits:</h2>
+                    <ul>
+                        <li>biribiri#3681: original Rentry person did build testing and theory crafting</li>
+                        <li>Butter#2252: provided data</li>
+                        <li>boba#8849: helped format stuff correctly and tested builds</li>
+                        <li>Beefyeggroll#0001: helped test builds and was in beta</li>
+                        <li>localhousee#7786: made the vercel website</li>
+                        <li>VampyHime#9207: was a beta tester and translator for beta</li>
+                        <li>Camelva#7085: helped with build testing and data gathering</li>
+                        <li>Rafe#5610: helped rekindled the GC again and is also a rentry/vercelsite editor</li>
+                        <li>Starlight#9581: ER help section with story progression</li>
+                        <li>FrediSK#5056: helped with kalpas boss</li>
+                        <li>Korath#5931: kalpas boss help</li>
+                        <li>Kaga#1780 (Citrus): helped get builds out there for people to see, theory crafter, tester and beta tester. They are also a youtuber</li>
+                    </ul>
+                    <h2>Unnamed people who helped:</h2>
+                    <ul>
+                        <li>KenTJY#3888: theory crafter and tester</li>
+                        <li>Zithr0#9800: theory crafter and tester</li>
+                        <li>BananaCannon#3312: tester</li>
+                        <li>ignihyde#4498: tester</li>
+                        <li>Fujinee#3002: tester</li>
+                        <li>Topperoonie#0484: tester</li>
+                        <li>SinsOfSeven#3164 (TencentDimepiece): tester and fellow guide maker [Signet list here](https://rentry.org/elysian_realm_list)</li>
+                        <li>ww#1234 (Imy): inspiration and gave the green light to make guide</li>
+                    </ul>
                   </p>
                 </div>
 
