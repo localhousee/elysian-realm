@@ -16,7 +16,7 @@ export default {
 			name: 'Reverist Calico',
 			imageSrc: '/images/reverist-calico.jpg',
 			imageAlt: 'Reverist Calico',
-			position: 'object-[-4rem]',
+			position: 'object-[-8rem]',
 		};
 
 		return {

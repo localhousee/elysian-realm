@@ -8,7 +8,7 @@ import Card from '../../components/Card.vue';
 const valkyrie = {
 	id: 23,
 	name: 'Twilight Paladin',
-	imageSrc: '/images/twilight-paladin.png',
+	imageSrc: '/images/twilight-paladin.jpg',
 	imageAlt: 'Twilight Paladin',
 	position: 'object-right',
 };

@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 11,
 			name: 'Midnight Absinthe',
-			imageSrc: '/images/midnight-absinthe.png',
+			imageSrc: '/images/midnight-absinthe.jpg',
 			imageAlt: 'Midnight Absinthe',
 			position: 'object-[-11rem]',
 		};

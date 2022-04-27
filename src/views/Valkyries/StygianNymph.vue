@@ -14,7 +14,7 @@ export default {
 		const valkyrie = {
 			id: 21,
 			name: 'Stygian Nymph',
-			imageSrc: '/images/stygian-nymph.png',
+			imageSrc: '/images/stygian-nymph.jpg',
 			imageAlt: 'Stygian Nymph',
 			position: 'object-center',
 		};

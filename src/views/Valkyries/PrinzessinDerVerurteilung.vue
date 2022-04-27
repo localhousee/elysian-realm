@@ -16,7 +16,7 @@ export default {
 			name: 'Prinzessin der Verurteilung',
 			imageSrc: '/images/prinzessin-der-verurteilung.jpg',
 			imageAlt: 'Prinzessin der Verurteilung',
-			position: 'object-top',
+			position: 'object-right-top',
 		};
 
 		return {

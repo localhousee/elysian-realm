@@ -1,3 +1,4 @@
+<template>
 <Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
@@ -7,7 +8,7 @@
     const valkyrie = {
         id: 4,
         name: 'Fallen Rosemary',
-        imageSrc: '/images/fallen-rosemary.png',
+        imageSrc: '/images/fallen-rosemary.jpg',
         imageAlt: 'Fallen Rosemary',
         position: 'object-center',
     };

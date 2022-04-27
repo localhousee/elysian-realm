@@ -8,9 +8,9 @@ import Card from '../../components/Card.vue';
 const valkyrie = {
 	id: 24,
 	name: 'Valkyrie Gloria',
-	imageSrc: '/images/valkyrie-gloria.jpg',
+	imageSrc: '/images/valkyrie-gloria.png',
 	imageAlt: 'Valkyrie Gloria',
-	position: 'object-[-10rem]',
+	position: 'object-[-7rem]',
 };
 
 const signets = {
