@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-center uppercase font-thin text-[60px] tracking-widest pb-10">Elysian Realm</h1>
+  <h1 class="text-center uppercase font-thin text-[60px] tracking-widest pb-10 text-white">Elysian Realm</h1>
   <div class="flex justify-center space-x-4">
   <div>
     <Modal>
@@ -42,7 +42,7 @@
         <span class="pb-4 font-semibold text-lg">Source of each image goes here :</span>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-6 justify-items-stretch content-center">
           <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.pixiv.net/en/artworks/94907919">Website Icon</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://fr.freepik.com/vecteurs-premium/fond-pastel-paradis-arc-ciel_4626551.htm">Website Background</a>
+          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.unscreen.com">Remove Background</a>
           <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://arca.live/b/hk3rd/9364261">Argent Knight: Artemis</a>
           <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://medibang.com/picture/sv2011190326147450004348839">Bright Knight: Excelsis</a>
           <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://arca.live/b/hk3rd/25348184">Dea Anchora</a>

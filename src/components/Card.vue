@@ -1,9 +1,9 @@
 <template>
 	<a class="group" @click="open = true">
-		<div class="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-tr-[30px] overflow-hidden xl:aspect-w-7 xl:aspect-h-8 group-hover:rounded-none">
+		<div class="border border-white w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-tr-[30px] overflow-hidden xl:aspect-w-7 xl:aspect-h-8 group-hover:rounded-none">
 			<img :src="valkyrie.imageSrc" :alt="valkyrie.imageAlt" class="w-full h-full object-cover group-hover:opacity-75 transtition-transform ease-in-out duration-500 transform group-hover:scale-110" :class="valkyrie.position" />
 		</div>
-		<h3 class="text-sm bg-gradient-to-r from-cyan-600 to-cyan-700 group-hover:from-indigo-500 group-hover:to-indigo-700 rounded-bl-[30px] px-4 py-3 uppercase text-white font-semibold group-hover:font-bold group-hover:rounded-none">
+		<h3 class="border border-white text-sm bg-gradient-to-r from-pink-500 via-purple-600 to-violet-800 group-hover:from-pink-400 group-hover:via-purple-500 group-hover:to-violet-700 rounded-bl-[30px] px-4 py-3 uppercase text-white font-semibold group-hover:font-bold group-hover:rounded-none">
 			<p class="transform ml-4 group-hover:translate-x-3 transition-transform ease-in-out duration-500">{{ valkyrie.name }}</p>
 		</h3>
 	</a>
@@ -24,7 +24,7 @@
                   </button>
                 </div>
               </TransitionChild>
-              <div class="flex h-full flex-col overflow-y-scroll bg-gradient-to-br from-blue-400 to-blue-700 py-6 shadow-xl">
+              <div class="flex h-full flex-col overflow-y-scroll bg-gradient-to-br from-fuchsia-500 via-violet-600 to-purple-500 py-6 shadow-xl">
                 <div class="px-4 sm:px-6">
                   <DialogTitle class="text-lg font-semibold text-white uppercase"> {{ valkyrie.name }} </DialogTitle>
                 </div>
@@ -33,9 +33,9 @@
                   <div class="absolute inset-0 px-4 sm:px-6">
                     <div class="w-full px-2 py-4 sm:px-0">
                       <div class="w-full px-4 space-y-3">
-                        <div class="w-full p-2 mx-auto bg-white rounded-2xl">
+                        <div class="w-full p-2 mx-auto bg-gray-100 rounded-2xl">
                           <TabGroup>
-                            <TabList class="flex p-1 space-x-1 bg-blue-500 rounded-xl">
+                            <TabList class="flex p-1 space-x-1 bg-gradient-to-r from-pink-500 via-fuchsia-600 to-purple-700 rounded-xl">
                               <Tab
                                 v-for="signet in signets.builds"
                                 as="template"
@@ -44,11 +44,11 @@
                               >
                                 <button
                                   :class="[
-                                    'w-full py-2.5 text-sm leading-5 font-medium text-blue-700 rounded-lg',
+                                    'w-full py-2.5 text-sm leading-5 font-medium rounded-lg',
                                     'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
                                     selected
-                                      ? 'bg-white shadow'
-                                      : 'text-blue-100 hover:bg-white/[0.12] hover:text-white',
+                                      ? 'bg-white text-blue-700'
+                                      : 'text-white',
                                   ]"
                                 >
                                   {{ signet.name }}
