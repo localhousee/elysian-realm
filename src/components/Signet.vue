@@ -10,9 +10,18 @@
       />
     </DisclosureButton>
       <div v-for="signet in signet.lists" :key="signet.id">
-        <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-gray-500 flex justify-between">
-          <span v-text="signet.name" />
-          <span v-text="signet.priority" />
+        <DisclosurePanel class="px-4 text-sm flex">
+            <div class="grow border border-indigo-600 border-collapse">
+              <div class="flex flex-col px-4 py-2">
+                <span class="font-semibold underline text-base" v-text="signet.name" />
+                <span class="text-sm text-gray-600" v-text="signet.desc" />
+              </div>
+            </div>
+            <div class="flex-none w-16 text-center border border-indigo-600 border-collapse">
+              <div class="text-center">
+                <span v-text="signet.priority"/>
+              </div>
+            </div>
         </DisclosurePanel>
       </div>
   </Disclosure>
