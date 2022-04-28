@@ -97,9 +97,9 @@ const signets = {
 						},
 						{
 							id: 7,
-							name: 'Daybreak, an Undying Light',
+							name: 'Nexus Signet: Daybreak, an Undying Light',
 							desc: '',
-							priority: ''
+							priority: 'CORE'
 						},
 						{
 							id: 8,
@@ -133,9 +133,9 @@ const signets = {
 						},
 						{
 							id: 4,
-							name: 'Blade of the Deliverer',
+							name: 'Nexus Signet: Blade of the Deliverer',
 							desc: '',
-							priority: '4th'
+							priority: 'CORE'
 						},
 						{
 							id: 5,
@@ -175,9 +175,9 @@ const signets = {
 						},
 						{
 							id: 4,
-							name: 'Echo of Gold',
+							name: 'Nexus Signet: Echo of Gold',
 							desc: '',
-							priority: ''
+							priority: 'CORE'
 						},
 						{
 							id: 5,
@@ -217,9 +217,9 @@ const signets = {
 						},
 						{
 							id: 4,
-							name: 'Soldiers, Scissors, Spoils, and Slaughter',
+							name: 'Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter',
 							desc: 'HP cannot exceed 18% of max HP. Healing HP charges [Bloodboil Garment]',
-							priority: ''
+							priority: 'CORE'
 						},
 						{
 							id: 5,
