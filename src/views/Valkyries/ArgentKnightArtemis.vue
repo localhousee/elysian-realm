@@ -80,7 +80,8 @@
 							{
 								id: 4,
 								name: 'Nexus Signet: Infinite [X]',
-								priority: null
+								'desc': '',
+								priority: 'CORE' 
 							},
 							{
 								id: 5,
