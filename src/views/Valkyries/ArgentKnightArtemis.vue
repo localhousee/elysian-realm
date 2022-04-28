@@ -79,7 +79,7 @@
 							},
 							{
 								id: 4,
-								name: 'Infinite [X]',
+								name: 'Nexus Signet: Infinite [X]',
 								priority: null
 							},
 							{
@@ -126,9 +126,9 @@
 							},
 							{
 								id: 5,
-								name: 'Shadow of the Deliverer',
+								name: 'Nexus Signet: Shadow of the Deliverer',
 								desc: '',
-								priority: ''
+								priority: 'CORE'
 							},
 							{
 								id: 6,
@@ -162,9 +162,9 @@
 							},
 							{
 								id: 4,
-								name: 'Echo of Gold',
+								name: 'Nexus Signet: Echo of Gold',
 								desc: '',
-								priority: ''
+								priority: 'CORE'
 							},
 							{
 								id: 5,
@@ -204,8 +204,9 @@
 							},
 							{
 								id: 4,
-								name: 'Dictum of Bodhi',
-								priority: ''
+								name: 'Nexus Signet: Dictum of Bodhi',
+								desc: '',
+								priority: 'CORE',
 							},
 							{
 								id: 5,
