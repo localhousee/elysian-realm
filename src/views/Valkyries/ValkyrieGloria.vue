@@ -85,9 +85,9 @@ const signets = {
 						},
 						{
 							id: 5,
-							name: 'Shine like Stars',
+							name: 'Nexus Signet: Shine like Stars',
 							desc: 'Entering Sprint triggers Stage 2 and until Sprint ends, attacks cost 40 Resolve more on hit to deal 2000% ATK of Fire DMG per second',
-							priority: ''
+							priority: 'CORE'
 						},
 						{
 							id: 6,
@@ -121,9 +121,9 @@ const signets = {
 						},
 						{
 							id: 4,
-							name: 'Blade of the Deliverer',
+							name: 'Nexus Signet: Blade of the Deliverer',
 							desc: '',
-							priority: '4th'
+							priority: 'CORE'
 						},
 						{
 							id: 5,
@@ -163,9 +163,9 @@ const signets = {
 						},
 						{
 							id: 4,
-							name: 'Dictum of Bodhi',
+							name: 'Nexus Signet: Dictum of Bodhi',
 							desc: '',
-							priority: ''
+							priority: 'CORE'
 						},
 					],
 				},
@@ -193,9 +193,9 @@ const signets = {
 						},
 						{
 							id: 4,
-							name: 'Echo of Gold',
+							name: 'Nexus Signet: Echo of Gold',
 							desc: '',
-							priority: ''
+							priority: 'CORE'
 						},
 						{
 							id: 5,
