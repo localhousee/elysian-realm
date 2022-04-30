@@ -6,7 +6,6 @@
 import Card from '../../components/Card.vue';
 
 const valkyrie = {
-	id: 15,
 	name: 'Reverist Calico',
 	imageSrc: '/images/reverist-calico.jpg',
 	imageAlt: 'Reverist Calico',
@@ -16,39 +15,32 @@ const valkyrie = {
 const signets = {
 	builds: [
 		{
-			id: 1,
 			name: 'Recommendation',
 			signets: [
 				{
-					id: 1,
 					name: 'Elysia',
 					lists: [
 						{
-							id: 1,
 							name: 'Blessing of Cat\'s Eyes',
 							desc: '',
 							priority: 'Start'
 						},
 						{
-							id: 2,
 							name: 'Blessing of the Tailpiece',
 							desc: '',
 							priority: 'Start'
 						},
 						{
-							id: 3,
 							name: 'Blessing of Hidden Claws',
 							desc: '',
 							priority: '1st'
 						},
 						{
-							id: 4,
 							name: 'Blessing of Phantasma',
 							desc: '',
 							priority: '2nd'
 						},
 						{
-							id: 5,
 							name: 'Blessing of Nighteye',
 							desc: '',
 							priority: 'Filler'
@@ -56,41 +48,34 @@ const signets = {
 					],
 				},
 				{
-					id: 2,
 					name: 'Kevin 1',
 					lists: [
 						{
-							id: 1,
 							name: 'Artifact of the Inhibitor',
 							desc: 'Ultimate boosts Elemental Breach by 25% for 5s',
 							priority: '1st'
 						},
 						{
-							id: 2,
 							name: 'Brand of the Undead',
 							desc: 'Ultimate boosts Elemental DMG by 30% for 5s',
 							priority: '2nd'
 						},
 						{
-							id: 3,
 							name: 'Goblet of the Giver',
 							desc: 'Ultimate boosts Total DMG by 35% for 5s',
 							priority: '3rd'
 						},
 						{
-							id: 4,
 							name: 'Nexus Signet: Blade of the Deliverer',
 							desc: '',
 							priority: 'CORE'
 						},
 						{
-							id: 5,
 							name: 'Crusade of the Deliverer',
 							desc: 'After 3s into Final Battle, all buffs provided by Normal Signets of Deliverance increase by 90% instead of 50%',
 							priority: '1st'
 						},
 						{
-							id: 6,
 							name: 'Echo of the Deliverer',
 							desc: 'Duration of Final Battle and all buffs provided by Normal Signets of Deliverance are extended to 8s',
 							priority: '2nd'
@@ -98,41 +83,34 @@ const signets = {
 					],
 				},
 				{
-					id: 3,
 					name: 'Pardofelis 1',
 					lists: [
 						{
-							id: 1,
 							name: 'Merchant\'s Philosophy',
 							desc: 'After finishing each floor, the number of currently owned Shiny Silvers grows by 10% for up to 100 (independent effect)',
 							priority: '1st'
 						},
 						{
-							id: 2,
 							name: 'Shiny & Valuable',
 							desc: 'Enemy kills grant bonus Shiny Silvers. Non-boss enemies grant 5 each. Boss enemies grant 100 each (independent effect)',
 							priority: '2nd'
 						},
 						{
-							id: 3,
 							name: 'Back-Curled Tail',
 							desc: 'Every 100 Shiny Silvers obtained this round boost Physical and Elemental MG by 0.8%',
 							priority: '1st'
 						},
 						{
-							id: 4,
 							name: 'Flexible P&C',
 							desc: 'Every 100 Shiny Silvers obtained this round restore 1 HP and 0.1 SP. Taking DMG disables this effect for 5s',
 							priority: 'Optional (Kalpas2 synergy)'
 						},
 						{
-							id: 5,
 							name: 'Nexus Signet: Empty Dreams, Self, Set, and Joy',
 							desc: '',
 							priority: 'CORE'
 						},
 						{
-							id: 6,
 							name: 'This Is Not Where We Die',
 							desc: 'Valkyries enters with a Good Luck shield. While the shield holds, every 100 Shiny Silvers owned grant 1% Physical and Elemental Breach. The shield can block incoming MG twice before it breaks, and every 500 Shiny Silvers owned grant one more block',
 							priority: 'Optional'
@@ -140,41 +118,34 @@ const signets = {
 					]
 				},
 				{
-					id: 4,
 					name: 'Eden 2',
 					lists: [
 						{
-							id: 1,
 							name: 'Recitatif of Creeks',
 							desc: 'Every 10 SP left boosts Physical & Elemental DMG by 2.5%',
 							priority: '1st'
 						},
 						{
-							id: 2,
 							name: 'Recitatif of Eden',
 							desc: 'Every 10 SP left boosts Total DMG by 3.0%',
 							priority: '2nd'
 						},
 						{
-							id: 3,
 							name: 'Recitatif of Fine Jade',
 							desc: 'Initial SP and max SP increase by 30',
 							priority: '3rd'
 						},
 						{
-							id: 4,
 							name: 'Nexus Signet: Echo of Gold',
 							desc: '',
 							priority: 'CORE'
 						},
 						{
-							id: 5,
 							name: 'Echo of Silent Night',
 							desc: 'After lasting over 7s, reduce ATK, DEF, ele resists of enemies nearby',
 							priority: '1st'
 						},
 						{
-							id: 6,
 							name: 'Echo of Gold',
 							desc: 'After lasting over 7s, boost SP cap and restore SP/s till it ends',
 							priority: '2nd'

@@ -1,5 +1,5 @@
 <template>
-	<a class="group" @click="open = true">
+	<a class="group z-0" @click="open = true">
 		<div class="border border-white w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-tr-[30px] overflow-hidden xl:aspect-w-7 xl:aspect-h-8 group-hover:rounded-none">
 			<img :src="valkyrie.imageSrc" :alt="valkyrie.imageAlt" class="w-full h-full object-cover group-hover:opacity-75 transtition-transform ease-in-out duration-500 transform group-hover:scale-110" :class="valkyrie.position" />
 		</div>
@@ -37,9 +37,9 @@
                           <TabGroup>
                             <TabList class="flex p-1 space-x-1 bg-gradient-to-r from-pink-500 via-fuchsia-600 to-purple-700 rounded-xl">
                               <Tab
-                                v-for="signet in signets.builds"
+                                v-for="(signet, index) in signets.builds"
                                 as="template"
-                                :key="signet.id"
+                                :key="index"
                                 v-slot="{ selected }"
                               >
                                 <button
@@ -58,16 +58,16 @@
 
                             <TabPanels class="mt-2">
                               <TabPanel
-                                v-for="signet in signets.builds"
-                                :key="signet"
+                                v-for="(signet, index) in signets.builds"
+                                :key="index"
                                 :class="[
                                   'bg-white rounded-xl p-3',
                                   'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
                                 ]"
                               >
                                 <div
-                                  v-for="sign in signet.signets"
-                                  :key="sign.id"
+                                  v-for="(sign, index) in signet.signets"
+                                  :key="index"
                                   class="relative p-3 rounded-md"
                                 >
                                   <Signet :signet="sign" />
@@ -94,7 +94,7 @@
 import Signet from './Signet.vue'
 import { ref } from 'vue'
 import { XIcon } from '@heroicons/vue/outline'
-import { TabGroup, TabList, TabPanel, Tab, Dialog, DialogOverlay, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import { TabGroup, TabList, TabPanels, TabPanel, Tab, Dialog, DialogOverlay, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
 
 defineProps({
   valkyrie: Object,

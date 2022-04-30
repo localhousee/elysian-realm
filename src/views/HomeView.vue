@@ -1,7 +1,6 @@
 <template>
   <h1 class="text-center uppercase font-thin text-[60px] tracking-widest pb-10 text-white">Elysian Realm</h1>
   <div class="flex justify-center space-x-4">
-  <div>
     <Modal>
       <template #title>About</template>
       <div class="mt-2 text-sm lg:text-md text-gray-800 mx-4">
@@ -34,76 +33,79 @@
         </ul>
       </div>
     </Modal>
-  </div>
-  <div>
     <Modal>
       <template #title>Credits</template>
       <div class="mt-2">
         <span class="pb-4 font-semibold text-lg">Source of each image goes here :</span>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-6 justify-items-stretch content-center">
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.pixiv.net/en/artworks/94907919">Website Icon</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://arca.live/b/hk3rd/9364261">Argent Knight: Artemis</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://medibang.com/picture/sv2011190326147450004348839">Bright Knight: Excelsis</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://arca.live/b/hk3rd/25348184">Dea Anchora</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.huashi6.com/draw/971767">Fallen Rosemary</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://arca.live/b/hk3rd/30030448">Herrscher Of Flamescion</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://ygosu.com/community/animation/273965">Herrscher Of Reason</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.qzxiu.net/w/jxz7e8.html">Herrscher Of Sentience</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.reddit.com/r/CultureImpact/comments/u0kcu0/raiden_mei">Herrscher Of The Thunder</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://danbooru.donmai.us/posts/5292255">Infinite Ouroboros</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://danbooru.donmai.us/posts/5292255">Infinite Ouroboros</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.pinterest.com/pin/578290408383512224">Luna Kindred</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.bilibili.com/read/cv6064798">Midnight Absinthe</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.hoyolab.com/article/700343">Miss Pink Elf</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://libredd.it/r/houkai3rd/comments/t2j24n/durandal_by_retty9349">Palatinus Equinox</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.morinohitos.com">Prinzessin der Verurteilung</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://arca.live/b/hk3rd/48931692">Reverist Calico</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="http://reactor.cc/post/4299632">Ritual Imayoh</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://imgur.com/gallery/0QK3TpS">Silverwing: NEX</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://danbooru.donmai.us/posts/5130940">Spina Astera</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://arca.live/b/replay/27887743">Starchasm Nyx</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://arca.live/b/hk3rd/39710366">Striker Fulminata</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://wallhere.com/ru/wallpaper/1685877">Stygian Nymph</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://arca.live/b/hk3rd/36130080">Sweet n Spicy</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://www.pixiv.net/en/artworks/77212815">Twilight Paladin</a>
-          <a target="_blank" class="text-blue-600 hover:underline hover:text-blue-500" href="https://honkaiimpact3.hoyoverse.com/global/en-us/news/2900">Valkyrie Gloria</a>
+          <Link href="https://www.pixiv.net/en/artworks/94907919">Website icon</Link>
+          <Link href="https://www.remove.bg">Remove Background</Link>
+          <Link href="https://arca.live/b/hk3rd/9364261">Argent Knight: Artemis</Link>
+          <Link href="https://medibang.com/picture/sv2011190326147450004348839">Bright Knight: Excelsis</Link>
+          <Link href="https://arca.live/b/hk3rd/25348184">Dea Anchora</Link>
+          <Link href="https://www.huashi6.com/draw/971767">Fallen Rosemary</Link>
+          <Link href="https://arca.live/b/hk3rd/30030448">Herrscher Of Flamescion</Link>
+          <Link href="https://ygosu.com/community/animation/273965">Herrscher Of Reason</Link>
+          <Link href="https://www.qzxiu.net/w/jxz7e8.html">Herrscher Of Sentience</Link>
+          <Link href="https://www.reddit.com/r/CultureImpact/comments/u0kcu0/raiden_mei">Herrscher Of Thunder</Link>
+          <Link href="https://danbooru.donmai.us/posts/5292255">Infinite Ouroboros</Link>
+          <Link href="https://www.pinterest.com/pin/578290408383512224">Luna Kindred</Link>
+          <Link href="https://www.bilibili.com/read/cv6064798">Midnight Absinthe</Link>
+          <Link href="https://www.hoyolab.com/article/700343">Miss Pink Elf</Link>
+          <Link href="https://libredd.it/r/houkai3rd/comments/t2j24n/durandal_by_retty9349">Palatinus Equinox</Link>
+          <Link href="https://www.morinohitos.com">Prinzessin der Verurteilung</Link>
+          <Link href="https://arca.live/b/hk3rd/48931692">Reverist Calico</Link>
+          <Link href="http://reactor.cc/post/4299632">Ritual Imayoh</Link>
+          <Link href="https://imgur.com/gallery/0QK3TpS">Silverwing: NEX</Link>
+          <Link href="https://danbooru.donmai.us/posts/5130940">Spina Astera</Link>
+          <Link href="https://arca.live/b/replay/27887743">Starchasm Nyx</Link>
+          <Link href="https://arca.live/b/hk3rd/39710366">Striker Fulminata</Link>
+          <Link href="https://wallhere.com/ru/wallpaper/1685877">Stygian Nymph</Link>
+          <Link href="https://arca.live/b/hk3rd/36130080">Sweet n Spicy</Link>
+          <Link href="https://www.pixiv.net/en/artworks/77212815">Twilight Paladin</Link>
+          <Link href="https://honkaiimpact3.hoyoverse.com/global/en-us/news/2900">Valkyrie Gloria</Link>
         </div>
       </div>
     </Modal>
+    <a href="https://rentry.org/hi3er" target="_blank" class="px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">Rentry link</a>
   </div>
-  <a href="https://rentry.org/hi3er" target="_blank" class="px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">Rentry link</a>
+  <div class="flex justify-center mt-10 px-8">
+    <input type="text" v-model="search" placeholder="Search for Valkyrie ..." class="pl-8 pr-4 w-full max-w-lg rounded-full caret-fuchsia-400 placeholder-slate-500 border border-purple-400 ring ring-purple-400 focus:outline-none focus:border-purple-600 focus:ring-purple-600 focus:hover:shadow focus:shadow-purple-700 hover:shadow-purple-700">
   </div>
   <div class="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-    <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+    <ul class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-4 xl:gap-x-8">
       <ArgentKnightArtemis />
       <BrightKnightExcelsis />
-      <DeaAnchora />
-      <FallenRosemary />
-      <HerrscherOfFlamescion />
-      <HerrscherOfReason />
-      <HerrscherOfSentience />
-      <HerrscherOfThunder />
-      <InfiniteOuroboros />
-      <LunaKindred />
-      <MidnightAbsinthe />
-      <MissPinkElf />
-      <PalatinusEquinox />
-      <PrinzessinDerVerurteilung />
-      <ReveristCalico />
-      <RitualImayoh />
-      <SilverwingNEX />
-      <SpinaAstera />
-      <StarchasmNyx />
-      <StrikerFulminata />
-      <StygianNymph />
-      <SweetNSpicy />
-      <TwilightPaladin />
-      <ValkyrieGloria />
-    </div>
+        <DeaAnchora />
+        <FallenRosemary />
+        <HerrscherOfFlamescion />
+        <HerrscherOfReason />
+        <HerrscherOfSentience />
+        <HerrscherOfThunder />
+        <InfiniteOuroboros />
+        <LunaKindred />
+        <MidnightAbsinthe />
+        <MissPinkElf />
+        <PalatinusEquinox />
+        <PrinzessinDerVerurteilung />
+        <ReveristCalico />
+        <RitualImayoh />
+        <SilverwingNEX />
+        <SpinaAstera />
+        <StarchasmNyx />
+        <StrikerFulminata />
+        <StygianNymph />
+        <SweetNSpicy />
+        <TwilightPaladin />
+        <ValkyrieGloria /> 
+     
+    </ul>
   </div>
 </template>
 
 <script setup>
+  import { Combobox, ComboboxInput, ComboboxButton, ComboboxOptions, ComboboxOption, TransitionRoot } from '@headlessui/vue'
+  import { CheckIcon, SelectorIcon } from '@heroicons/vue/solid'
   import ArgentKnightArtemis from './Valkyries/ArgentKnightArtemis.vue';
   import BrightKnightExcelsis from './Valkyries/BrightKnightExcelsis.vue';
   import DeaAnchora from './Valkyries/DeaAnchora.vue';
@@ -129,4 +131,8 @@
   import TwilightPaladin from './Valkyries/TwilightPaladin.vue';
   import ValkyrieGloria from './Valkyries/ValkyrieGloria.vue';
   import Modal from '../components/Modal.vue';
+  import Link from '../components/Link.vue';
+  // const valkyries = [
+  //   'Argent Knight: Artemis', 'Bright Knight: Excelsis', 'Dea Anchora', 'Fallen Rosemary', 'Herrscher of Flamescion', 'Herrscher of Reason', 'Herrscher of Sentience', 'Herrscher of Thunder', 'Infinite Ouroboros', 'Luna Kindred', 'Midnight Absinthe', 'Miss Pink Elf', 'Palatinus Equinox', 'Prinzessin der Verurteilung', 'Reverist Calico', 'Ritual Imayoh', 'Silverwing NEX', 'Spina Astera', 'Starchasm Nyx', 'Striker Fulminata', 'Stygian Nymph', 'Sweet N Spicy', 'Twilight Paladin', 'Valkyrie Gloria'
+  // ]
 </script>

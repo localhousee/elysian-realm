@@ -9,7 +9,7 @@
         class="w-5 h-5 text-purple-500"
       />
     </DisclosureButton>
-      <div v-for="signet in signet.lists" :key="signet.id">
+      <div v-for="(signet, index) in signet.lists" :key="index">
         <DisclosurePanel class="px-4 text-sm flex bg-white rounded-b-lg">
           <div class="grow border border-indigo-600 border-collapse">
             <div class="flex flex-col px-4 py-2">
