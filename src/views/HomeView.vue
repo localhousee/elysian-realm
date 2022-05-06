@@ -173,7 +173,7 @@
       >Rentry link</a
     >
   </div>
-  <div class="flex justify-center mt-10 px-8">
+  <!-- <div class="flex justify-center mt-10 px-8">
     <input
       type="text"
       v-model="query"
@@ -225,7 +225,7 @@
         />
       </svg>
     </button>
-  </div>
+  </div> -->
   <div
     class="max-w-2xl mx-auto py-10 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"
   >
@@ -304,12 +304,4 @@ import StygianNymph from "./Valkyries/StygianNymph.vue";
 import SweetNSpicy from "./Valkyries/SweetNSpicy.vue";
 import TwilightPaladin from "./Valkyries/TwilightPaladin.vue";
 import ValkyrieGloria from "./Valkyries/ValkyrieGloria.vue";
-
-let query = ref("");
-
-let reset = () => {
-  query.value = "";
-};
-
-let filter = () => {};
 </script>
