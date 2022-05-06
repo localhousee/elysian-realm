@@ -2,10 +2,11 @@
   <Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
-<script>
+<script setup>
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "ca2fc0d6-2ea0-41c9-96d5-1b7c7ae5a144",
   name: "Midnight Absinthe",
   imageSrc: "/images/midnight-absinthe.jpg",
   imageAlt: "Midnight Absinthe",

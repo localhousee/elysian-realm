@@ -6,6 +6,7 @@
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "0ada4055-07cc-46b5-9ddc-4fa4c65e1edb",
   name: "Fallen Rosemary",
   imageSrc: "/images/fallen-rosemary.jpg",
   imageAlt: "Fallen Rosemary",

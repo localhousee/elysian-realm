@@ -1,11 +1,12 @@
 <template>
-  <Card :valkyrie="valkyrie" :signets="signets" />
+	<Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
-<script>
+<script setup>
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "7c932010-48c1-4ffe-8486-70fbb2347e93",
   name: "Luna Kindred",
   imageSrc: "/images/luna-kindred.png",
   imageAlt: "Luna Kindred",
@@ -120,11 +121,11 @@ const signets = {
               desc: "Max HP increases by 25%",
               priority: "1st",
             },
-              {
-                name: "Bone, Blood, and Ribbon",
-                desc: "Every 100 HP loss boosts Physical & Elemental DMG by 0.8%",
-                priority: "2nd",
-              },
+            {
+              name: "Bone, Blood, and Ribbon",
+              desc: "Every 100 HP loss boosts Physical & Elemental DMG by 0.8%",
+              priority: "2nd",
+            },
             {
               name: "Blade, Grave, and Scar",
               desc: "Every 100 HP loss boosts Total DMG by 1%",

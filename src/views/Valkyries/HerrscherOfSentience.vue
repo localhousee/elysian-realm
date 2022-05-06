@@ -6,6 +6,7 @@
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "b4d82c19-1ba8-4c31-9ff8-4697aba777d4",
   name: "Herrscher Of Sentience",
   imageSrc: "/images/herrscher-of-sentience.jpg",
   imageAlt: "Herrscher Of Sentience",

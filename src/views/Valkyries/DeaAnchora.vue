@@ -6,6 +6,7 @@
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "4678cd4e-07c1-4f1a-b1dd-80aae9eb980e",
   name: "Dea Anchora",
   imageSrc: "/images/dea-anchora.jpg",
   imageAlt: "Dea Anchora",

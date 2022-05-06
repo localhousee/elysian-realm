@@ -6,6 +6,7 @@
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "31384d41-d65c-4ff8-88c3-cded9bb62b29",
   name: "Twilight Paladin",
   imageSrc: "/images/twilight-paladin.jpg",
   imageAlt: "Twilight Paladin",
@@ -16,6 +17,26 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      supports: [
+        {
+          time: "Early",
+          sigils: "",
+          support_1: "VC",
+          support_2: "DP",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "VC",
+          support_2: "DP / BR",
+        },
+        {
+          time: "Late",
+          sigils: "",
+          support_1: "SS",
+          support_2: "BR",
+        },
+      ],
       signets: [
         {
           name: "Elysia",
@@ -136,7 +157,7 @@ const signets = {
               priority: "1st",
             },
             {
-              name: "Echo of Gold",
+              name: "Echo of Withered Soil",
               desc: "After lasting over 7s, boost SP cap and restore SP/s till it ends",
               priority: "Filler",
             },

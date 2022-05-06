@@ -6,6 +6,7 @@
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "f41a008a-a2db-4a0e-b11d-3dfaaa2a198a",
   name: "Bright Knight: Excelsis",
   imageSrc: "/images/bright-knight-excelsis.jpg",
   imageAlt: "Bright Knight: Excelsis",

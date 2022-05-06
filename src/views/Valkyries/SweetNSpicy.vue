@@ -6,6 +6,7 @@
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "d5f90693-c493-4f05-9c1a-183e30e617fc",
   name: "Sweet N Spicy",
   imageSrc: "/images/sweet-n-spicy.jpg",
   imageAlt: "Sweet N Spicy",
@@ -16,6 +17,26 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      supports: [
+        {
+          time: "Early",
+          sigils: "",
+          support_1: "SS",
+          support_2: "VC",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "SS",
+          support_2: "VC / BR",
+        },
+        {
+          time: "Late",
+          sigils: "",
+          support_1: "SS",
+          support_2: "BR",
+        },
+      ],
       signets: [
         {
           name: "Elysia",
@@ -156,7 +177,7 @@ const signets = {
               priority: "1st",
             },
             {
-              name: "Echo of Gold",
+              name: "Echo of Withered Soil",
               desc: "After lasting over 7s, boost SP cap and restore SP/s till it ends",
               priority: "Filler",
             },

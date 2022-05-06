@@ -6,6 +6,7 @@
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "419347d2-9d10-417c-bafb-d4fd179f0d5d",
   name: "Valkyrie Gloria",
   imageSrc: "/images/valkyrie-gloria.png",
   imageAlt: "Valkyrie Gloria",
@@ -16,6 +17,26 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      supports: [
+        {
+          time: "Early",
+          sigils: "",
+          support_1: "AE",
+          support_2: "LE",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "AE",
+          support_2: "LE / MA / BR",
+        },
+        {
+          time: "Late",
+          sigils: "",
+          support_1: "AE",
+          support_2: "MA / BR",
+        },
+      ],
       signets: [
         {
           name: "Elysia",
@@ -72,7 +93,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "Entering Sprint triggers Stage 2 and until Sprint ends, attacks cost 40 Resolve more on hit to deal 2000% ATK of Fire DMG per second",
+              desc: "",
               priority: "CORE",
             },
             {
@@ -171,7 +192,7 @@ const signets = {
               priority: "1st",
             },
             {
-              name: "Echo of Gold",
+              name: "Echo of Withered Soil",
               desc: "After lasting over 7s, boost SP cap and restore SP/s till it ends",
               priority: "Filler",
             },

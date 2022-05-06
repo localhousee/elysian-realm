@@ -6,6 +6,7 @@
 import Card from "../../components/Card.vue";
 
 const valkyrie = {
+  id: "b438da93-3a90-487a-bf92-bb3b0c38c4f8",
   name: "Herrscher of Flamescion",
   imageSrc: "/images/herrscher-of-flamescion.jpg",
   imageAlt: "Herrscher of Flamescion",

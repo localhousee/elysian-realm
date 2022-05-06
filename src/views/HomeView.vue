@@ -206,7 +206,10 @@
         />
       </svg>
     </button>
-    <button class="rounded-r-full pl-1 pr-4 py-4 bg-white border-none" @click="filter">
+    <button
+      class="rounded-r-full pl-1 pr-4 py-4 bg-white border-none"
+      @click="filter"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-5 w-5 text--500"
@@ -265,6 +268,7 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 import {
   Combobox,
   ComboboxInput,
@@ -274,6 +278,8 @@ import {
   TransitionRoot,
 } from "@headlessui/vue";
 import { CheckIcon, SelectorIcon } from "@heroicons/vue/solid";
+import Modal from "../components/Modal.vue";
+import Link from "../components/Link.vue";
 import ArgentKnightArtemis from "./Valkyries/ArgentKnightArtemis.vue";
 import BrightKnightExcelsis from "./Valkyries/BrightKnightExcelsis.vue";
 import DeaAnchora from "./Valkyries/DeaAnchora.vue";
@@ -285,11 +291,11 @@ import HerrscherOfThunder from "./Valkyries/HerrscherOfThunder.vue";
 import InfiniteOuroboros from "./Valkyries/InfiniteOuroboros.vue";
 import LunaKindred from "./Valkyries/LunaKindred.vue";
 import MidnightAbsinthe from "./Valkyries/MidnightAbsinthe.vue";
+import MissPinkElf from "./Valkyries/MissPinkElf.vue";
 import PalatinusEquinox from "./Valkyries/PalatinusEquinox.vue";
+import PrinzessinDerVerurteilung from "./Valkyries/PrinzessinDerVerurteilung.vue";
 import ReveristCalico from "./Valkyries/ReveristCalico.vue";
 import RitualImayoh from "./Valkyries/RitualImayoh.vue";
-import MissPinkElf from "./Valkyries/MissPinkElf.vue";
-import PrinzessinDerVerurteilung from "./Valkyries/PrinzessinDerVerurteilung.vue";
 import SilverwingNEX from "./Valkyries/SilverwingNEX.vue";
 import SpinaAstera from "./Valkyries/SpinaAstera.vue";
 import StarchasmNyx from "./Valkyries/StarchasmNyx.vue";
@@ -298,10 +304,6 @@ import StygianNymph from "./Valkyries/StygianNymph.vue";
 import SweetNSpicy from "./Valkyries/SweetNSpicy.vue";
 import TwilightPaladin from "./Valkyries/TwilightPaladin.vue";
 import ValkyrieGloria from "./Valkyries/ValkyrieGloria.vue";
-import Modal from "../components/Modal.vue";
-import Link from "../components/Link.vue";
-
-import { ref } from "vue";
 
 let query = ref("");
 
@@ -309,7 +311,5 @@ let reset = () => {
   query.value = "";
 };
 
-let filter = () => {
-  
-};
+let filter = () => {};
 </script>
