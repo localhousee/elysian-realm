@@ -1,27 +1,14 @@
 <template>
-<Card :valkyrie="valkyrie" :signets="signets" />
+  <Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
 <script>
-import Card from '../../components/Card.vue';
+import Card from "../../components/Card.vue";
 
-export default {
-	components: {
-		Card,
-	},
-
-	setup() {
-		const valkyrie = {
-			id: 14,
-			name: 'Prinzessin der Verurteilung',
-			imageSrc: '/images/prinzessin-der-verurteilung.jpg',
-			imageAlt: 'Prinzessin der Verurteilung',
-			position: 'object-right-top',
-		};
-
-		return {
-			valkyrie,
-		};
-	}
-}
+const valkyrie = {
+  name: "Prinzessin der Verurteilung",
+  imageSrc: "/images/prinzessin-der-verurteilung.jpg",
+  imageAlt: "Prinzessin der Verurteilung",
+  position: "object-right-top",
+};
 </script>

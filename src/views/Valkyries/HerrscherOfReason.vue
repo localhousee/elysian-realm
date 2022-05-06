@@ -16,6 +16,26 @@ const signets = {
   builds: [
     {
       name: "Evade",
+      supports: [
+        {
+          time: "Early",
+          sigils: "",
+          support_1: "AE",
+          support_2: "HB / BR",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "AE",
+          support_2: "HB / BR",
+        },
+        {
+          time: "Late",
+          sigils: "",
+          support_1: "AE",
+          support_2: "HB / BR",
+        },
+      ],
       signets: [
         {
           name: "Elysia",
@@ -175,6 +195,26 @@ const signets = {
     },
     {
       name: "Ultimate",
+      supports: [
+        {
+          time: "Early",
+          sigils: "",
+          support_1: "AE",
+          support_2: "HB / BR",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "AE",
+          support_2: "LE / HB / BR",
+        },
+        {
+          time: "Late",
+          sigils: "",
+          support_1: "AE",
+          support_2: "HB / BR",
+        },
+      ],
       signets: [
         {
           name: "Elysia",
@@ -244,11 +284,6 @@ const signets = {
         {
           name: "Kevin 2",
           lists: [
-            {
-              name: "Rochet of the Pilgrim",
-              desc: "Ultimate restores 3 sp per second for 5s",
-              priority: "YES",
-            },
             {
               name: "Artifact of the Inhibitor",
               desc: "Ultimate boosts Elemental Breach by 25% for 5s",
@@ -326,8 +361,8 @@ const signets = {
             },
             {
               name: "Nexus Signet Setsuna Blade: Sakura ni Maku",
-              desc: "Core",
-              priority: "",
+              desc: "",
+              priority: "CORE",
             },
             {
               name: "Setsuna Blade: Ame-Shiko",

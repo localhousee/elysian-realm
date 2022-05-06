@@ -1,27 +1,14 @@
 <template>
-<Card :valkyrie="valkyrie" :signets="signets" />
+  <Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
 <script>
-import Card from '../../components/Card.vue';
+import Card from "../../components/Card.vue";
 
-export default {
-	components: {
-		Card,
-	},
-
-	setup() {
-		const valkyrie = {
-			id: 11,
-			name: 'Midnight Absinthe',
-			imageSrc: '/images/midnight-absinthe.jpg',
-			imageAlt: 'Midnight Absinthe',
-			position: 'object-[-11rem]',
-		};
-
-		return {
-			valkyrie,
-		};
-	}
-}
+const valkyrie = {
+  name: "Midnight Absinthe",
+  imageSrc: "/images/midnight-absinthe.jpg",
+  imageAlt: "Midnight Absinthe",
+  position: "object-[-11rem]",
+};
 </script>

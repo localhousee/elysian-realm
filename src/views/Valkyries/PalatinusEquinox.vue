@@ -1,27 +1,14 @@
 <template>
-<Card :valkyrie="valkyrie" :signets="signets" />
+  <Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
 <script>
-import Card from '../../components/Card.vue';
+import Card from "../../components/Card.vue";
 
-export default {
-	components: {
-		Card,
-	},
-
-	setup() {
-		const valkyrie = {
-			id: 13,
-			name: 'Palatinus Equinox',
-			imageSrc: '/images/palatinus-equinox.jpg',
-			imageAlt: 'Palatinus Equinox',
-			position: 'object-top',
-		};
-
-		return {
-			valkyrie,
-		};
-	}
-}
+const valkyrie = {
+  name: "Palatinus Equinox",
+  imageSrc: "/images/palatinus-equinox.jpg",
+  imageAlt: "Palatinus Equinox",
+  position: "object-top",
+};
 </script>

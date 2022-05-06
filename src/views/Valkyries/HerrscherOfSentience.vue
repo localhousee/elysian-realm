@@ -16,6 +16,26 @@ const signets = {
   builds: [
     {
       name: "Stars (Griseo)",
+      supports: [
+        {
+          time: "Early",
+          sigils: "",
+          support_1: "BR",
+          support_2: "LE",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "BR",
+          support_2: "LE / SS",
+        },
+        {
+          time: "Late",
+          sigils: "",
+          support_1: "BR",
+          support_2: "SS",
+        },
+      ],
       signets: [
         {
           name: "Elysia",
@@ -72,8 +92,8 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "Core",
-              priority: "",
+              desc: "",
+              priority: "CORE",
             },
             {
               name: "Blooming like Flowers",
@@ -171,6 +191,26 @@ const signets = {
     },
     {
       name: "Ego (Summoned Entities)",
+      supports: [
+        {
+          time: "Early",
+          sigils: "",
+          support_1: "BR",
+          support_2: "LE",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "BR",
+          support_2: "LE / SS",
+        },
+        {
+          time: "Late",
+          sigils: "",
+          support_1: "BR",
+          support_2: "SS",
+        },
+      ],
       signets: [
         {
           name: "Elysia",
@@ -364,8 +404,28 @@ const signets = {
         },
       ],
     },
-		{
+    {
       name: "Daybreak (Kosma)",
+      supports: [
+        {
+          time: "Early",
+          sigils: "",
+          support_1: "BR",
+          support_2: "LE",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "BR",
+          support_2: "LE / SS",
+        },
+        {
+          time: "Late",
+          sigils: "",
+          support_1: "BR",
+          support_2: "SS",
+        },
+      ],
       signets: [
         {
           name: "Elysia",
@@ -422,8 +482,8 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "Core",
-              priority: "",
+              desc: "",
+              priority: "CORE",
             },
             {
               name: "Blooming like Flowers",
@@ -432,51 +492,51 @@ const signets = {
             },
           ],
         },
-				{
-					name: 'Kosma 1',
-					lists: [
-						{
-							name: 'Talons that Desecrate the Santuary',
-							desc: 'Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 20% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 1s',
-							priority: '1st'
-						},
-						{
-							name: 'Horns that Rip the Bleak Sky',
-							desc: 'Ultimate inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of Adaptive DMG per second for 10s. 70 stacks max. CD: 8s',
-							priority: '2nd'
-						},
-						{
-							name: 'Heart that Committed Seven Crimes',
-							desc: 'Rend lasts 5s longer',
-							priority: '3rd'
-						},
-						{
-							name: 'Eyes that Overlook the Vicious Abyss',
-							desc: 'Each stack of Rend on enemies makes Valkyries deal 10% bonus DMG to their shields',
-							priority: 'Filler'
-						},
-						{
-							name: 'Wings that Mask the Sanguine Moon',
-							desc: 'Ultimate Evasion Skill inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of Adaptive DMG per second for 70s. 10 stacks max. CD: 8s',
-							priority: 'Filler'
-						},
-						{
-							name: 'Breath that Slanders Sulphur',
-							desc: 'Inflicting Rend on an already affected enemy restores 10 SP. CD: 5s',
-							priority: 'Filler'
-						},
-						{
-							name: 'Nexus Signet: Daybreak, an Undying Light',
-							desc: '',
-							priority: 'CORE'
-						},
-						{
-							name: 'Unwavering Promise',
-							desc: 'Rend-inflicted enemies take 80% bonus Total DMG and addition 40% bonus Total DMG with 20 Rend stacks or more',
-							priority: 'Filler'
-						},
-					],
-				},
+        {
+          name: "Kosma 1",
+          lists: [
+            {
+              name: "Talons that Desecrate the Santuary",
+              desc: "Basic/Combo/Charged ATKs inflict a stack of Rend on hit, each stack dealing 20% ATK of Adaptive DMG per second for 10s. 70 stacks max. Stacking CD: 1s",
+              priority: "1st",
+            },
+            {
+              name: "Horns that Rip the Bleak Sky",
+              desc: "Ultimate inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of Adaptive DMG per second for 10s. 70 stacks max. CD: 8s",
+              priority: "2nd",
+            },
+            {
+              name: "Heart that Committed Seven Crimes",
+              desc: "Rend lasts 5s longer",
+              priority: "3rd",
+            },
+            {
+              name: "Eyes that Overlook the Vicious Abyss",
+              desc: "Each stack of Rend on enemies makes Valkyries deal 10% bonus DMG to their shields",
+              priority: "Filler",
+            },
+            {
+              name: "Wings that Mask the Sanguine Moon",
+              desc: "Ultimate Evasion Skill inflicts 8 stacks of Rend on all enemies, each stack dealing 20% ATK of Adaptive DMG per second for 70s. 10 stacks max. CD: 8s",
+              priority: "Filler",
+            },
+            {
+              name: "Breath that Slanders Sulphur",
+              desc: "Inflicting Rend on an already affected enemy restores 10 SP. CD: 5s",
+              priority: "Filler",
+            },
+            {
+              name: "Nexus Signet: Daybreak, an Undying Light",
+              desc: "",
+              priority: "CORE",
+            },
+            {
+              name: "Unwavering Promise",
+              desc: "Rend-inflicted enemies take 80% bonus Total DMG and addition 40% bonus Total DMG with 20 Rend stacks or more",
+              priority: "Filler",
+            },
+          ],
+        },
         {
           name: "Kevin 1 (Choose one)",
           lists: [
