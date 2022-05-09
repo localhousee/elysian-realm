@@ -190,6 +190,7 @@ const signets = {
         },
         {
           name: "Kevin 1",
+          info: "Based on current testing, \"Flock of the Deliverer\" is an independent modifier. Also, SP/s is preferred over more damage here. Maintaining high SP for Eden buffs is important",
           lists: [
             {
               name: "Artifact of the Inhibitor",
@@ -230,6 +231,7 @@ const signets = {
         },
         {
           name: "Eden 2",
+          info: "\"Fine Jade\" > \"Good Wine\" for earlier ulting, but pick \"Good Wine\" if you don't have SP/s from Kevin yet",
           lists: [
             {
               name: "Recitatif of Creeks",
@@ -320,6 +322,7 @@ const signets = {
         },
         {
           name: "Aponia 1",
+          info: "Only pick Aponia if you can get both of these. Doing 2 combos (when the weapon skill visibly glows) activates Predation, which doesn't activate \"Sixth, No Decadence\" due to being considered QTE damage. However, normally swapping Moods will activate this debuff. This multiplier is also tested to be independent from Griseo's \"Red & Hot\" physical and elemental damage taken effect",
           lists: [
             {
               name: "Fourth, No Insolence",
@@ -367,6 +370,10 @@ const signets = {
               priority: "Filler",
             },
           ],
+        },
+        {
+          name: "Pardofelis 1",
+          info: "F2 & F3 must be \"Merchant Philosophy\" and \"Shiny & Valuable\", after getting these 2 signets, build Eden-2 Kevin-1 Kalpas-2 first before continuing to build Reverie core (recommended to get \"Flexible P&C and \"Neighbourhood Chatters\" in Shop)",
         },
         {
           name: "Kevin 1",

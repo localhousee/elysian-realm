@@ -175,6 +175,7 @@ const signets = {
         },
         {
           name: "Su 2",
+          info: "replaced by Aponia 1 (coming soon)",
           lists: [
             {
               name: "Motto of Dibba-Cakkhu",

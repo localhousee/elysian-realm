@@ -100,6 +100,7 @@ const signets = {
         },
         {
           name: "Pardofelis 1",
+          info: "replaced by Aponia 1 (coming soon)",
           lists: [
             {
               name: "Merchant's Philosophy",

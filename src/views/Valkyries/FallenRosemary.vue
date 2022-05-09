@@ -20,19 +20,19 @@ const signets = {
       supports: [
         {
           time: "Early",
-          sigils: "",
+          sigils: "Burden",
           support_1: "AE",
           support_2: "LE",
         },
         {
           time: "Mid",
-          sigils: "",
+          sigils: "Light as a Bodhi Leaf/Gold Goblet",
           support_1: "AE",
           support_2: "LE / BR",
         },
         {
           time: "Late",
-          sigils: "",
+          sigils: "Dreamful Gold/Home Lost",
           support_1: "AE",
           support_2: "BR",
         },
@@ -70,6 +70,7 @@ const signets = {
         },
         {
           name: "Elysia, rank >= SS2",
+          info: "The loop-able combo from Soul Siphon drops from being used 6 times to 3 times at SS2",
           lists: [
             {
               name: "Blessing of Nocturne",
