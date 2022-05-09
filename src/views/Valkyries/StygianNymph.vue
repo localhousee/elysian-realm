@@ -88,7 +88,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "",
+              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
               priority: "CORE",
             },
             {
@@ -118,7 +118,7 @@ const signets = {
             },
             {
               name: "Nexus Signet Setsuna Blade: Sakura ni Maku",
-              desc: "",
+              desc: "Triggering Ultimate Evasion Skill 3 times activates Sakura Screen to render all enemies static for 3s, after which they lose HP equal to 40% of the DMG they have received during the duration",
               priority: "CORE",
             },
             {
@@ -148,7 +148,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Blade of the Deliverer",
-              desc: "",
+              desc: "Ultimate triggers Final Battle status during which all buffs provided by Normal Signets of Deliverance increase by for 5s",
               priority: "CORE",
             },
             {
@@ -183,7 +183,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {

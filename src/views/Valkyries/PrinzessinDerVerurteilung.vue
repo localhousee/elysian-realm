@@ -88,7 +88,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shadow of the Deliverer",
-              desc: "",
+              desc: "Ultimate or burst mode ATKs hitting enemies 50 times triggers War of Deliverance status during which all buffs provided by Normal Signets of Deliverance are active",
               priority: "CORE",
             },
           ],
@@ -113,7 +113,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Dictum of Bodhi",
-              desc: "",
+              desc: "Reaching 60/100/150 combo hits unleashes Bodhi: Eyes Open on a random enemy, dealing 800%/900%/1000% ATK of adaptive DMG and inflicting Trance. Affected enemies contribute 1 bonus combo hit on hit for 3s",
               priority: "CORE",
             },
           ],
@@ -138,7 +138,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {
@@ -171,11 +171,11 @@ const signets = {
               desc: "Enemies stay tainted for 5s longer",
               priority: "3rd",
             },
-            // {
-            //   name: "Nexus Signet: Shine like Stars",
-            //   desc: "",
-            //   priority: "CORE",
-            // },
+            {
+              name: "Nexus Signet: Shine like Stars",
+              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
+              priority: "CORE",
+            },
           ],
         },
       ],

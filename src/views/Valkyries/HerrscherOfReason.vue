@@ -93,7 +93,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Setsuna blade: Yasha",
-              desc: "",
+              desc: "Valkyries enter Isshun status every 10s during which a normal evasion becomes Ultimate Evasion and unleashes Setsuna Blade: Karuma dealing 7x200% ATK of Ice DMG to all enemies",
               priority: "CORE",
             },
           ],
@@ -123,7 +123,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "",
+              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
               priority: "CORE",
             },
             {
@@ -152,7 +152,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Suffering Mass",
-              desc: "",
+              desc: "Valkyries start with 6 Soldier's Remembrance stacks which boost all buffs from Normal Signets of Vicissitude to full stacks. Taking DMG reduces I Soldier's Remembrance stack and grants 0.5s invincibility",
               priority: "CORE",
             },
             {
@@ -187,7 +187,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Dictum of Bodhi",
-              desc: "",
+              desc: "Reaching 60/100/150 combo hits unleashes Bodhi: Eyes Open on a random enemy, dealing 800%/900%/1000% ATK of adaptive DMG and inflicting Trance. Affected enemies contribute 1 bonus combo hit on hit for 3s",
               priority: "CORE",
             },
           ],
@@ -272,7 +272,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "",
+              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
               priority: "CORE",
             },
             {
@@ -302,7 +302,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shadow of the Deliverer",
-              desc: "",
+              desc: "Ultimate or burst mode ATKs hitting enemies 50 times triggers War of Deliverance status during which all buffs provided by Normal Signets of Deliverance are active",
               priority: "CORE",
             },
           ],
@@ -327,7 +327,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {
@@ -362,7 +362,7 @@ const signets = {
             },
             {
               name: "Nexus Signet Setsuna Blade: Sakura ni Maku",
-              desc: "",
+              desc: "Triggering Ultimate Evasion Skill 3 times activates Sakura Screen to render all enemies static for 3s, after which they lose HP equal to 40% of the DMG they have received during the duration",
               priority: "CORE",
             },
             {

@@ -88,7 +88,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Aria of Gold",
-              desc: "",
+              desc: "Restoring 100 SP in total triggers 3 Lightning of Aria bolts each dealing 450% ATK of Lightning DMG and inflicting 6s of Intoxicate randomly. Intoxicated enemies take 15% bonus Total DMG",
               priority: "CORE",
             },
             {
@@ -123,7 +123,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Empty Dreams, Self, Set, and Joy",
-              desc: "",
+              desc: "Reaching 500 Shiny Silvers boosts the effects of all Normal Signets of Reverie by 25%. Reaching 1000 boosts the effects by 50% and Physical and Elemental DMG by 60%",
               priority: "CORE",
             },
             {
@@ -153,7 +153,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Dictum of Bodhi",
-              desc: "",
+              desc: "Reaching 60/100/150 combo hits unleashes Bodhi: Eyes Open on a random enemy, dealing 800%/900%/1000% ATK of adaptive DMG and inflicting Trance. Affected enemies contribute 1 bonus combo hit on hit for 3s",
               priority: "CORE",
             },
           ],
@@ -177,7 +177,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Suffering Mass",
-              desc: "",
+              desc: "Valkyries start with 6 Soldier's Remembrance stacks which boost all buffs from Normal Signets of Vicissitude to full stacks. Taking DMG reduces I Soldier's Remembrance stack and grants 0.5s invincibility",
               priority: "CORE",
             },
             {
@@ -267,7 +267,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shadow of the Deliverer",
-              desc: "",
+              desc: "Ultimate or burst mode ATKs hitting enemies 50 times triggers War of Deliverance status during which all buffs provided by Normal Signets of Deliverance are active",
               priority: "CORE",
             },
           ],
@@ -292,7 +292,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {
@@ -327,7 +327,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Dictum of Bodhi",
-              desc: "",
+              desc: "Reaching 60/100/150 combo hits unleashes Bodhi: Eyes Open on a random enemy, dealing 800%/900%/1000% ATK of adaptive DMG and inflicting Trance. Affected enemies contribute 1 bonus combo hit on hit for 3s",
               priority: "CORE",
             },
           ],
@@ -357,7 +357,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Empty Dreams, Self, Set, and Joy",
-              desc: "",
+              desc: "Reaching 500 Shiny Silvers boosts the effects of all Normal Signets of Reverie by 25%. Reaching 1000 boosts the effects by 50% and Physical and Elemental DMG by 60%",
               priority: "CORE",
             },
             {

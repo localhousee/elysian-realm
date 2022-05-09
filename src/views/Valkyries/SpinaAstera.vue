@@ -88,12 +88,12 @@ const signets = {
             },
             {
               name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
-              desc: "",
+              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
               priority: "CORE",
             },
             {
               name: "Death, Life, Oblivion, and Existence",
-              desc: "If [Bloodboil Garment] exceeds 1500, when taking damage, reduces damage taken by 1% of [Bloodboil Garment]",
+              desc: "The Bloodboil Armor charges cap increases by 500. At over 1500 charges, Bloodboil Armor can absorb DMG equal to 1% of its charges",
               priority: "Filler",
             },
           ],
@@ -118,7 +118,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Blade of the Deliverer",
-              desc: "",
+              desc: "Ultimate triggers Final Battle status during which all buffs provided by Normal Signets of Deliverance increase by for 5s",
               priority: "CORE",
             },
             {
@@ -153,7 +153,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {
@@ -193,7 +193,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Empty Dreams, Self, Set, and Joy",
-              desc: "",
+              desc: "Reaching 500 Shiny Silvers boosts the effects of all Normal Signets of Reverie by 25%. Reaching 1000 boosts the effects by 50% and Physical and Elemental DMG by 60%",
               priority: "CORE",
             },
             {
@@ -278,12 +278,12 @@ const signets = {
             },
             {
               name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
-              desc: "",
+              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
               priority: "CORE",
             },
             {
               name: "Death, Life, Oblivion, and Existence",
-              desc: "If [Bloodboil Garment] exceeds 1500, when taking damage, reduces damage taken by 1% of [Bloodboil Garment]",
+              desc: "The Bloodboil Armor charges cap increases by 500. At over 1500 charges, Bloodboil Armor can absorb DMG equal to 1% of its charges",
               priority: "Filler",
             },
           ],
@@ -308,7 +308,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Blade of the Deliverer",
-              desc: "",
+              desc: "Ultimate triggers Final Battle status during which all buffs provided by Normal Signets of Deliverance increase by for 5s",
               priority: "CORE",
             },
             {
@@ -343,7 +343,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {
@@ -378,13 +378,13 @@ const signets = {
             },
             {
               name: "Nexus Signet: Dictum of Bodhi",
-              desc: "",
+              desc: "Reaching 60/100/150 combo hits unleashes Bodhi: Eyes Open on a random enemy, dealing 800%/900%/1000% ATK of adaptive DMG and inflicting Trance. Affected enemies contribute 1 bonus combo hit on hit for 3s",
               priority: "CORE",
             },
           ],
         },
         {
-          name: "Pardofelis 1",
+          name: "Pardofelis (No Core)",
           lists: [
             {
               name: "Flexible P&C",

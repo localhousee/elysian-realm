@@ -88,7 +88,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Blade of the Deliverer",
-              desc: "",
+              desc: "Ultimate triggers Final Battle status during which all buffs provided by Normal Signets of Deliverance increase by for 5s",
               priority: "CORE",
             },
             {
@@ -123,7 +123,7 @@ const signets = {
             },
             {
               name: "Nexus Signet Setsuna Blade: Sakura ni Maku",
-              desc: "",
+              desc: "Triggering Ultimate Evasion Skill 3 times activates Sakura Screen to render all enemies static for 3s, after which they lose HP equal to 40% of the DMG they have received during the duration",
               priority: "CORE",
             },
             {
@@ -158,7 +158,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "",
+              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
               priority: "CORE",
             },
             {
@@ -188,12 +188,12 @@ const signets = {
             },
             {
               name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
-              desc: "",
+              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
               priority: "CORE",
             },
             {
               name: "Death, Life, Oblivion, and Existence",
-              desc: "If [Bloodboil Garment] exceeds 1500, when taking damage, reduces damage taken by 1% of [Bloodboil Garment]",
+              desc: "The Bloodboil Armor charges cap increases by 500. At over 1500 charges, Bloodboil Armor can absorb DMG equal to 1% of its charges",
               priority: "Filler",
             },
           ],

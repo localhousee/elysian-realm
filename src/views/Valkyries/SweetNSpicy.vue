@@ -103,7 +103,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Daybreak, an Undying Light",
-              desc: "",
+              desc: "Hitting an enemy with 10 or more stacks of Rend triggers Evil's Doom which deals ATK of Adaptive 1500% DMG and 5000% ATK of bonus Adaptive DMG against shields. CD: 5s",
               priority: "CORE",
             },
             {
@@ -133,7 +133,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Blade of the Deliverer",
-              desc: "",
+              desc: "Ultimate triggers Final Battle status during which all buffs provided by Normal Signets of Deliverance increase by for 5s",
               priority: "CORE",
             },
             {
@@ -168,7 +168,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {
@@ -203,12 +203,12 @@ const signets = {
             },
             {
               name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
-              desc: "HP cannot exceed 18% of max HP. Healing HP charges [Bloodboil Garment]",
+              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
               priority: "CORE",
             },
             {
               name: "Death, Life, Oblivion, and Existence",
-              desc: "If [Bloodboil Garment] exceeds 1500, when taking damage, reduces damage taken by 1% of [Bloodboil Garment]",
+              desc: "The Bloodboil Armor charges cap increases by 500. At over 1500 charges, Bloodboil Armor can absorb DMG equal to 1% of its charges",
               priority: "YES",
             },
           ],

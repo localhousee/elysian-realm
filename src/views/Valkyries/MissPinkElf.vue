@@ -88,7 +88,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shadow of the Deliverer",
-              desc: "",
+              desc: "Ultimate or burst mode ATKs hitting enemies 50 times triggers War of Deliverance status during which all buffs provided by Normal Signets of Deliverance are active",
               priority: "CORE",
             },
           ],
@@ -113,7 +113,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {
@@ -143,7 +143,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Dictum of Bodhi",
-              desc: "",
+              desc: "Reaching 60/100/150 combo hits unleashes Bodhi: Eyes Open on a random enemy, dealing 800%/900%/1000% ATK of adaptive DMG and inflicting Trance. Affected enemies contribute 1 bonus combo hit on hit for 3s",
               priority: "CORE",
             },
             {
@@ -178,7 +178,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "",
+              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
               priority: "CORE",
             },
             {
@@ -263,7 +263,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shadow of the Deliverer",
-              desc: "",
+              desc: "Ultimate or burst mode ATKs hitting enemies 50 times triggers War of Deliverance status during which all buffs provided by Normal Signets of Deliverance are active",
               priority: "CORE",
             },
           ],
@@ -288,7 +288,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {
@@ -318,12 +318,12 @@ const signets = {
             },
             {
               name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
-              desc: "",
+              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
               priority: "CORE",
             },
             {
               name: "Death, Life, Oblivion, and Existence",
-              desc: "If [Bloodboil Garment] exceeds 1500, when taking damage, reduces damage taken by 1% of [Bloodboil Garment]",
+              desc: "The Bloodboil Armor charges cap increases by 500. At over 1500 charges, Bloodboil Armor can absorb DMG equal to 1% of its charges",
               priority: "YES",
             },
           ],
@@ -353,7 +353,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "",
+              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
               priority: "CORE",
             },
             {

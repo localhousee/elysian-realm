@@ -88,7 +88,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Blade of the Deliverer",
-              desc: "",
+              desc: "Ultimate triggers Final Battle status during which all buffs provided by Normal Signets of Deliverance increase by for 5s",
               priority: "CORE",
             },
             {
@@ -123,7 +123,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Echo of Gold",
-              desc: "",
+              desc: "Consuming SP restores the same charges and triggers Final Echo status during which Total DMG increases 8% (160% max) at the cost of charges equal to the remaining duration per second. Insufficient charges reset the effect and end Final Echo",
               priority: "CORE",
             },
             {
@@ -158,7 +158,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Infinite [X]",
-              desc: "",
+              desc: "Summoning summoned entities or using ELF Ultimates triggers Mind Sync state which lasts 8s. In Mind Sync, Valkyrie herself, summoned entities, ELFs, and Support Valkyries deal 30% bonus Physical and Elemental DMG. Reset on exiting Mind Sync",
               priority: "CORE",
             },
             {
@@ -193,7 +193,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Setsuna blade: Yasha",
-              desc: "",
+              desc: "Valkyries enter Isshun status every 10s during which a normal evasion becomes Ultimate Evasion and unleashes Setsuna Blade: Karuma dealing 7x200% ATK of Ice DMG to all enemies",
               priority: "CORE",
             },
           ],
@@ -223,7 +223,7 @@ const signets = {
             },
             {
               name: "Nexus Signet: Shine like Stars",
-              desc: "",
+              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
               priority: "CORE",
             },
             {

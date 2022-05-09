@@ -25,33 +25,33 @@
         class="w-5 h-5 text-purple-500"
       />
     </DisclosureButton>
-    <div v-for="(supp, index) in support" :key="index">
       <DisclosurePanel class="px-4 text-sm flex bg-white">
-        <div
-          class="
-            grow
-            border border-indigo-600
-            text-center
-            font-semibold
-            flex
-            justify-between
-          "
-        >
-          <div class="border border-indigo-600 w-12 lg:w-16 py-2">
+        <table class="table-auto w-full">
+          <thead>
+            <tr class="uppercase">
+              <th class="border border-indigo-600">Time</th>
+              <th class="border border-indigo-600">Sigils</th>
+              <th class="border border-indigo-600" colspan="2">Supports</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr class="text-center" v-for="(supp, index) in support" :key="index">
+            <td class="py-1 border border-indigo-600 w-12">
             <span v-text="supp.time" />
-          </div>
-          <div class="border border-indigo-600 grow py-2">
+            </td>
+            <td class="py-1 border border-indigo-600">
             <span v-text="supp.sigils" />
-          </div>
-          <div class="border border-indigo-600 w-10 lg:w-16 py-2">
+            </td>
+            <td class="py-1 border border-indigo-600 w-16 font-semibold">
             <span v-text="supp.support_1" />
-          </div>
-          <div class="border border-indigo-600 w-10 lg:w-16 py-2">
+            </td>
+            <td class="py-1 border border-indigo-600 w-16 font-semibold">
             <span v-text="supp.support_2" />
-          </div>
-        </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
       </DisclosurePanel>
-    </div>
   </Disclosure>
 </template>
 
