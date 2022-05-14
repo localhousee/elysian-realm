@@ -20,19 +20,19 @@ const signets = {
       supports: [
         {
           time: "Early",
-          sigils: "",
+          sigils: "Burden",
           support_1: "AE",
           support_2: "LE",
         },
         {
           time: "Mid",
-          sigils: "",
+          sigils: "Gold Goblet / Light as a Bodhi Leaf",
           support_1: "AE",
           support_2: "LE / BR",
         },
         {
           time: "Late",
-          sigils: "",
+          sigils: "It Will Be Written / Home Lost",
           support_1: "AE",
           support_2: "MA / BR",
         },

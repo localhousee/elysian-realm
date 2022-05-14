@@ -20,19 +20,19 @@ const signets = {
       supports: [
         {
           time: "Early",
-          sigils: "",
+          sigils: "Memory",
           support_1: "AE",
           support_2: "HB / BR",
         },
         {
           time: "Mid",
-          sigils: "",
+          sigils: "Forget-Me-Not / Because of You",
           support_1: "AE",
           support_2: "HB / BR",
         },
         {
           time: "Late",
-          sigils: "",
+          sigils: "Stained Sakura / Home Lost",
           support_1: "AE",
           support_2: "HB / BR",
         },
