@@ -91,6 +91,7 @@
       <BrightKnightExcelsis />
       <DeaAnchora />
       <FallenRosemary />
+      <FerventTempo />
       <HerrscherOfFlamescion />
       <HerrscherOfReason />
       <HerrscherOfSentience />
@@ -131,6 +132,7 @@ import ArgentKnightArtemis from "./Valkyries/ArgentKnightArtemis.vue";
 import BrightKnightExcelsis from "./Valkyries/BrightKnightExcelsis.vue";
 import DeaAnchora from "./Valkyries/DeaAnchora.vue";
 import FallenRosemary from "./Valkyries/FallenRosemary.vue";
+import FerventTempo from "./Valkyries/FerventTempo.vue";
 import HerrscherOfFlamescion from "./Valkyries/HerrscherOfFlamescion.vue";
 import HerrscherOfReason from "./Valkyries/HerrscherOfReason.vue";
 import HerrscherOfSentience from "./Valkyries/HerrscherOfSentience.vue";

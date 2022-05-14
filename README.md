@@ -68,6 +68,7 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - [Bright Knight: Excelsis](https://medibang.com/picture/sv2011190326147450004348839)
 - [Dea Anchora](https://arca.live/b/hk3rd/25348184)
 - [Fallen Rosemary](https://www.huashi6.com/draw/971767)
+- [Fervent Tempo](https://www.deviantart.com/firerifle64/art/Fervent-Tempo-Delta-Taking-a-Bath-V2-869746923)
 - [Herrscher Of Flamescion](https://arca.live/b/hk3rd/30030448)
 - [Herrscher Of Reason](https://ygosu.com/community/animation/273965)
 - [Herrscher Of Sentience](https://www.qzxiu.net/w/jxz7e8.html)
