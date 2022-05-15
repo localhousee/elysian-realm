@@ -90,8 +90,10 @@
       <ArgentKnightArtemis />
       <BrightKnightExcelsis />
       <DeaAnchora />
+      <DisciplinaryPerdition />
       <FallenRosemary />
       <FerventTempo />
+      <GoldenDiva />
       <HerrscherOfFlamescion />
       <HerrscherOfReason />
       <HerrscherOfSentience />
@@ -131,8 +133,10 @@ import Modal from "../components/Modal.vue";
 import ArgentKnightArtemis from "./Valkyries/ArgentKnightArtemis.vue";
 import BrightKnightExcelsis from "./Valkyries/BrightKnightExcelsis.vue";
 import DeaAnchora from "./Valkyries/DeaAnchora.vue";
+import DisciplinaryPerdition from "./Valkyries/DisciplinaryPerdition.vue";
 import FallenRosemary from "./Valkyries/FallenRosemary.vue";
 import FerventTempo from "./Valkyries/FerventTempo.vue";
+import GoldenDiva from "./Valkyries/GoldenDiva.vue";
 import HerrscherOfFlamescion from "./Valkyries/HerrscherOfFlamescion.vue";
 import HerrscherOfReason from "./Valkyries/HerrscherOfReason.vue";
 import HerrscherOfSentience from "./Valkyries/HerrscherOfSentience.vue";
