@@ -75,6 +75,7 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - [Herrscher Of Flamescion](https://www.pixiv.net/en/artworks/94617489)
 - [Herrscher Of Reason](https://www.pixiv.net/en/artworks/85617190)
 - [Herrscher Of Sentience](https://www.pixiv.net/en/artworks/88230961)
+- [Herrscher Of The Void](https://www.pixiv.net/en/artworks/90371436)
 - [Herrscher Of Thunder](https://www.pixiv.net/en/artworks/88614964)
 - [Infinite Ouroboros](https://www.pixiv.net/en/artworks/97708364)
 - [Luna Kindred](https://www.pixiv.net/en/artworks/79556530)

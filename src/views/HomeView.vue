@@ -98,6 +98,7 @@
       <HerrscherOfFlamescion />
       <HerrscherOfReason />
       <HerrscherOfSentience />
+      <HerrscherOfTheVoid />
       <HerrscherOfThunder />
       <InfiniteOuroboros />
       <LunaKindred />
@@ -142,6 +143,7 @@ import Griseo from "./Valkyries/Griseo.vue";
 import HerrscherOfFlamescion from "./Valkyries/HerrscherOfFlamescion.vue";
 import HerrscherOfReason from "./Valkyries/HerrscherOfReason.vue";
 import HerrscherOfSentience from "./Valkyries/HerrscherOfSentience.vue";
+import HerrscherOfTheVoid from "./Valkyries/HerrscherOfTheVoid.vue";
 import HerrscherOfThunder from "./Valkyries/HerrscherOfThunder.vue";
 import InfiniteOuroboros from "./Valkyries/InfiniteOuroboros.vue";
 import LunaKindred from "./Valkyries/LunaKindred.vue";
