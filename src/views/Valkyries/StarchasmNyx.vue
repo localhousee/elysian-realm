@@ -8,9 +8,9 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "a0756805-fbb1-4cfe-95ab-44134fcc4d14",
   name: "Starchasm Nyx",
-  imageSrc: "/images/starchasm-nyx.png",
+  imageSrc: "/images/starchasm-nyx.jpg",
   imageAlt: "Starchasm Nyx",
-  position: "object-[-4rem]",
+  position: "object-top",
 };
 
 const signets = {

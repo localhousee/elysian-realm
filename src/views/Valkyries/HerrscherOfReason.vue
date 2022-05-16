@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Herrscher Of Reason",
   imageSrc: "/images/herrscher-of-reason.jpg",
   imageAlt: "Herrscher Of Reason",
-  position: "object-center",
+  position: "object-top",
 };
 
 const signets = {
