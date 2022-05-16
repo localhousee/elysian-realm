@@ -8,9 +8,9 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "9be32ce4-b6e8-4237-bf4d-e091f2d8ee4d",
   name: "Palatinus Equinox",
-  imageSrc: "/images/palatinus-equinox.jpg",
+  imageSrc: "/images/palatinus-equinox.png",
   imageAlt: "Palatinus Equinox",
-  position: "object-top",
+  position: "object-center",
 };
 
 const signets = {

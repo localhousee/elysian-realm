@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Luna Kindred",
   imageSrc: "/images/luna-kindred.png",
   imageAlt: "Luna Kindred",
-  position: "object-[-11rem]",
+  position: "object-center",
 };
 
 const signets = {

@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Miss Pink Elf",
   imageSrc: "/images/miss-pink-elf.png",
   imageAlt: "Miss Pink Elf",
-  position: "object-center",
+  position: "object-left",
 };
 
 const signets = {

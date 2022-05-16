@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Ritual Imayoh",
   imageSrc: "/images/ritual-imayoh.jpg",
   imageAlt: "Ritual Imayoh",
-  position: "object-right-top",
+  position: "object-top",
 };
 
 const signets = {
