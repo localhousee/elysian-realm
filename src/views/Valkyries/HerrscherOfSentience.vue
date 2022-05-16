@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Herrscher Of Sentience",
   imageSrc: "/images/herrscher-of-sentience.jpg",
   imageAlt: "Herrscher Of Sentience",
-  position: "object-top",
+  position: "object-center",
 };
 
 const signets = {

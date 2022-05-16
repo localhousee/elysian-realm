@@ -8,9 +8,9 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "ec41c754-3ba9-4b03-8ad6-c9555838998e",
   name: "Infinite Ouroboros",
-  imageSrc: "/images/infinite-ouroboros.png",
+  imageSrc: "/images/infinite-ouroboros.jpg",
   imageAlt: "Infinite Ouroboros",
-  position: "object-[-10rem]",
+  position: "object-top",
 };
 
 const signets = {

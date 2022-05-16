@@ -94,6 +94,7 @@
       <FallenRosemary />
       <FerventTempo />
       <GoldenDiva />
+      <Griseo />
       <HerrscherOfFlamescion />
       <HerrscherOfReason />
       <HerrscherOfSentience />
@@ -137,6 +138,7 @@ import DisciplinaryPerdition from "./Valkyries/DisciplinaryPerdition.vue";
 import FallenRosemary from "./Valkyries/FallenRosemary.vue";
 import FerventTempo from "./Valkyries/FerventTempo.vue";
 import GoldenDiva from "./Valkyries/GoldenDiva.vue";
+import Griseo from "./Valkyries/Griseo.vue";
 import HerrscherOfFlamescion from "./Valkyries/HerrscherOfFlamescion.vue";
 import HerrscherOfReason from "./Valkyries/HerrscherOfReason.vue";
 import HerrscherOfSentience from "./Valkyries/HerrscherOfSentience.vue";

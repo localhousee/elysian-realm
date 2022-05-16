@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Midnight Absinthe",
   imageSrc: "/images/midnight-absinthe.jpg",
   imageAlt: "Midnight Absinthe",
-  position: "object-[-11rem]",
+  position: "object-left",
 };
 
 const signets = {

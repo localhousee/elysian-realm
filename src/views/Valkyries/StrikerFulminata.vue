@@ -8,9 +8,9 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "a323914a-e801-4879-adc3-977c51fc63e1",
   name: "Striker Fulminata",
-  imageSrc: "/images/striker-fulminata.jpeg",
+  imageSrc: "/images/striker-fulminata.jpg",
   imageAlt: "Striker Fulminata",
-  position: "object-center",
+  position: "object-top",
 };
 
 const signets = {

@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Reverist Calico",
   imageSrc: "/images/reverist-calico.jpg",
   imageAlt: "Reverist Calico",
-  position: "object-[-8rem]",
+  position: "object-center",
 };
 
 const signets = {
