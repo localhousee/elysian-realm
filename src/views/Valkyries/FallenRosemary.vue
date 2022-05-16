@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Fallen Rosemary",
   imageSrc: "/images/fallen-rosemary.jpg",
   imageAlt: "Fallen Rosemary",
-  position: "object-center",
+  position: "object-top",
 };
 
 const signets = {

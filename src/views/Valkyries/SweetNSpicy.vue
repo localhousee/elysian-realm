@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Sweet N Spicy",
   imageSrc: "/images/sweet-n-spicy.jpg",
   imageAlt: "Sweet N Spicy",
-  position: "object-top",
+  position: "object-center",
 };
 
 const signets = {
