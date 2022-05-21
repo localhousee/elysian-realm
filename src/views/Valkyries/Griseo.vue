@@ -13,5 +13,29 @@ const valkyrie = {
   position: "object-center",
 };
 
-const signets = {};
+const signets = {
+builds: [
+    {
+      name: "Omni Ego",
+      supports: [
+        {
+          time: "Early",
+          sigils: "Because of You",
+          support_1: "",
+          support_2: "",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "",
+          support_2: "SA",
+        },
+        {
+          time: "Late",
+          sigils: "Dreamful Gold",
+          support_1: "SS",
+          support_2: "SA",
+        },
+      ],
+};
 </script>
