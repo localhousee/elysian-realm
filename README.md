@@ -1,6 +1,6 @@
 # Elysian Realm Guide For Honkai Impact 3rd
 
-> For v 5.6
+> For v 5.7
 
 Elysian realm is ~~hard~~ fun 😉. I made this web-based guide because ~~why not?~~ i challenge myself since rentry just a bunch of text and hard to do some styling 💩.
 
@@ -70,7 +70,7 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - [Fallen Rosemary](https://www.pixiv.net/en/artworks/91313750)
 - [Disciplinary Perdition](https://www.pixiv.net/en/artworks/97236203)
 - [Fallen Rosemary](https://www.pixiv.net/en/artworks/96067716)
-- [Golden Diva](https://arca.live/b/hk3rd/49782393?p=1)
+- [Golden Diva](https://www.pixiv.net/en/artworks/98058332)
 - [Herrscher Of Flamescion](https://www.pixiv.net/en/artworks/94617489)
 - [Herrscher Of Reason](https://www.pixiv.net/en/artworks/76766584)
 - [Herrscher Of Sentience](https://www.pixiv.net/en/artworks/88230961)
