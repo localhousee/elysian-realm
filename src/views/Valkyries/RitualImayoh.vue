@@ -73,7 +73,7 @@ const signets = {
           lists: [
             {
               name: "Lip Poison [E]",
-              desc: "Total DMG from summoned entities, ELFs, and Support Valkyries increases by 60%. ELFs",
+              desc: "Total DMG from summoned entities, ELFs, and Support Valkyries increases by 60%",
               priority: "1st",
             },
             {
