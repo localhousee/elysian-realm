@@ -96,90 +96,90 @@ const signets = {
               desc: "Intoxicated enemies take only 10% bonus Total DMG but it can stack up to 3 times",
               priority: "1st",
             },
+          ],
+        },
+        {
+          name: "Kalpas 2",
+          lists: [
             {
-              name: "Kalpas 2",
-              lists: [
-                {
-                  name: "Path, Misfortune, and Written Fate",
-                  desc: "Max HP increases by 25%",
-                  priority: "1st",
-                },
-                {
-                  name: "Bone, Blood, and Ribbon",
-                  desc: "Every 100 HP loss boosts Physical & Elemental DMG by 0.8%",
-                  priority: "2nd",
-                },
-                {
-                  name: "Blade, Grave, and Scar",
-                  desc: "Every 100 HP loss boosts Total DMG by 1%",
-                  priority: "3rd",
-                },
-                {
-                  name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
-                  desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
-                  priority: "CORE",
-                },
-                {
-                  name: "Hometown, Homeland, Friends, and Acquaintances",
-                  desc: "If [Bloodboil Garment] exceeds 1500, gain 25% physical and elemental breach",
-                  priority: "YES",
-                },
-              ],
+              name: "Path, Misfortune, and Written Fate",
+              desc: "Max HP increases by 25%",
+              priority: "1st",
             },
             {
-              name: "Aponia 1",
-              lists: [
-                {
-                  name: "Fourth, No Insolence",
-                  desc: "Exhortation increases by 5 per second and caps at 200. Ultimate's Physical and Elemental DMG increases by 0.3% of of Exhortation. Using weapon skills reduces 50% Exhortation",
-                  priority: "1st",
-                },
-                {
-                  name: "Fifth, No Falsehood",
-                  desc: "Valkyrie starts with 70 bonus Exhortation. Whenever Exhortation is reduced, enemies take 25% bonus Total DMG for 5s. Can be refreshed",
-                  priority: "2nd",
-                },
-                {
-                  name: "First, No Betrayal",
-                  desc: "Exhortation increases by 5 per second and caps at 200. Basic ATK's Total DMG increases by 0.3% of Exhortation. Triggering Ultimate Evasion Skill reduces 50% Exhortation",
-                  priority: "3rd",
-                },
-                {
-                  name: "Nexus Signet: You Shall Be Subject to Numerous Disciplines",
-                  desc: "Reaching 120 Exhortation induces Mortification where Valkyrie Total DMG increases by 25% of Exhortation. Also, for every Signet of Discipline unlocked, Valkyrie deals 5% bonus Physical DMG and Elemental DMG",
-                  priority: "CORE",
-                },
-                {
-                  name: "You Shall Be Bound by Thy Body",
-                  desc: "In Mortification, Basic ATK has 30% Physical Breach and Elemental Breach but Ultimate deals 20% less Total DMG",
-                  priority: "1st",
-                },
-              ],
+              name: "Bone, Blood, and Ribbon",
+              desc: "Every 100 HP loss boosts Physical & Elemental DMG by 0.8%",
+              priority: "2nd",
             },
             {
-              name: "Griseo 1 (Optional)",
-              lists: [
-                {
-                  name: "Red & Hot",
-                  desc: "Using a weapon active taints enemies nearby with red paint for 8s and makes them take 25% bonus Physical and Elemental MG (cannot stack). Triggering it again resets the duration",
-                  priority: "1st",
-                },
-                {
-                  name: "Grey & Empty",
-                  desc: "Enemies stay tainted for 5s longer",
-                  priority: "2nd",
-                },
-                {
-                  name: "White & Bright",
-                  desc: "Every time an enemy is tainted, Valkyrie restores 12 SP. CD: 5s",
-                  priority: "3rd",
-                },
-                {
-                  name: "Nexus Signet: Shine like Stars",
-                  desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
-                  priority: "CORE",
-                },
-              ],
+              name: "Blade, Grave, and Scar",
+              desc: "Every 100 HP loss boosts Total DMG by 1%",
+              priority: "3rd",
+            },
+            {
+              name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
+              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
+              priority: "CORE",
+            },
+            {
+              name: "Hometown, Homeland, Friends, and Acquaintances",
+              desc: "If [Bloodboil Garment] exceeds 1500, gain 25% physical and elemental breach",
+              priority: "YES",
+            },
+          ],
+        },
+        {
+          name: "Aponia 1",
+          lists: [
+            {
+              name: "Fourth, No Insolence",
+              desc: "Exhortation increases by 5 per second and caps at 200. Ultimate's Physical and Elemental DMG increases by 0.3% of of Exhortation. Using weapon skills reduces 50% Exhortation",
+              priority: "1st",
+            },
+            {
+              name: "Fifth, No Falsehood",
+              desc: "Valkyrie starts with 70 bonus Exhortation. Whenever Exhortation is reduced, enemies take 25% bonus Total DMG for 5s. Can be refreshed",
+              priority: "2nd",
+            },
+            {
+              name: "First, No Betrayal",
+              desc: "Exhortation increases by 5 per second and caps at 200. Basic ATK's Total DMG increases by 0.3% of Exhortation. Triggering Ultimate Evasion Skill reduces 50% Exhortation",
+              priority: "3rd",
+            },
+            {
+              name: "Nexus Signet: You Shall Be Subject to Numerous Disciplines",
+              desc: "Reaching 120 Exhortation induces Mortification where Valkyrie Total DMG increases by 25% of Exhortation. Also, for every Signet of Discipline unlocked, Valkyrie deals 5% bonus Physical DMG and Elemental DMG",
+              priority: "CORE",
+            },
+            {
+              name: "You Shall Be Bound by Thy Body",
+              desc: "In Mortification, Basic ATK has 30% Physical Breach and Elemental Breach but Ultimate deals 20% less Total DMG",
+              priority: "1st",
+            },
+          ],
+        },
+        {
+          name: "Griseo 1 (Optional)",
+          lists: [
+            {
+              name: "Red & Hot",
+              desc: "Using a weapon active taints enemies nearby with red paint for 8s and makes them take 25% bonus Physical and Elemental MG (cannot stack). Triggering it again resets the duration",
+              priority: "1st",
+            },
+            {
+              name: "Grey & Empty",
+              desc: "Enemies stay tainted for 5s longer",
+              priority: "2nd",
+            },
+            {
+              name: "White & Bright",
+              desc: "Every time an enemy is tainted, Valkyrie restores 12 SP. CD: 5s",
+              priority: "3rd",
+            },
+            {
+              name: "Nexus Signet: Shine like Stars",
+              desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
+              priority: "CORE",
             },
           ],
         },
