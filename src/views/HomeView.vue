@@ -256,32 +256,32 @@
           xl:gap-x-8
         "
       >
-        <ArgentKnightArtemis v-if="'argent knight artemis ice rita'.includes(query)" />
-        <BrightKnightExcelsis v-if="'durandal bright knight excelsis dudu'.includes(query)" />
-        <DeaAnchora v-if="'durandal dea anchora dudu'.includes(query)" />
-        <DisciplinaryPerdition v-if="'boob nun disciplinary perdition aponia dpe dip'.includes(query)" />
-        <FallenRosemary v-if="'fallen rosemary rita'.includes(query)" />
-        <GoldenDiva v-if="'boob golden diva eden'.includes(query)" />
-        <HerrscherOfFlamescion v-if="'herrscher of flamescion hof hf fk tuna fire tuna'.includes(query)" />
-        <HerrscherOfReason v-if="'herrscher of reason hor hr bronya'.includes(query)" />
-        <HerrscherOfSentience v-if="'herrscher of sentience hos hs senti hua fuhua fu hua'.includes(query)" />
-        <HerrscherOfThunder v-if="'herrscher of thunder hot ht mei'.includes(query)" />
-        <InfiniteOuroboros v-if="'infinite ouroboros mobius io'.includes(query)" />
-        <LunaKindred v-if="'luna kindred lk theresa'.includes(query)" />
-        <MidnightAbsinthe v-if="'midnight absinthe raven ma'.includes(query)" />
-        <MissPinkElf v-if="'miss pink elf elysia me'.includes(query)" />
-        <PalatinusEquinox v-if="'durandal palatinus equinox pe dudu'.includes(query)" />
-        <PrinzessinDerVerurteilung v-if="'prinzessin der verurteilung pv fish fischl'.includes(query)" />
-        <ReveristCalico v-if="'reveris calico cat neko rc'.includes(query)" />
-        <RitualImayoh v-if="'ritual imayoh kallen ri'.includes(query)" />
-        <SilverwingNEX v-if="'silverwing nex nex boob bronya'.includes(query)" />
+        <ArgentKnightArtemis v-if="'argent knight artemis ice rita aka'.includes(query)" />
+        <BrightKnightExcelsis v-if="'durandal bright knight excelsis dudu bkek physical'.includes(query)" />
+        <DeaAnchora v-if="'durandal dea anchora fire dudu da'.includes(query)" />
+        <DisciplinaryPerdition v-if="'boob nun disciplinary perdition aponia dpe dip lightning'.includes(query)" />
+        <FallenRosemary v-if="'fr fallen rosemary rita lightning'.includes(query)" />
+        <GoldenDiva v-if="'boob golden diva eden gd lightning'.includes(query)" />
+        <HerrscherOfFlamescion v-if="'herrscher of flamescion hofs hfs fk fire tuna'.includes(query)" />
+        <HerrscherOfReason v-if="'herrscher of reason hor hr bronya ice'.includes(query)" />
+        <HerrscherOfSentience v-if="'herrscher of sentience hos hs senti fuhua fu hua physical'.includes(query)" />
+        <HerrscherOfThunder v-if="'herrscher of thunder hot ht mei lightning'.includes(query)" />
+        <InfiniteOuroboros v-if="'infinite ouroboros mobius io lightning'.includes(query)" />
+        <LunaKindred v-if="'luna kindred lk theresa physical'.includes(query)" />
+        <MidnightAbsinthe v-if="'midnight absinthe raven ma fire'.includes(query)" />
+        <MissPinkElf v-if="'miss pink elf elysia me physical'.includes(query)" />
+        <PalatinusEquinox v-if="'durandal palatinus equinox pe dudu physical'.includes(query)" />
+        <PrinzessinDerVerurteilung v-if="'prinzessin der verurteilung pv fish fischl lightning'.includes(query)" />
+        <ReveristCalico v-if="'reverist calico cat neko rc ice'.includes(query)" />
+        <RitualImayoh v-if="'ritual imayoh kallen ri physical'.includes(query)" />
+        <SilverwingNEX v-if="'silverwing nex boob bronya ice'.includes(query)" />
         <SpinaAstera v-if="'spina astera spa fire rita'.includes(query)" />
-        <StarchasmNyx v-if="'starchasm nyx snyx seele'.includes(query)" />
-        <StrikerFulminata v-if="'striker fulminata mei stfu'.includes(query)" />
-        <StygianNymph v-if="'stygnian nymph seele sn'.includes(query)" />
-        <SweetNSpicy v-if="'sweet n spicy carole sns'.includes(query)" />
-        <TwilightPaladin v-if="'twilight paladin tp theresa'.includes(query)" />
-        <ValkyrieGloria v-if="'durandal valkyrie gloria vg dudu'.includes(query)" />
+        <StarchasmNyx v-if="'starchasm nyx snyx ice seele'.includes(query)" />
+        <StrikerFulminata v-if="'striker fulminata mei stfu physical'.includes(query)" />
+        <StygianNymph v-if="'stygnian nymph seele sn physical'.includes(query)" />
+        <SweetNSpicy v-if="'sweet n spicy carole sns physical'.includes(query)" />
+        <TwilightPaladin v-if="'twilight paladin tp theresa physical'.includes(query)" />
+        <ValkyrieGloria v-if="'durandal valkyrie gloria vg dudu fire'.includes(query)" />
       </div>
     </div>
   </div>
