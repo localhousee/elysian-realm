@@ -110,7 +110,7 @@
           </p>
         </div>
       </Modal>
-      <Modal>
+      <!-- <Modal>
         <template #title
           ><svg
             xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@
             </div>
           </SwitchGroup>
         </div>
-      </Modal>
+      </Modal> -->
       <a
         href="https://rentry.org/hi3er"
         target="_blank"
@@ -297,7 +297,7 @@ import {
   ComboboxOption,
   TransitionRoot,
 } from "@headlessui/vue";
-import { Switch, SwitchGroup, SwitchLabel } from "@headlessui/vue";
+// import { Switch, SwitchGroup, SwitchLabel } from "@headlessui/vue";
 import { CheckIcon, SelectorIcon } from "@heroicons/vue/solid";
 import Modal from "../components/Modal.vue";
 import ArgentKnightArtemis from "./Valkyries/ArgentKnightArtemis.vue";
