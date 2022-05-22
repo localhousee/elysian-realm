@@ -1,5 +1,5 @@
 <template>
-  <Disclosure v-slot="{ open }" as="div">
+  <Disclosure v-slot="{ open }" as="div" class="group">
     <DisclosureButton
       class="
         flex
@@ -9,25 +9,28 @@
         py-2
         text-sm
         font-medium
-        text-left text-purple-900
-        bg-purple-100
+        text-left
+        bg-slate-300
+        group-hover:bg-slate-600
+        group-hover:text-white
+        dark:bg-slate-900
+        text-slate-900
+        dark:text-white
+        dark:hover:bg-slate-700
         rounded-lg
-        hover:bg-purple-200
         focus:outline-none
         focus-visible:ring
-        focus-visible:ring-purple-500
-        focus-visible:ring-opacity-75
       "
     >
       <span>{{ signet.name }}</span>
       <ChevronUpIcon
         :class="open ? 'transform rotate-180' : ''"
-        class="w-5 h-5 text-purple-500"
+        class="w-5 h-5 text-slate-900 group-hover:text-white"
       />
     </DisclosureButton>
-    <DisclosurePanel class="px-4 text-sm flex flex-col bg-white">
+    <DisclosurePanel class="px-4 text-sm flex flex-col bg-white dark:bg-slate-800">
       <div
-        class="bg-gradient-to-r from-pink-500 to-pink-600  rounded-lg mb-2 flex items-center text-white py-2"
+        class="mt-2 text-slate-100 bg-cyan-600 dark:bg-gray-700 dark:text-white rounded-lg mb-2 flex items-center py-2"
         v-if="signet.info"
       >
         <div class="px-2">
@@ -48,24 +51,24 @@
         </div>
         <span v-text="signet.info" />
       </div>
-      <table class="table-auto w-full">
+      <table class="table-auto w-full mt-2">
         <thead>
-          <tr class="uppercase">
-            <th class="border border-indigo-600">Signet</th>
-            <th class="border border-indigo-600">Priority</th>
+          <tr class="uppercase bg-gray-300 dark:bg-gray-800 dark:text-gray-100">
+            <th class="border border-slate-600 py-2">Signet</th>
+            <th class="border border-slate-600 py-2">Priority</th>
           </tr>
         </thead>
         <tr v-for="(signet, index) in signet.lists" :key="index">
-          <td class="border border-indigo-600">
+          <td class="border border-slate-600 dark:text-white">
             <div class="flex flex-col px-4 py-2">
               <span
                 class="font-semibold underline text-base"
                 v-text="signet.name"
               />
-              <span class="text-sm text-gray-600" v-text="signet.desc" />
+              <span class="text-sm text-gray-600 dark:text-gray-400" v-text="signet.desc" />
             </div>
           </td>
-          <td class="border border-indigo-600 text-center">
+          <td class="border border-slate-600 dark:text-white text-center">
             <span
               v-text="signet.priority"
               :class="
