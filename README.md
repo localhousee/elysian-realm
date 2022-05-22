@@ -71,7 +71,7 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - [Disciplinary Perdition](https://www.pixiv.net/en/artworks/97236203)
 - [Fallen Rosemary](https://www.pixiv.net/en/artworks/96067716)
 - [Golden Diva](https://www.pixiv.net/en/artworks/98058332)
-- [Herrscher Of Flamescion](https://www.pixiv.net/en/artworks/94617489)
+- [Herrscher Of Flamescion](https://www.pixiv.net/en/artworks/97069787)
 - [Herrscher Of Reason](https://www.pixiv.net/en/artworks/76766584)
 - [Herrscher Of Sentience](https://www.pixiv.net/en/artworks/88230961)
 - [Herrscher Of Thunder](https://www.pixiv.net/en/artworks/88614964)
