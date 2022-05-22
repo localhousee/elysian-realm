@@ -1,8 +1,6 @@
 <template>
   <TabGroup>
-    <TabList
-      class="flex p-1 space-x-1 bg-slate-800 rounded-xl"
-    >
+    <TabList class="flex p-1 space-x-1 bg-slate-800 rounded-xl">
       <Tab
         v-for="(signet, index) in signets.builds"
         as="template"
@@ -25,10 +23,7 @@
       <TabPanel
         v-for="(signet, index) in signets.builds"
         :key="index"
-        :class="[
-          'dark:bg-slate-800 rounded-xl p-3',
-          'focus:outline-none',
-        ]"
+        :class="['dark:bg-slate-800 rounded-xl p-3', 'focus:outline-none']"
       >
         <div class="relative p-3 rounded-md">
           <Support :support="signet.supports" />
