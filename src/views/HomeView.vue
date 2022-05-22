@@ -281,14 +281,14 @@
         <StygianNymph v-if="'stygnian nymph seele sn'.includes(query)" />
         <SweetNSpicy v-if="'sweet n spicy carole sns'.includes(query)" />
         <TwilightPaladin v-if="'twilight paladin tp theresa'.includes(query)" />
-        <ValkyrieGloria v-if="'valkyrie gloria vg dudu'.includes(query)" />
+        <ValkyrieGloria v-if="'durandal valkyrie gloria vg dudu'.includes(query)" />
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, watchEffect } from "vue";
+import { ref, watchEffect } from "vue";
 import {
   Combobox,
   ComboboxInput,
