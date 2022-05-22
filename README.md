@@ -64,6 +64,8 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 
 - [Website Icon](https://www.pixiv.net/en/artworks/94907919)
 - [Remove Background](https://www.remove.bg)
+- [Color Pallete](https://tailwindcss.com)
+- [Design Inspiration](https://www.leagueoflegends.com/en-us/champions)
 - [Argent Knight: Artemis](https://www.pixiv.net/en/artworks/78449180)
 - [Bright Knight: Excelsis](https://www.pixiv.net/en/artworks/80946649)
 - [Dea Anchora](https://www.pixiv.net/en/artworks/90693107)

@@ -3,11 +3,10 @@
     <div
       class="
         w-full
-        aspect-w-1 aspect-h-1
         bg-gray-200
         rounded-tr-[30px]
         overflow-hidden
-        xl:aspect-w-7 xl:aspect-h-8
+        aspect-w-7 aspect-h-8
         group-hover:rounded-none
       "
     >
@@ -30,7 +29,6 @@
     </div>
     <h3
       class="
-        text-sm
         bg-slate-900
         group-hover:bg-slate-700
         dark:bg-cyan-600
@@ -42,13 +40,14 @@
         text-white
         font-semibold
         group-hover:font-bold group-hover:rounded-none
+        text-xs
       "
     >
       <p
         class="
           transform
           ml-4
-          group-hover:translate-x-3
+          group-hover:translate-x-2
           transition-transform
           ease-in-out
           duration-500

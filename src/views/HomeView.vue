@@ -248,11 +248,11 @@
     >
       <div
         class="
-          grid grid-cols-1
           gap-y-10
-          sm:grid-cols-2
           gap-x-6
-          lg:grid-cols-4
+          grid grid-cols-2
+          md:grid-cols-4
+          lg:grid-cols-5
           xl:gap-x-8
         "
       >
