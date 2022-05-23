@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/disciplinary-perdition.jpg",
   imageAlt: "Disciplinary Perdition",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/disciplinary-perdition.jpg",
+    imageAlt: "Derp Disciplinary Perdition",
+    position: "object-center",
+  }
 };
 
 const signets = {

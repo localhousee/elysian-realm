@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/striker-fulminata.jpg",
   imageAlt: "Striker Fulminata",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/striker-fulminata.jpg",
+    imageAlt: "Derp Striker Fulminata",
+    position: "object-center",
+  }
 };
 
 const signets = {

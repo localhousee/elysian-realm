@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/silverwing-nex.png",
   imageAlt: "Silverwing: N-EX",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/derp/silverwing-nex.png",
+    imageAlt: "Derp Silverwing: N-EX",
+    position: "object-center",
+  }
 };
 
 const signets = {

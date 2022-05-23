@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/spina-astera.jpg",
   imageAlt: "Spina Astera",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/spina-astera.jpg",
+    imageAlt: "Derp Spina Astera",
+    position: "object-center",
+  }
 };
 
 const signets = {

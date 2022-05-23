@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/twilight-paladin.jpg",
   imageAlt: "Twilight Paladin",
   position: "object-right",
+  derp: {
+    imageSrc: "/images/twilight-paladin.jpg",
+    imageAlt: "Derp Twilight Paladin",
+    position: "object-center",
+  }
 };
 
 const signets = {

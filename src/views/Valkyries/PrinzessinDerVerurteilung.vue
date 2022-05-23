@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/prinzessin-der-verurteilung.png",
   imageAlt: "Prinzessin der Verurteilung",
   position: "object-right-top",
+  derp: {
+    imageSrc: "/images/derp/prinzessin-der-verurteilung.png",
+    imageAlt: "Derp Prinzessin der Verurteilung",
+    position: "object-center",
+  }
 };
 
 const signets = {

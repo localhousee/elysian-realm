@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/reverist-calico.jpg",
   imageAlt: "Reverist Calico",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/derp/reverist-calico.png",
+    imageAlt: "Derp Reverist Calico",
+    position: "object-center",
+  }
 };
 
 const signets = {

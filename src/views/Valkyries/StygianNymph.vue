@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/stygian-nymph.jpg",
   imageAlt: "Stygian Nymph",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/stygian-nymph.jpg",
+    imageAlt: "Derp Stygian Nymph",
+    position: "object-center",
+  }
 };
 
 const signets = {

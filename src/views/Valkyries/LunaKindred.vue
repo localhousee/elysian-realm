@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/luna-kindred.png",
   imageAlt: "Luna Kindred",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/luna-kindred.png",
+    imageAlt: "Derp Luna Kindred",
+    position: "object-center",
+  }
 };
 
 const signets = {

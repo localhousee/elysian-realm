@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/herrscher-of-flamescion.jpg",
   imageAlt: "Herrscher of Flamescion",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/derp/herrscher-of-flamescion.png",
+    imageAlt: "Derp Herrscher of Flamescion",
+    position: "object-center",
+  }
 };
 
 const signets = {

@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/golden-diva.jpg",
   imageAlt: "Golden Diva",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/golden-diva.jpg",
+    imageAlt: "Derp Argent Knight: Artemis",
+    position: "object-center",
+  }
 };
 
 const signets = {

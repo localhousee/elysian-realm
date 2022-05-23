@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/fallen-rosemary.jpg",
   imageAlt: "Fallen Rosemary",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/derp/fallen-rosemary.jpg",
+    imageAlt: "Derp Fallen Rosemary",
+    position: "object-center",
+  }
 };
 
 const signets = {

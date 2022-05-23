@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/palatinus-equinox.png",
   imageAlt: "Palatinus Equinox",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/derp/palatinus-equinox.png",
+    imageAlt: "Derp Palatinus Equinox",
+    position: "object-center",
+  }
 };
 
 const signets = {

@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/dea-anchora.png",
   imageAlt: "Dea Anchora",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/derp/dea-anchora.png",
+    imageAlt: "Derp Dea Anchora",
+    position: "object-center",
+  }
 };
 
 const signets = {

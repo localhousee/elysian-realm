@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/herrscher-of-sentience.jpg",
   imageAlt: "Herrscher Of Sentience",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/derp/herrscher-of-sentience.png",
+    imageAlt: "Derp Herrscher Of Sentience",
+    position: "object-center",
+  }
 };
 
 const signets = {

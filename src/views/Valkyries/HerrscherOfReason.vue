@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/herrscher-of-reason.png",
   imageAlt: "Herrscher Of Reason",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/herrscher-of-reason.png",
+    imageAlt: "Derp Herrscher Of Reason",
+    position: "object-center",
+  }
 };
 
 const signets = {

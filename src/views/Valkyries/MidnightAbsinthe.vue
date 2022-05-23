@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/midnight-absinthe.jpg",
   imageAlt: "Midnight Absinthe",
   position: "object-left",
+  derp: {
+    imageSrc: "/images/derp/midnight-absinthe.png",
+    imageAlt: "Derp Midnight Absinthe",
+    position: "object-center",
+  }
 };
 
 const signets = {

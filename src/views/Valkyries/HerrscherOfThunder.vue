@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/herrscher-of-thunder.png",
   imageAlt: "Herrscher Of Thunder",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/derp/herrscher-of-thunder.png",
+    imageAlt: "Derp Herrscher Of Thunder",
+    position: "object-center",
+  }
 };
 
 const signets = {

@@ -141,14 +141,16 @@
             dark:text-white
             mx-4
             space-y-4
+            flex
+            flex-col
           "
         >
-          <SwitchGroup>
-            <div class="flex items-center">
-              <SwitchLabel passive class="mr-4">Dark Mode</SwitchLabel>
+          <div class="flex justify-between">
+            <label>Dark Mode</label>
+            <SwitchGroup>
               <Switch
-                v-model="darkMode"
-                :class="darkMode ? 'bg-gray-800' : 'bg-gray-200'"
+                v-model="isDarkMode"
+                :class="isDarkMode ? 'bg-gray-800' : 'bg-gray-200'"
                 class="
                   relative
                   inline-flex
@@ -163,7 +165,7 @@
                 "
               >
                 <span
-                  :class="darkMode ? 'translate-x-6' : 'translate-x-1'"
+                  :class="isDarkMode ? 'translate-x-6' : 'translate-x-1'"
                   class="
                     inline-block
                     h-4
@@ -175,8 +177,47 @@
                   "
                 />
               </Switch>
+            </SwitchGroup>
+          </div>
+          <div class="flex justify-between">
+            <div class="flex flex-col">
+              <label>Derp Mode</label>
+              <span class="text-xs text-red-500 dark:text-rose-500"
+                >Some Valks may not change to Derp Mode</span
+              >
             </div>
-          </SwitchGroup>
+            <SwitchGroup>
+              <Switch
+                v-model="isDerpMode"
+                :class="isDerpMode ? 'bg-gray-800' : 'bg-gray-200'"
+                class="
+                  relative
+                  inline-flex
+                  h-6
+                  w-11
+                  items-center
+                  rounded-full
+                  transition-colors
+                  focus:outline-none focus:ring-2 focus:ring-slate-900
+                  dark:focus:ring-slate-500
+                  focus:ring-offset-2
+                "
+              >
+                <span
+                  :class="isDerpMode ? 'translate-x-6' : 'translate-x-1'"
+                  class="
+                    inline-block
+                    h-4
+                    w-4
+                    transform
+                    rounded-full
+                    bg-white
+                    transition-transform
+                  "
+                />
+              </Switch>
+            </SwitchGroup>
+          </div>
         </div>
       </Modal>
       <a
@@ -225,8 +266,7 @@
         placeholder="Search for Valkyrie ..."
         class="
           bg-gray-200
-          dark:bg-slate-700
-          dark:text-slate-100
+          dark:bg-slate-700 dark:text-slate-100
           px-8
           py-2
           w-full
@@ -235,9 +275,7 @@
           rounded-full
           caret-slate-800
           placeholder-slate-500
-          dark:caret-slate-300
-          dark:shadow-slate-800
-          dark:placeholder-slate-500
+          dark:caret-slate-300 dark:shadow-slate-800 dark:placeholder-slate-500
           focus:outline-none focus:ring-0
           shadow-lg
         "
@@ -248,40 +286,113 @@
     >
       <div
         class="
-          gap-y-10
-          gap-x-6
+          gap-y-10 gap-x-6
           grid grid-cols-2
           md:grid-cols-4
           lg:grid-cols-5
           xl:gap-x-8
         "
       >
-        <ArgentKnightArtemis v-if="'argent knight artemis rita aka'.includes(query)" />
-        <BrightKnightExcelsis v-if="'durandal bright knight excelsis dudu bkek'.includes(query)" />
-        <DeaAnchora v-if="'durandal dea anchora dudu da'.includes(query)" />
-        <DisciplinaryPerdition v-if="'disciplinary perdition aponia dpe dip'.includes(query)" />
-        <FallenRosemary v-if="'fr fallen rosemary rita'.includes(query)" />
-        <GoldenDiva v-if="'golden diva eden gd'.includes(query)" />
-        <HerrscherOfFlamescion v-if="'herrscher of flamescion hofs hfs fk kiana'.includes(query)" />
-        <HerrscherOfReason v-if="'herrscher of reason hor hr bronya'.includes(query)" />
-        <HerrscherOfSentience v-if="'herrscher of sentience hos hs fuhua fu hua fuka'.includes(query)" />
-        <HerrscherOfThunder v-if="'herrscher of thunder hot ht mei'.includes(query)" />
-        <InfiniteOuroboros v-if="'infinite ouroboros mobius io'.includes(query)" />
-        <LunaKindred v-if="'teri-teri teriri luna kindred lk theresa'.includes(query)" />
-        <MidnightAbsinthe v-if="'midnight absinthe raven ma'.includes(query)" />
-        <MissPinkElf v-if="'miss pink elf elysia mpe'.includes(query)" />
-        <PalatinusEquinox v-if="'durandal palatinus equinox pe dudu juan'.includes(query)" />
-        <PrinzessinDerVerurteilung v-if="'prinzessin der verurteilung pv fish fischl'.includes(query)" />
-        <ReveristCalico v-if="'reverist calico cat neko rc pardofelis'.includes(query)" />
-        <RitualImayoh v-if="'ritual imayoh kallen ir'.includes(query)" />
-        <SilverwingNEX v-if="'silverwing nex bronya n-ex sw'.includes(query)" />
-        <SpinaAstera v-if="'spina astera spa rita'.includes(query)" />
-        <StarchasmNyx v-if="'starchasm nyx seele'.includes(query)" />
-        <StrikerFulminata v-if="'striker fulminata mei stfu'.includes(query)" />
-        <StygianNymph v-if="'stygnian nymph seele sn'.includes(query)" />
-        <SweetNSpicy v-if="'sweet n spicy carole sns'.includes(query)" />
-        <TwilightPaladin v-if="'teri-teri teriri twilight paladin tp theresa'.includes(query)" />
-        <ValkyrieGloria v-if="'durandal valkyrie gloria vg dudu'.includes(query)" />
+        <ArgentKnightArtemis
+          :key="key"
+          v-if="'argent knight artemis rita aka'.includes(query)"
+        />
+        <BrightKnightExcelsis
+          :key="key"
+          v-if="'durandal bright knight excelsis dudu bkek'.includes(query)"
+        />
+        <DeaAnchora
+          :key="key"
+          v-if="'durandal dea anchora dudu da'.includes(query)"
+        />
+        <DisciplinaryPerdition
+          :key="key"
+          v-if="'disciplinary perdition aponia dpe dip'.includes(query)"
+        />
+        <FallenRosemary
+          :key="key"
+          v-if="'fr fallen rosemary rita'.includes(query)"
+        />
+        <GoldenDiva :key="key" v-if="'golden diva eden gd'.includes(query)" />
+        <HerrscherOfFlamescion
+          :key="key"
+          v-if="'herrscher of flamescion hofs hfs fk kiana'.includes(query)"
+        />
+        <HerrscherOfReason
+          :key="key"
+          v-if="'herrscher of reason hor hr bronya'.includes(query)"
+        />
+        <HerrscherOfSentience
+          :key="key"
+          v-if="
+            'herrscher of sentience hos hs fuhua fu hua fuka'.includes(query)
+          "
+        />
+        <HerrscherOfThunder
+          :key="key"
+          v-if="'herrscher of thunder hot ht mei'.includes(query)"
+        />
+        <InfiniteOuroboros
+          :key="key"
+          v-if="'infinite ouroboros mobius io'.includes(query)"
+        />
+        <LunaKindred
+          :key="key"
+          v-if="'teri-teri teriri luna kindred lk theresa'.includes(query)"
+        />
+        <MidnightAbsinthe
+          :key="key"
+          v-if="'midnight absinthe raven ma'.includes(query)"
+        />
+        <MissPinkElf
+          :key="key"
+          v-if="'miss pink elf elysia mpe'.includes(query)"
+        />
+        <PalatinusEquinox
+          :key="key"
+          v-if="'durandal palatinus equinox pe dudu juan'.includes(query)"
+        />
+        <PrinzessinDerVerurteilung
+          :key="key"
+          v-if="'prinzessin der verurteilung pv fish fischl'.includes(query)"
+        />
+        <ReveristCalico
+          :key="key"
+          v-if="'reverist calico cat neko rc pardofelis'.includes(query)"
+        />
+        <RitualImayoh
+          :key="key"
+          v-if="'ritual imayoh kallen ir'.includes(query)"
+        />
+        <SilverwingNEX
+          :key="key"
+          v-if="'silverwing nex bronya n-ex sw'.includes(query)"
+        />
+        <SpinaAstera
+          :key="key"
+          v-if="'spina astera spa rita'.includes(query)"
+        />
+        <StarchasmNyx :key="key" v-if="'starchasm nyx seele'.includes(query)" />
+        <StrikerFulminata
+          :key="key"
+          v-if="'striker fulminata mei stfu'.includes(query)"
+        />
+        <StygianNymph
+          :key="key"
+          v-if="'stygnian nymph seele sn'.includes(query)"
+        />
+        <SweetNSpicy
+          :key="key"
+          v-if="'sweet n spicy carole sns'.includes(query)"
+        />
+        <TwilightPaladin
+          :key="key"
+          v-if="'teri-teri teriri twilight paladin tp theresa'.includes(query)"
+        />
+        <ValkyrieGloria
+          :key="key"
+          v-if="'durandal valkyrie gloria vg dudu'.includes(query)"
+        />
       </div>
     </div>
   </div>
@@ -289,16 +400,7 @@
 
 <script setup>
 import { ref, watchEffect } from "vue";
-import {
-  Combobox,
-  ComboboxInput,
-  ComboboxButton,
-  ComboboxOptions,
-  ComboboxOption,
-  TransitionRoot,
-} from "@headlessui/vue";
 import { Switch, SwitchGroup, SwitchLabel } from "@headlessui/vue";
-import { CheckIcon, SelectorIcon } from "@heroicons/vue/solid";
 import Modal from "../components/Modal.vue";
 import ArgentKnightArtemis from "./Valkyries/ArgentKnightArtemis.vue";
 import BrightKnightExcelsis from "./Valkyries/BrightKnightExcelsis.vue";
@@ -328,20 +430,29 @@ import TwilightPaladin from "./Valkyries/TwilightPaladin.vue";
 import ValkyrieGloria from "./Valkyries/ValkyrieGloria.vue";
 
 let query = ref("");
-let darkMode = ref(false);
+let isDerpMode = ref(false);
+let isDarkMode = ref(false);
 let html = document.getElementById("theme");
+let body = document.getElementById("derp");
+let key = ref(Number.MIN_SAFE_INTEGER);
 
 watchEffect(() => {
-  // Filter the valkyries
   if (query.value.length > 0) {
     query.value = query.value.toLowerCase();
   }
 
-  // Dark mode toggle
-  if(darkMode.value) {
+  if (isDarkMode.value) {
     html.setAttribute("class", "dark");
   } else {
-    html.setAttribute("class", "");
+    html.removeAttribute("class");
+  }
+
+  if (isDerpMode.value) {
+    body.setAttribute("derp-data", "derp");
+    key.value++;
+  } else {
+    body.removeAttribute("derp-data");
+    key.value++;
   }
 });
 </script>

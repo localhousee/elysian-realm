@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/miss-pink-elf.png",
   imageAlt: "Miss Pink Elf",
   position: "object-left",
+  derp: {
+    imageSrc: "/images/derp/miss-pink-elf.png",
+    imageAlt: "Derp Miss Pink Elf",
+    position: "object-center",
+  }
 };
 
 const signets = {

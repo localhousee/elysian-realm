@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/infinite-ouroboros.jpg",
   imageAlt: "Infinite Ouroboros",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/derp/infinite-ouroboros.png",
+    imageAlt: "Derp Infinite Ouroboros",
+    position: "object-center",
+  }
 };
 
 const signets = {

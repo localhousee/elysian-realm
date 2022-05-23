@@ -10,7 +10,24 @@
         group-hover:rounded-none
       "
     >
+      <img v-if="derpMode"
+        loading="lazy"
+        :src="valkyrie.derp.imageSrc"
+        :alt="valkyrie.derp.imageAlt"
+        class="
+          w-full
+          h-full
+          object-cover
+          transtition-transform
+          ease-in-out
+          duration-500
+          transform
+          group-hover:scale-110
+        "
+        :class="valkyrie.position"
+      />
       <img
+        v-if="!derpMode"
         loading="lazy"
         :src="valkyrie.imageSrc"
         :alt="valkyrie.imageAlt"
@@ -57,6 +74,7 @@
       </p>
     </h3>
   </a>
+
   <TransitionRoot as="template" :show="open" :id="valkyrie.id">
     <Dialog
       as="div"
@@ -182,8 +200,8 @@
 </template>
 
 <script setup>
-  import { ref } from "vue";
-  import { Dialog, DialogOverlay, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import { ref, watchEffect } from "vue";
+import { Dialog, DialogOverlay, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import { XIcon } from '@heroicons/vue/outline'
 import Tabs from './Tabs.vue'
 
@@ -193,4 +211,14 @@ defineProps({
 });
 
 const open = ref(false);
+let derpMode = ref(false);
+let derp = document.getElementById('derp');
+
+watchEffect(() => {
+  if (derp.hasAttribute('derp-data')) {
+    derpMode.value = true;
+  } else {
+    derpMode.value = false;
+  }
+});
 </script>

@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/ritual-imayoh.jpg",
   imageAlt: "Ritual Imayoh",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/ritual-imayoh.jpg",
+    imageAlt: "Derp Ritual Imayoh",
+    position: "object-center",
+  }
 };
 
 const signets = {
