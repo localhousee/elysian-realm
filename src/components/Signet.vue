@@ -25,7 +25,7 @@
       <span>{{ signet.name }}</span>
       <ChevronUpIcon
         :class="open ? 'transform rotate-180' : ''"
-        class="w-5 h-5 text-slate-900 group-hover:text-white"
+        class="w-5 h-5 text-slate-900 dark:text-white group-hover:text-white"
       />
     </DisclosureButton>
     <DisclosurePanel class="px-4 text-sm flex flex-col bg-white dark:bg-slate-800">
