@@ -110,7 +110,7 @@
           </p>
         </div>
       </Modal>
-      <!-- <Modal>
+      <Modal>
         <template #title
           ><svg
             xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@
             </div>
           </SwitchGroup>
         </div>
-      </Modal> -->
+      </Modal>
       <a
         href="https://rentry.org/hi3er"
         target="_blank"
@@ -256,32 +256,32 @@
           xl:gap-x-8
         "
       >
-        <ArgentKnightArtemis v-if="'argent knight artemis ice rita aka'.includes(query)" />
-        <BrightKnightExcelsis v-if="'durandal bright knight excelsis dudu bkek physical'.includes(query)" />
-        <DeaAnchora v-if="'durandal dea anchora fire dudu da'.includes(query)" />
-        <DisciplinaryPerdition v-if="'boob nun disciplinary perdition aponia dpe dip lightning'.includes(query)" />
-        <FallenRosemary v-if="'fr fallen rosemary rita lightning'.includes(query)" />
-        <GoldenDiva v-if="'boob golden diva eden gd lightning'.includes(query)" />
-        <HerrscherOfFlamescion v-if="'herrscher of flamescion hofs hfs fk fire tuna'.includes(query)" />
-        <HerrscherOfReason v-if="'herrscher of reason hor hr bronya ice'.includes(query)" />
-        <HerrscherOfSentience v-if="'herrscher of sentience hos hs senti fuhua fu hua physical'.includes(query)" />
-        <HerrscherOfThunder v-if="'herrscher of thunder hot ht mei lightning'.includes(query)" />
-        <InfiniteOuroboros v-if="'infinite ouroboros mobius io lightning'.includes(query)" />
-        <LunaKindred v-if="'luna kindred lk theresa physical'.includes(query)" />
-        <MidnightAbsinthe v-if="'midnight absinthe raven ma fire'.includes(query)" />
-        <MissPinkElf v-if="'miss pink elf elysia me physical'.includes(query)" />
-        <PalatinusEquinox v-if="'durandal palatinus equinox pe dudu physical'.includes(query)" />
-        <PrinzessinDerVerurteilung v-if="'prinzessin der verurteilung pv fish fischl lightning'.includes(query)" />
-        <ReveristCalico v-if="'reverist calico cat neko rc ice'.includes(query)" />
-        <RitualImayoh v-if="'ritual imayoh kallen ri physical'.includes(query)" />
-        <SilverwingNEX v-if="'silverwing nex boob bronya ice'.includes(query)" />
-        <SpinaAstera v-if="'spina astera spa fire rita'.includes(query)" />
-        <StarchasmNyx v-if="'starchasm nyx snyx ice seele'.includes(query)" />
-        <StrikerFulminata v-if="'striker fulminata mei stfu physical'.includes(query)" />
-        <StygianNymph v-if="'stygnian nymph seele sn physical'.includes(query)" />
-        <SweetNSpicy v-if="'sweet n spicy carole sns physical'.includes(query)" />
-        <TwilightPaladin v-if="'twilight paladin tp theresa physical'.includes(query)" />
-        <ValkyrieGloria v-if="'durandal valkyrie gloria vg dudu fire'.includes(query)" />
+        <ArgentKnightArtemis v-if="'argent knight artemis rita aka'.includes(query)" />
+        <BrightKnightExcelsis v-if="'durandal bright knight excelsis dudu bkek'.includes(query)" />
+        <DeaAnchora v-if="'durandal dea anchora dudu da'.includes(query)" />
+        <DisciplinaryPerdition v-if="'disciplinary perdition aponia dpe dip'.includes(query)" />
+        <FallenRosemary v-if="'fr fallen rosemary rita'.includes(query)" />
+        <GoldenDiva v-if="'golden diva eden gd'.includes(query)" />
+        <HerrscherOfFlamescion v-if="'herrscher of flamescion hofs hfs fk kiana'.includes(query)" />
+        <HerrscherOfReason v-if="'herrscher of reason hor hr bronya'.includes(query)" />
+        <HerrscherOfSentience v-if="'herrscher of sentience hos hs fuhua fu hua fuka'.includes(query)" />
+        <HerrscherOfThunder v-if="'herrscher of thunder hot ht mei'.includes(query)" />
+        <InfiniteOuroboros v-if="'infinite ouroboros mobius io'.includes(query)" />
+        <LunaKindred v-if="'teri-teri teriri luna kindred lk theresa'.includes(query)" />
+        <MidnightAbsinthe v-if="'midnight absinthe raven ma'.includes(query)" />
+        <MissPinkElf v-if="'miss pink elf elysia mpe'.includes(query)" />
+        <PalatinusEquinox v-if="'durandal palatinus equinox pe dudu juan'.includes(query)" />
+        <PrinzessinDerVerurteilung v-if="'prinzessin der verurteilung pv fish fischl'.includes(query)" />
+        <ReveristCalico v-if="'reverist calico cat neko rc pardofelis'.includes(query)" />
+        <RitualImayoh v-if="'ritual imayoh kallen ir'.includes(query)" />
+        <SilverwingNEX v-if="'silverwing nex bronya n-ex sw'.includes(query)" />
+        <SpinaAstera v-if="'spina astera spa rita'.includes(query)" />
+        <StarchasmNyx v-if="'starchasm nyx seele'.includes(query)" />
+        <StrikerFulminata v-if="'striker fulminata mei stfu'.includes(query)" />
+        <StygianNymph v-if="'stygnian nymph seele sn'.includes(query)" />
+        <SweetNSpicy v-if="'sweet n spicy carole sns'.includes(query)" />
+        <TwilightPaladin v-if="'teri-teri teriri twilight paladin tp theresa'.includes(query)" />
+        <ValkyrieGloria v-if="'durandal valkyrie gloria vg dudu'.includes(query)" />
       </div>
     </div>
   </div>
@@ -297,7 +297,7 @@ import {
   ComboboxOption,
   TransitionRoot,
 } from "@headlessui/vue";
-// import { Switch, SwitchGroup, SwitchLabel } from "@headlessui/vue";
+import { Switch, SwitchGroup, SwitchLabel } from "@headlessui/vue";
 import { CheckIcon, SelectorIcon } from "@heroicons/vue/solid";
 import Modal from "../components/Modal.vue";
 import ArgentKnightArtemis from "./Valkyries/ArgentKnightArtemis.vue";
@@ -328,10 +328,20 @@ import TwilightPaladin from "./Valkyries/TwilightPaladin.vue";
 import ValkyrieGloria from "./Valkyries/ValkyrieGloria.vue";
 
 let query = ref("");
+let darkMode = ref(false);
+let html = document.getElementById("theme");
 
 watchEffect(() => {
+  // Filter the valkyries
   if (query.value.length > 0) {
     query.value = query.value.toLowerCase();
+  }
+
+  // Dark mode toggle
+  if(darkMode.value) {
+    html.setAttribute("class", "dark");
+  } else {
+    html.setAttribute("class", "");
   }
 });
 </script>
