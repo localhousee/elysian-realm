@@ -8,11 +8,11 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "58e4c48d-a200-4663-b184-e0c39c7a2a55",
   name: "Miss Pink Elf",
-  imageSrc: "/images/miss-pink-elf.png",
+  imageSrc: "/images/miss-pink-elf.jpg",
   imageAlt: "Miss Pink Elf",
-  position: "object-left",
+  position: "object-center",
   derp: {
-    imageSrc: "/images/derp/miss-pink-elf.png",
+    imageSrc: "/images/derp/miss-pink-elf.jpg",
     imageAlt: "Derp Miss Pink Elf",
     position: "object-center",
   }

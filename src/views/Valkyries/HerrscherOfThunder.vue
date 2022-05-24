@@ -8,11 +8,11 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "e8816a8a-39d1-4592-ad31-98d767401df3",
   name: "Herrscher Of Thunder",
-  imageSrc: "/images/herrscher-of-thunder.png",
+  imageSrc: "/images/herrscher-of-thunder.jpg",
   imageAlt: "Herrscher Of Thunder",
   position: "object-center",
   derp: {
-    imageSrc: "/images/derp/herrscher-of-thunder.png",
+    imageSrc: "/images/derp/herrscher-of-thunder.jpg",
     imageAlt: "Derp Herrscher Of Thunder",
     position: "object-center",
   }

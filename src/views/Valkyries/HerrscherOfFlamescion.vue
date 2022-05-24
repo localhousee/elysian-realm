@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Herrscher of Flamescion",
   imageSrc: "/images/herrscher-of-flamescion.jpg",
   imageAlt: "Herrscher of Flamescion",
-  position: "object-top",
+  position: "object-center",
   derp: {
     imageSrc: "/images/derp/herrscher-of-flamescion.png",
     imageAlt: "Derp Herrscher of Flamescion",
