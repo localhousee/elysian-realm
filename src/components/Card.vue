@@ -27,7 +27,7 @@
         :class="valkyrie.position"
       />
       <img
-        v-if="!derpMode"
+        v-else
         loading="lazy"
         :src="valkyrie.imageSrc"
         :alt="valkyrie.imageAlt"
@@ -121,7 +121,7 @@
             leave-from="translate-x-0"
             leave-to="translate-x-full"
           >
-            <div class="pointer-events-auto relative w-screen">
+            <DialogPanel class="pointer-events-auto relative w-screen lg:max-w-xl">
               <TransitionChild
                 as="template"
                 enter="ease-in-out duration-500"
@@ -191,7 +191,7 @@
                   <!-- /End replace -->
                 </div>
               </div>
-            </div>
+            </DialogPanel>
           </TransitionChild>
         </div>
       </div>

@@ -48,6 +48,7 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - FrediSK#5056: helped with kalpas boss
 - Korath#5931: kalpas boss help
 - Kaga#1780 (Citrus): helped get builds out there for people to see, theory crafter, tester and beta tester. They are also a youtuber
+- Nana#3086: Helped with builds
 
 ## Unnamed people who helped 👍
 

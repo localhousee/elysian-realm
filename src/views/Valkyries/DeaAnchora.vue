@@ -15,7 +15,7 @@ const valkyrie = {
     imageSrc: "/images/derp/dea-anchora.jpg",
     imageAlt: "Derp Dea Anchora",
     position: "object-center",
-  }
+  },
 };
 
 const signets = {
@@ -49,6 +49,41 @@ const signets = {
             {
               name: "Blessing of Stars",
               desc: "Ultimate deals 50% bonus Total DMG",
+              priority: "Start",
+            },
+            {
+              name: "Blessing of Halo",
+              desc: "Voidstar Anchor, Voidstar Anchor EX, Astral Flares, and Astral Flares EX deal 2000% ATK of Fire DMG to enemies within 8 meters of the target hit, gather them, and restore 50 Astrum. CD: 10s",
+              priority: "1st",
+            },
+            {
+              name: "Blessing of Sheen",
+              desc: "Voidstar Anchor EX and Astral Flares EX do not suspend Astrum cosumption, but Seirios Ballista doesnt end Astral Harness and clear Astrum. Seirios Ballista costs 65 SP at most",
+              priority: "2nd",
+            },
+            {
+              name: "Blessing of Brilliance",
+              desc: "Voidstar Anchor and Astral Flares EX cost no SP and restore 3 SP. Every 30 SP restored deals 800% ATK of Fire DMG to enemies within 10 meters. CD: 6s",
+              priority: "Filler",
+            },
+            {
+              name: "Blessing of Gale",
+              desc: "In Astral Hamess, all attacks ignite enemies hit and ignited enemies take 25% bonus Total DMG for 10s",
+              priority: "Filler",
+            },
+          ],
+        },
+        {
+          name: 'Elysia (No Adrift T & 2pc)',
+          lists: [
+            {
+              name: "Blessing of Stars",
+              desc: "Ultimate deals 50% bonus Total DMG",
+              priority: "Start",
+            },
+            {
+              name: "Blessing of Gale",
+              desc: "In Astral Hamess, all attacks ignite enemies hit and ignited enemies take 25% bonus Total DMG for 10s",
               priority: "1st",
             },
             {
@@ -64,11 +99,6 @@ const signets = {
             {
               name: "Blessing of Brilliance",
               desc: "Voidstar Anchor and Astral Flares EX cost no SP and restore 3 SP. Every 30 SP restored deals 800% ATK of Fire DMG to enemies within 10 meters. CD: 6s",
-              priority: "Filler",
-            },
-            {
-              name: "Blessing of Gale",
-              desc: "In Astral Hamess, all attacks ignite enemies hit and ignited enemies take 25% bonus Total DMG for 10s",
               priority: "Filler",
             },
           ],
