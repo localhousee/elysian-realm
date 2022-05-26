@@ -12,7 +12,7 @@ const valkyrie = {
   imageAlt: "Dea Anchora",
   position: "object-center",
   derp: {
-    imageSrc: "/images/derp/dea-anchora.jpg",
+    imageSrc: "/images/derp/dea-anchora.png",
     imageAlt: "Derp Dea Anchora",
     position: "object-center",
   },

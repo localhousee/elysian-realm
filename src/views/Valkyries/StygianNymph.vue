@@ -96,11 +96,6 @@ const signets = {
               desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
               priority: "CORE",
             },
-            {
-              name: "Blooming like Flowers",
-              desc: "When enemies of countering types are tainted with both blue and red paints, Valkyries deal 50% bonus Total DMG to them (cannot stack)",
-              priority: "YES",
-            },
           ],
         },
         {

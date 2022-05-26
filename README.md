@@ -73,6 +73,7 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - [Dea Anchora (Derp)](https://www.pixiv.net/en/artworks/86174718)
 - [Fallen Rosemary](https://www.pixiv.net/en/artworks/91313750)
 - [Disciplinary Perdition](https://www.pixiv.net/en/artworks/97236203)
+- [Disciplinary Perdition (Derp)](https://www.pixiv.net/en/artworks/98641979)
 - [Fallen Rosemary](https://www.pixiv.net/en/artworks/96067716)
 - [Fallen Rosemary (Derp)](https://www.pixiv.net/en/artworks/83801083)
 - [Golden Diva](https://www.pixiv.net/en/artworks/98058332)

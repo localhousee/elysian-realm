@@ -12,7 +12,7 @@ const valkyrie = {
   imageAlt: "Disciplinary Perdition",
   position: "object-top",
   derp: {
-    imageSrc: "/images/disciplinary-perdition.jpg",
+    imageSrc: "/images/derp/disciplinary-perdition.png",
     imageAlt: "Derp Disciplinary Perdition",
     position: "object-center",
   }

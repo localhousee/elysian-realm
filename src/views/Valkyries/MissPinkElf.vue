@@ -12,7 +12,7 @@ const valkyrie = {
   imageAlt: "Miss Pink Elf",
   position: "object-center",
   derp: {
-    imageSrc: "/images/derp/miss-pink-elf.jpg",
+    imageSrc: "/images/derp/miss-pink-elf.png",
     imageAlt: "Derp Miss Pink Elf",
     position: "object-center",
   }
