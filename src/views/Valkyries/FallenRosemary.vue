@@ -1,4 +1,3 @@
-<template>
   <Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
@@ -31,13 +30,13 @@ const signets = {
         },
         {
           time: "Mid",
-          sigils: "Light as a Bodhi Leaf/Gold Goblet",
+          sigils: "Light as a Bodhi Leaf / Gold Goblet",
           support_1: "AE",
           support_2: "LE / BR",
         },
         {
           time: "Late",
-          sigils: "Dreamful Gold/Home Lost",
+          sigils: "Dreamful Gold / Home Lost",
           support_1: "AE",
           support_2: "BR",
         },
