@@ -323,7 +323,7 @@ const signets = {
             },
             {
               name: "Burning Like Flames",
-              desc: "When enemies are tainted with both yellow and red paints, Valkyries have 25% bonus Physical and Elemental Breach against them."
+              desc: "When enemies are tainted with both yellow and red paints, Valkyries have 25% bonus Physical and Elemental Breach against them.",
               priority: "1st (if no breach, otherwise Filler)",
             },
           ],
