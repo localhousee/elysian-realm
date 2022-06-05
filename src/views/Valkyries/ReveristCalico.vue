@@ -326,7 +326,7 @@ const signets = {
           ],
         },
         {
-          name: "Aponia 1",
+          name: "Aponia",
           info: "Only pick Aponia if you can get both of these. Doing 2 combos (when the weapon skill visibly glows) activates Predation, which doesn't activate \"Sixth, No Decadence\" due to being considered QTE damage. However, normally swapping Moods will activate this debuff. This multiplier is also tested to be independent from Griseo's \"Red & Hot\" physical and elemental damage taken effect",
           lists: [
             {
@@ -335,8 +335,8 @@ const signets = {
               priority: "1st",
             },
             {
-              name: "Sixth, No Decadence",
-              desc: "Whenever Exhortation is reduced, enemies take 25% bonus Physical DMG and Elemental DMG for 5s. Can be refreshed",
+              name: "Fifth, No Falsehood",
+              desc: "Valkyrie starts with 70 bonus Exhortation. Whenever Exhortation is reduced, enemies take 25% bonus Total DMG for 5s. Can be refreshed",
               priority: "2nd",
             },
           ],
@@ -379,6 +379,33 @@ const signets = {
         {
           name: "Pardofelis 1",
           info: "F2 & F3 must be \"Merchant Philosophy\" and \"Shiny & Valuable\", after getting these 2 signets, build Eden-2 Kevin-1 Kalpas-2 first before continuing to build Reverie core (recommended to get \"Flexible P&C and \"Neighbourhood Chatters\" in Shop)",
+          lists: [
+            {
+              name: "Merchant's Philosophy",
+              desc: "After finishing each floor, the number of currently owned Shiny Silvers grows by 10% for up to 100 (independent effect)",
+              priority: "1st",
+            },
+            {
+              name: "Shiny & Valuable",
+              desc: "Enemy kills grant bonus Shiny Silvers. Non-boss enemies grant 5 each. Boss enemies grant 100 each (independent effect)",
+              priority: "2nd",
+            },
+            {
+              name: "Flexible P&C",
+              desc: "Every 100 Shiny Silvers obtained this round restore 1 HP and 0.1 SP. Taking DMG disables this effect for 5s",
+              priority: "3rd",
+            },
+            {
+              name: "Neighborhood Chatters",
+              desc: "Every 100 Shiny Silvers obtained this round boost max HP by 25 and max SP by 1",
+              priority: "4th",
+            },
+            {
+              name: "Nexus Signet: Empty Dreams, Self, Set, and Joy",
+              desc: "Reaching 500 Shiny Silvers boosts the effects of all Normal Signets of Reverie by 25%. Reaching 1000 boosts the effects by 50% and Physical and Elemental DMG by 60%",
+              priority: "CORE",
+            },
+          ]
         },
         {
           name: "Kevin 1",
