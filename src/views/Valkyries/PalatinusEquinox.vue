@@ -197,8 +197,8 @@ const signets = {
           name: "Kalpas 2",
           lists: [
             {
-              name: "Path, Misfortune, and Written Fate",
-              desc: "Max HP increases by 25%",
+              name: "Desireless, Mindless, and Homeless",
+              desc: "Losing HP boosts Total DMG taken by all enemies by 25% for 8s",
               priority: "1st",
             },
               {
@@ -210,6 +210,11 @@ const signets = {
               name: "Blade, Grave, and Scar",
               desc: "Every 100 HP loss boosts Total DMG by 1%",
               priority: "3rd",
+            },
+            {
+              name: "Path, Misfortune, and Written Fate",
+              desc: "Max HP increases by 25%",
+              priority: "Filler",
             },
             {
               name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
