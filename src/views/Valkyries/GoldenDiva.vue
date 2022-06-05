@@ -25,7 +25,7 @@ const signets = {
       supports: [
         {
           time: "Early",
-          sigils: "Memory / Hometown",
+          sigils: "Gold Goblet / Hometown",
           support_1: "AE",
           support_2: "LE",
         },
@@ -87,8 +87,8 @@ const signets = {
               priority: "2nd",
             },
             {
-              name: "Recitatif of Birds",
-              desc: "Every 10 SP left reduces Total DMG taken by 2.5%",
+              name: "Recitatif of Good Wine",
+              desc: "Restore 1.5 SP per second",
               priority: "3rd",
             },
             {
