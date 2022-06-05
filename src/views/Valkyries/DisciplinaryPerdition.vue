@@ -1,4 +1,3 @@
-<template>
   <Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
@@ -25,7 +24,7 @@ const signets = {
       supports: [
         {
           time: "Early",
-          sigils: "Memory / Hometown",
+          sigils: "Veil of Tears / Hometown",
           support_1: "AE",
           support_2: "LE",
         },
@@ -175,7 +174,7 @@ const signets = {
       supports: [
         {
           time: "Early",
-          sigils: "Memory / Hometown",
+          sigils: "Burden / Hometown",
           support_1: "AE",
           support_2: "LE",
         },
