@@ -180,6 +180,7 @@ const signets = {
             {
               name: "Lost and Found",
               desc: "Total DMG taken decreases by 0.8% per second",
+              priority: "3rd",
             },
             {
               name: "Nexus Signet: Suffering Mass",
@@ -212,7 +213,7 @@ const signets = {
         {
           time: "Mid",
           sigils: "",
-          support_1: "BR",
+          support_1: "AE",
           support_2: "LE / BR",
         },
         {
