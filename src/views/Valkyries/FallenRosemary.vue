@@ -1,3 +1,4 @@
+<template>
   <Card :valkyrie="valkyrie" :signets="signets" />
 </template>
 
