@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Griseo",
   imageSrc: "/images/griseo.jpg",
   imageAlt: "Griseo",
-  position: "object-center",
+  position: "object-left",
 };
 
 const signets = {
