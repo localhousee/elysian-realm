@@ -12,7 +12,7 @@ const valkyrie = {
   imageAlt: "Bright Knight: Excelsis",
   position: "object-center",
   derp: {
-    imageSrc: "/images/bright-knight-excelsis.jpg",
+    imageSrc: "/images/derp/bright-knight-excelsis.jpg",
     imageAlt: "Derp Bright Knight: Excelsis",
     position: "object-center",
   }
