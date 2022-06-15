@@ -8,9 +8,14 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "841657d8-9dbf-4d77-ae23-3efed86503da",
   name: "Silverwing: N-EX",
-  imageSrc: "/images/silverwing-nex.jpg",
+  imageSrc: "/images/silverwing-nex.png",
   imageAlt: "Silverwing: N-EX",
-  position: "object-center",
+  position: "object-top",
+  derp: {
+    imageSrc: "/images/derp/silverwing-nex.png",
+    imageAlt: "Derp Silverwing: N-EX",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -26,7 +31,7 @@ const signets = {
         },
         {
           time: "Mid",
-          sigils: "Memory/ Rainbow Of Absence",
+          sigils: "Memory / Rainbow Of Absence",
           support_1: "AE",
           support_2: "LE / HB",
         },

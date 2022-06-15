@@ -10,7 +10,12 @@ const valkyrie = {
   name: "Fallen Rosemary",
   imageSrc: "/images/fallen-rosemary.jpg",
   imageAlt: "Fallen Rosemary",
-  position: "object-center",
+  position: "object-top",
+  derp: {
+    imageSrc: "/images/derp/fallen-rosemary.jpg",
+    imageAlt: "Derp Fallen Rosemary",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -26,13 +31,13 @@ const signets = {
         },
         {
           time: "Mid",
-          sigils: "Light as a Bodhi Leaf/Gold Goblet",
+          sigils: "Light as a Bodhi Leaf / Gold Goblet",
           support_1: "AE",
           support_2: "LE / BR",
         },
         {
           time: "Late",
-          sigils: "Dreamful Gold/Home Lost",
+          sigils: "Dreamful Gold / Home Lost",
           support_1: "AE",
           support_2: "BR",
         },

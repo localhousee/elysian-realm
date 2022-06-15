@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/ritual-imayoh.jpg",
   imageAlt: "Ritual Imayoh",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/ritual-imayoh.jpg",
+    imageAlt: "Derp Ritual Imayoh",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -73,7 +78,7 @@ const signets = {
           lists: [
             {
               name: "Lip Poison [E]",
-              desc: "Total DMG from summoned entities, ELFs, and Support Valkyries increases by 60%. ELFs",
+              desc: "Total DMG from summoned entities, ELFs, and Support Valkyries increases by 60%",
               priority: "1st",
             },
             {

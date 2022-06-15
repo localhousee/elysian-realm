@@ -8,9 +8,14 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "2e2c67e2-1701-4ee0-a82c-28857c19636d",
   name: "Prinzessin der Verurteilung",
-  imageSrc: "/images/prinzessin-der-verurteilung.png",
+  imageSrc: "/images/prinzessin-der-verurteilung.jpg",
   imageAlt: "Prinzessin der Verurteilung",
   position: "object-right-top",
+  derp: {
+    imageSrc: "/images/derp/prinzessin-der-verurteilung.png",
+    imageAlt: "Derp Prinzessin der Verurteilung",
+    position: "object-center",
+  }
 };
 
 const signets = {

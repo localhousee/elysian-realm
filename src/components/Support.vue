@@ -1,5 +1,5 @@
 <template>
-  <Disclosure v-slot="{ open }" as="div">
+  <Disclosure v-slot="{ open }" as="div" class="group">
     <DisclosureButton
       class="
         flex
@@ -9,43 +9,46 @@
         py-2
         text-sm
         font-medium
-        text-left text-purple-900
-        bg-purple-100
+        text-left
+        bg-slate-300
+        group-hover:bg-slate-600
+        group-hover:text-white
+        dark:bg-slate-900
+        text-slate-900
+        dark:text-white
+        dark:hover:bg-slate-700
         rounded-lg
-        hover:bg-purple-200
         focus:outline-none
         focus-visible:ring
-        focus-visible:ring-purple-500
-        focus-visible:ring-opacity-75
       "
     >
       <span>Supports</span>
       <ChevronUpIcon
         :class="open ? 'transform rotate-180' : ''"
-        class="w-5 h-5 text-purple-500"
+        class="w-5 h-5 text-slate-900 group-hover:text-white dark:text-white"
       />
     </DisclosureButton>
-      <DisclosurePanel class="px-4 text-sm flex bg-white">
-        <table class="table-auto w-full">
+      <DisclosurePanel class="px-4 text-sm flex bg-transparent">
+        <table class="table-auto w-full mt-2">
           <thead>
-            <tr class="uppercase">
-              <th class="border border-indigo-600">Time</th>
-              <th class="border border-indigo-600">Sigils</th>
-              <th class="border border-indigo-600" colspan="2">Supports</th>
+            <tr class="uppercase bg-gray-300 dark:bg-gray-800 dark:text-gray-100">
+              <th class="border border-slate-600 py-2">Time</th>
+              <th class="border border-slate-600 py-2">Sigils</th>
+              <th class="border border-slate-600 py-2" colspan="2">Supports</th>
             </tr>
           </thead>
           <tbody>
-          <tr class="text-center" v-for="(supp, index) in support" :key="index">
-            <td class="py-1 border border-indigo-600 w-12">
+          <tr class="text-center dark:text-white" v-for="(supp, index) in support" :key="index">
+            <td class="py-1 border border-slate-600 w-12">
             <span v-text="supp.time" />
             </td>
-            <td class="py-1 border border-indigo-600">
+            <td class="py-1 border border-slate-600">
             <span v-text="supp.sigils" />
             </td>
-            <td class="py-1 border border-indigo-600 w-16 font-semibold">
+            <td class="py-1 border border-slate-600 w-16 font-semibold">
             <span v-text="supp.support_1" />
             </td>
-            <td class="py-1 border border-indigo-600 w-16 font-semibold">
+            <td class="py-1 border border-slate-600 w-16 font-semibold">
             <span v-text="supp.support_2" />
             </td>
           </tr>

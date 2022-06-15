@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/starchasm-nyx.jpg",
   imageAlt: "Starchasm Nyx",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/derp/starchasm-nyx.png",
+    imageAlt: "Derp Starchasm Nyx",
+    position: "object-center",
+  }
 };
 
 const signets = {

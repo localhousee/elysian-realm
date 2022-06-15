@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/stygian-nymph.jpg",
   imageAlt: "Stygian Nymph",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/stygian-nymph.jpg",
+    imageAlt: "Derp Stygian Nymph",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -90,11 +95,6 @@ const signets = {
               name: "Nexus Signet: Shine like Stars",
               desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
               priority: "CORE",
-            },
-            {
-              name: "Blooming like Flowers",
-              desc: "When enemies of countering types are tainted with both blue and red paints, Valkyries deal 50% bonus Total DMG to them (cannot stack)",
-              priority: "YES",
             },
           ],
         },
@@ -177,8 +177,8 @@ const signets = {
               priority: "2nd",
             },
             {
-              name: "Recitatif of Fine Jade",
-              desc: "Initial SP and max SP increase by 30",
+              name: "Recitatif of Good Wine",
+              desc: "Restore 1.5 SP per second",
               priority: "3rd",
             },
             {

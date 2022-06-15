@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/twilight-paladin.jpg",
   imageAlt: "Twilight Paladin",
   position: "object-right",
+  derp: {
+    imageSrc: "/images/twilight-paladin.jpg",
+    imageAlt: "Derp Twilight Paladin",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -167,13 +172,13 @@ const signets = {
           name: "Kevin 1",
           lists: [
             {
-              name: "Artifact of the Inhibitor",
-              desc: "Ultimate boosts Elemental Breach by 25% for 5s",
+              name: "Mask of the Predator",
+              desc: "Ultimate boosts Physical Breach by 25% for 5s",
               priority: "1st",
             },
             {
-              name: "Brand of the Undead",
-              desc: "Ultimate boosts Elemental DMG by 30% for 5s",
+              name: "Pendant of the Watcher",
+              desc: "Ultimate boosts Physical DMG by 30% for 5s",
               priority: "2nd",
             },
             {

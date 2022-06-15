@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/herrscher-of-reason.jpg",
   imageAlt: "Herrscher Of Reason",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/herrscher-of-reason.png",
+    imageAlt: "Derp Herrscher Of Reason",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -52,19 +57,19 @@ const signets = {
               priority: "1st",
             },
             {
+              name: "Blessing of Wisdom",
+              desc: "In bike mode, Charged ATK inflicts a Structural Impact on enemies hit and deals 2250% ATK of Ice DMG",
+              priority: "2nd",
+            },
+            {
               name: "Blessing of Reason",
               desc: "Every hit from hover guns reduces weapon active CD by 0.7s",
-              priority: "2nd",
+              priority: "3rd",
             },
             {
               name: "Blessing of Creation",
               desc: "In non-bike mode, Charged ATKs create 4 hover guns to attack, each dealing 160% ATK of Ice DMG on hit",
               priority: "Filler",
-            },
-            {
-              name: "Blessing of Wisdom",
-              desc: "In bike mode, Charged ATK inflicts a Structural Impact on enemies hit and deals 2250% ATK of Ice DMG",
-              priority: "No",
             },
           ],
         },
@@ -149,6 +154,7 @@ const signets = {
             {
               name: "Lost and Found",
               desc: "Total DMG taken decreases by 0.8% per second",
+              priority: "3rd",
             },
             {
               name: "Nexus Signet: Suffering Mass",
@@ -201,7 +207,7 @@ const signets = {
           time: "Early",
           sigils: "",
           support_1: "AE",
-          support_2: "HB / BR",
+          support_2: "LE",
         },
         {
           time: "Mid",
@@ -226,13 +232,13 @@ const signets = {
               priority: "Start",
             },
             {
-              name: "Blessing of Inspiration",
-              desc: "Triggering an Ultimate Evasion by any means inflicts a Structural Impact on enemies hit and deals 3750% ATK of Ice DMG",
+              name: "Blessing of Wisdom",
+              desc: "In bike mode, Charged ATK inflicts a Structural Impact on enemies hit and deals 2250% ATK of Ice DMG",
               priority: "1st",
             },
             {
-              name: "Blessing of Wisdom",
-              desc: "In bike mode, Charged ATK inflicts a Structural Impact on enemies hit and deals 2250% ATK of Ice DMG",
+              name: "Blessing of Inspiration",
+              desc: "Triggering an Ultimate Evasion by any means inflicts a Structural Impact on enemies hit and deals 3750% ATK of Ice DMG",
               priority: "2nd",
             },
             {

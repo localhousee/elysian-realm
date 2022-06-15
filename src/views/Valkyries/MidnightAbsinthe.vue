@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/midnight-absinthe.jpg",
   imageAlt: "Midnight Absinthe",
   position: "object-left",
+  derp: {
+    imageSrc: "/images/derp/midnight-absinthe.png",
+    imageAlt: "Derp Midnight Absinthe",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -122,13 +127,13 @@ const signets = {
               priority: "CORE",
             },
             {
-              name: "Crusade of the Deliverer",
-              desc: "After 3s into Final Battle, all buffs provided by Normal Signets of Deliverance increase by 90% instead of 50%",
+              name: "Echo of the Deliverer",
+              desc: "Duration of Final Battle and all buffs provided by Normal Signets of Deliverance are extended to 8s",
               priority: "YES",
             },
             {
-              name: "Echo of the Deliverer",
-              desc: "Duration of Final Battle and all buffs provided by Normal Signets of Deliverance are extended to 8s",
+              name: "Crusade of the Deliverer",
+              desc: "After 3s into Final Battle, all buffs provided by Normal Signets of Deliverance increase by 90% instead of 50%",
               priority: "YES",
             },
           ],
@@ -202,13 +207,13 @@ const signets = {
               priority: "1st",
             },
             {
-              name: "Recitatif of Eden",
-              desc: "Every 10 SP left boosts Total DMG by 3.0%",
+              name: "Recitatif of Fine Jade",
+              desc: "Initial SP and max SP increase by 30",
               priority: "2nd",
             },
             {
-              name: "Recitatif of Fine Jade",
-              desc: "Initial SP and max SP increase by 30",
+              name: "Recitatif of Good Wine",
+              desc: "Restore 1.5 SP per second",
               priority: "3rd",
             },
             {

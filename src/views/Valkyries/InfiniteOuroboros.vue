@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/infinite-ouroboros.jpg",
   imageAlt: "Infinite Ouroboros",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/derp/infinite-ouroboros.png",
+    imageAlt: "Derp Infinite Ouroboros",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -143,7 +148,7 @@ const signets = {
           lists: [
             {
               name: "Lip Poison [E]",
-              desc: "Total DMG from summoned entities, ELFs, and Support Valkyries increases by 60%. ELFs",
+              desc: "Total DMG from summoned entities, ELFs, and Support Valkyries increases by 60%",
               priority: "1st",
             },
             {
@@ -174,7 +179,7 @@ const signets = {
           ],
         },
         {
-          name: "Sakura 2 (Optional)",
+          name: "Sakura 2 (Optional, one or none)",
           lists: [
             {
               name: "Bountiful Blossom: Ume",
@@ -199,7 +204,7 @@ const signets = {
           ],
         },
         {
-          name: "Griseo 1 (Optional)",
+          name: "Griseo 1 (Optional, one or none)",
           lists: [
             {
               name: "Red & Hot",

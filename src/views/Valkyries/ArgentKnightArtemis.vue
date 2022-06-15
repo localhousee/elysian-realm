@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/argent-knight-artemis.jpg",
   imageAlt: "Argent Knight: Artemis",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/argent-knight-artemis.jpg",
+    imageAlt: "Derp Argent Knight: Artemis",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -73,7 +78,7 @@ const signets = {
           lists: [
             {
               name: "Lip Poison [E]",
-              desc: "Total DMG from summoned entities, ELFs, and Support Valkyries increases by 60%. ELFs",
+              desc: "Total DMG from summoned entities, ELFs, and Support Valkyries increases by 60%",
               priority: "1st",
             },
             {

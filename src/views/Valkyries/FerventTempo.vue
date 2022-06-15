@@ -13,5 +13,7 @@ const valkyrie = {
   position: "object-right",
 };
 
-const signets = {};
+const signets = {
+  
+};
 </script>

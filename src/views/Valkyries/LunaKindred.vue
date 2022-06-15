@@ -8,9 +8,14 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "7c932010-48c1-4ffe-8486-70fbb2347e93",
   name: "Luna Kindred",
-  imageSrc: "/images/luna-kindred.png",
+  imageSrc: "/images/luna-kindred.jpg",
   imageAlt: "Luna Kindred",
   position: "object-center",
+  derp: {
+    imageSrc: "/images/luna-kindred.png",
+    imageAlt: "Derp Luna Kindred",
+    position: "object-center",
+  }
 };
 
 const signets = {

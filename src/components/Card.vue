@@ -2,24 +2,39 @@
   <a class="group z-0" @click="open = true">
     <div
       class="
-        border border-white
         w-full
-        aspect-w-1 aspect-h-1
         bg-gray-200
         rounded-tr-[30px]
         overflow-hidden
-        xl:aspect-w-7 xl:aspect-h-8
+        aspect-w-7 aspect-h-8
         group-hover:rounded-none
       "
     >
+      <img v-if="derpMode"
+        loading="lazy"
+        :src="valkyrie.derp.imageSrc"
+        :alt="valkyrie.derp.imageAlt"
+        class="
+          w-full
+          h-full
+          object-cover
+          transtition-transform
+          ease-in-out
+          duration-500
+          transform
+          group-hover:scale-110
+        "
+        :class="valkyrie.position"
+      />
       <img
+        v-else
+        loading="lazy"
         :src="valkyrie.imageSrc"
         :alt="valkyrie.imageAlt"
         class="
           w-full
           h-full
           object-cover
-          group-hover:opacity-75
           transtition-transform
           ease-in-out
           duration-500
@@ -31,15 +46,10 @@
     </div>
     <h3
       class="
-        border border-white
-        text-sm
-        bg-gradient-to-r
-        from-pink-500
-        via-purple-600
-        to-violet-800
-        group-hover:from-pink-400
-        group-hover:via-purple-500
-        group-hover:to-violet-700
+        bg-slate-900
+        group-hover:bg-slate-700
+        dark:bg-cyan-600
+        dark:group-hover:bg-cyan-500
         rounded-bl-[30px]
         px-4
         py-3
@@ -47,13 +57,14 @@
         text-white
         font-semibold
         group-hover:font-bold group-hover:rounded-none
+        text-xs
       "
     >
       <p
         class="
           transform
           ml-4
-          group-hover:translate-x-3
+          group-hover:translate-x-2
           transition-transform
           ease-in-out
           duration-500
@@ -63,6 +74,7 @@
       </p>
     </h3>
   </a>
+
   <TransitionRoot as="template" :show="open" :id="valkyrie.id">
     <Dialog
       as="div"
@@ -109,7 +121,7 @@
             leave-from="translate-x-0"
             leave-to="translate-x-full"
           >
-            <div class="pointer-events-auto relative w-screen">
+            <DialogPanel class="pointer-events-auto relative w-screen lg:max-w-xl">
               <TransitionChild
                 as="template"
                 enter="ease-in-out duration-500"
@@ -152,17 +164,15 @@
                   h-full
                   flex-col
                   overflow-y-scroll
-                  bg-gradient-to-br
-                  from-fuchsia-500
-                  via-violet-600
-                  to-purple-500
+                  bg-gray-100
+                  dark:bg-slate-900
                   py-6
                   shadow-xl
                 "
               >
                 <div class="px-4 sm:px-6">
                   <DialogTitle
-                    class="text-lg font-semibold text-white uppercase"
+                    class="text-lg font-semibold text-slate-900 dark:text-white uppercase"
                   >
                     {{ valkyrie.name }}
                   </DialogTitle>
@@ -172,7 +182,7 @@
                   <div class="absolute inset-0 px-4 sm:px-6">
                     <div class="w-full px-2 py-4 sm:px-0">
                       <div class="w-full px-4 space-y-3">
-                        <div class="w-full p-2 mx-auto bg-gray-100 rounded-2xl">
+                        <div class="w-full p-2 mx-auto bg-gray-100 dark:bg-slate-900 rounded-2xl">
                           <Tabs :signets="signets" />
                         </div>
                       </div>
@@ -181,7 +191,7 @@
                   <!-- /End replace -->
                 </div>
               </div>
-            </div>
+            </DialogPanel>
           </TransitionChild>
         </div>
       </div>
@@ -190,8 +200,8 @@
 </template>
 
 <script setup>
-  import { ref } from "vue";
-  import { Dialog, DialogOverlay, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import { ref, watchEffect } from "vue";
+import { Dialog, DialogOverlay, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import { XIcon } from '@heroicons/vue/outline'
 import Tabs from './Tabs.vue'
 
@@ -201,4 +211,14 @@ defineProps({
 });
 
 const open = ref(false);
+let derpMode = ref(false);
+let derp = document.getElementById('derp');
+
+watchEffect(() => {
+  if (derp.hasAttribute('derp-data')) {
+    derpMode.value = true;
+  } else {
+    derpMode.value = false;
+  }
+});
 </script>

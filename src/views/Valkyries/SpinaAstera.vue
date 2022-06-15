@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/spina-astera.jpg",
   imageAlt: "Spina Astera",
   position: "object-top",
+  derp: {
+    imageSrc: "/images/spina-astera.jpg",
+    imageAlt: "Derp Spina Astera",
+    position: "object-center",
+  }
 };
 
 const signets = {
@@ -20,21 +25,21 @@ const signets = {
       supports: [
         {
           time: "Early",
-          sigils: "",
-          support_1: "",
-          support_2: "",
+          sigils: "Golden Goblet",
+          support_1: "AE",
+          support_2: "LE",
         },
         {
           time: "Mid",
-          sigils: "",
-          support_1: "",
-          support_2: "",
+          sigils: "Burden / Because of You",
+          support_1: "AE",
+          support_2: "LE / BR",
         },
         {
           time: "Late",
-          sigils: "",
-          support_1: "",
-          support_2: "",
+          sigils: "Home Lost / Dreamful Gold",
+          support_1: "AE",
+          support_2: "BR",
         },
       ],
       signets: [
@@ -69,36 +74,6 @@ const signets = {
           ],
         },
         {
-          name: "Kalpas 2",
-          lists: [
-            {
-              name: "Path, Misfortune, and Written Fate",
-              desc: "Max HP increases by 25%",
-              priority: "1st",
-            },
-            {
-              name: "Bone, Blood, and Ribbon",
-              desc: "Every 100 HP loss boosts Physical & Elemental DMG by 0.8%",
-              priority: "2nd",
-            },
-            {
-              name: "Blade, Grave, and Scar",
-              desc: "Every 100 HP loss boosts Total DMG by 1%",
-              priority: "3rd",
-            },
-            {
-              name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
-              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
-              priority: "CORE",
-            },
-            {
-              name: "Death, Life, Oblivion, and Existence",
-              desc: "The Bloodboil Armor charges cap increases by 500. At over 1500 charges, Bloodboil Armor can absorb DMG equal to 1% of its charges",
-              priority: "Filler",
-            },
-          ],
-        },
-        {
           name: "Kevin 1",
           lists: [
             {
@@ -129,10 +104,40 @@ const signets = {
             {
               name: "Echo of the Deliverer",
               desc: "Duration of Final Battle and all buffs provided by Normal Signets of Deliverance are extended to 8s",
-              priority: "YES",
+              priority: "1st",
             },
           ],
         },
+        {
+          name: "Kalpas 2",
+          lists: [
+            {
+              name: "Path, Misfortune, and Written Fate",
+              desc: "Max HP increases by 25%",
+              priority: "1st",
+            },
+            {
+              name: "Bone, Blood, and Ribbon",
+              desc: "Every 100 HP loss boosts Physical & Elemental DMG by 0.8%",
+              priority: "2nd",
+            },
+            {
+              name: "Blade, Grave, and Scar",
+              desc: "Every 100 HP loss boosts Total DMG by 1%",
+              priority: "3rd",
+            },
+            {
+              name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
+              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
+              priority: "CORE",
+            },
+            {
+              name: "Death, Life, Oblivion, and Existence",
+              desc: "The Bloodboil Armor charges cap increases by 500. At over 1500 charges, Bloodboil Armor can absorb DMG equal to 1% of its charges",
+              priority: "YES",
+            },
+          ],
+        }, 
         {
           name: "Eden 2",
           lists: [
@@ -210,21 +215,21 @@ const signets = {
       supports: [
         {
           time: "Early",
-          sigils: "",
-          support_1: "",
-          support_2: "",
+          sigils: "Golden Goblet",
+          support_1: "AE",
+          support_2: "LE",
         },
         {
           time: "Mid",
-          sigils: "",
-          support_1: "",
-          support_2: "",
+          sigils: "Burden / Because of You",
+          support_1: "AE",
+          support_2: "LE / BR",
         },
         {
           time: "Late",
-          sigils: "",
-          support_1: "",
-          support_2: "",
+          sigils: "Home Lost / Dreamful Gold",
+          support_1: "AE",
+          support_2: "BR",
         },
       ],
       signets: [
@@ -259,36 +264,6 @@ const signets = {
           ],
         },
         {
-          name: "Kalpas 2",
-          lists: [
-            {
-              name: "Path, Misfortune, and Written Fate",
-              desc: "Max HP increases by 25%",
-              priority: "1st",
-            },
-            {
-              name: "Bone, Blood, and Ribbon",
-              desc: "Every 100 HP loss boosts Physical & Elemental DMG by 0.8%",
-              priority: "2nd",
-            },
-            {
-              name: "Blade, Grave, and Scar",
-              desc: "Every 100 HP loss boosts Total DMG by 1%",
-              priority: "3rd",
-            },
-            {
-              name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
-              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
-              priority: "CORE",
-            },
-            {
-              name: "Death, Life, Oblivion, and Existence",
-              desc: "The Bloodboil Armor charges cap increases by 500. At over 1500 charges, Bloodboil Armor can absorb DMG equal to 1% of its charges",
-              priority: "Filler",
-            },
-          ],
-        },
-        {
           name: "Kevin 1",
           lists: [
             {
@@ -319,10 +294,40 @@ const signets = {
             {
               name: "Echo of the Deliverer",
               desc: "Duration of Final Battle and all buffs provided by Normal Signets of Deliverance are extended to 8s",
-              priority: "YES",
+              priority: "1st",
             },
           ],
         },
+        {
+          name: "Kalpas 2",
+          lists: [
+            {
+              name: "Path, Misfortune, and Written Fate",
+              desc: "Max HP increases by 25%",
+              priority: "1st",
+            },
+            {
+              name: "Bone, Blood, and Ribbon",
+              desc: "Every 100 HP loss boosts Physical & Elemental DMG by 0.8%",
+              priority: "2nd",
+            },
+            {
+              name: "Blade, Grave, and Scar",
+              desc: "Every 100 HP loss boosts Total DMG by 1%",
+              priority: "3rd",
+            },
+            {
+              name: "Nexus Signet: Soldiers, Scissors, Spoils, and Slaughter",
+              desc: "Valkyrie's current HP cannot exceed 18% of her Max HP, and if the HP recovery in combat reaches 0/400/800, the recovery amount increases by of the Bloodboil Armor charges, up to for a single charge. The charge cap is 1800, and each point increases the HP cap by 1",
+              priority: "CORE",
+            },
+            {
+              name: "Death, Life, Oblivion, and Existence",
+              desc: "The Bloodboil Armor charges cap increases by 500. At over 1500 charges, Bloodboil Armor can absorb DMG equal to 1% of its charges",
+              priority: "YES",
+            },
+          ],
+        }, 
         {
           name: "Eden 2",
           lists: [
