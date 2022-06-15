@@ -177,8 +177,8 @@ const signets = {
               priority: "2nd",
             },
             {
-              name: "Recitatif of Fine Jade",
-              desc: "Initial SP and max SP increase by 30",
+              name: "Recitatif of Good Wine",
+              desc: "Restore 1.5 SP per second",
               priority: "3rd",
             },
             {
