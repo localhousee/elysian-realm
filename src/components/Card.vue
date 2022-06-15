@@ -12,8 +12,8 @@
     >
       <img v-if="derpMode"
         loading="lazy"
-        :src="valkyrie.derp.imageSrc"
-        :alt="valkyrie.derp.imageAlt"
+        :src="valkyrie.derp?.imageSrc"
+        :alt="valkyrie.derp?.imageAlt"
         class="
           w-full
           h-full

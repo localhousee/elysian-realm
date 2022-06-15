@@ -275,8 +275,12 @@ import TwilightPaladin from "./Valkyries/TwilightPaladin.vue";
 import ValkyrieGloria from "./Valkyries/ValkyrieGloria.vue";
 
 let query = ref("");
-let isDerpMode = ref(false);
-let isDarkMode = ref(false);
+
+let theme = ref(window.localStorage.getItem('theme'));
+let derp = ref(window.localStorage.getItem('derp'));
+
+let isDerpMode = ref(derp.value === "derp" ? true : false);
+let isDarkMode = ref(theme.value === "dark" ? true : false);
 let html = document.getElementById("theme");
 let body = document.getElementById("derp");
 let key = ref(Number.MIN_SAFE_INTEGER);
@@ -287,15 +291,23 @@ watchEffect(() => {
   }
 
   if (isDarkMode.value) {
+    theme.value = "dark";
+    window.localStorage.setItem("theme", "dark");
     html.setAttribute("class", "dark");
   } else {
+    theme.value = false;
+    window.localStorage.removeItem("theme");
     html.removeAttribute("class");
   }
 
   if (isDerpMode.value) {
+    derp.value = "derp";
+    window.localStorage.setItem("derp", "derp");
     body.setAttribute("derp-data", "derp");
     key.value++;
   } else {
+    derp.value = false;
+    window.localStorage.removeItem("derp");
     body.removeAttribute("derp-data");
     key.value++;
   }

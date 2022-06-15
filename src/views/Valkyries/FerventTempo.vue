@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/fervent-tempo.png",
   imageAlt: "Fervent Tempo",
   position: "object-right",
+  derp: {
+    imageSrc: "/images/derp/fervent-tempo.jpg",
+    imageAlt: "Derp Fervent Tempo",
+    position: "object-center",
+  }
 };
 
 const signets = {

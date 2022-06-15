@@ -12,7 +12,7 @@ const valkyrie = {
   imageAlt: "Herrscher Of Reason",
   position: "object-top",
   derp: {
-    imageSrc: "/images/herrscher-of-reason.png",
+    imageSrc: "/images/herrscher-of-reason.jpg",
     imageAlt: "Derp Herrscher Of Reason",
     position: "object-center",
   }

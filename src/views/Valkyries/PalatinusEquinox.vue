@@ -12,7 +12,7 @@ const valkyrie = {
   imageAlt: "Palatinus Equinox",
   position: "object-center",
   derp: {
-    imageSrc: "/images/derp/palatinus-equinox.jpg",
+    imageSrc: "/images/derp/palatinus-equinox.png",
     imageAlt: "Derp Palatinus Equinox",
     position: "object-center",
   }
