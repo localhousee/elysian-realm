@@ -31,7 +31,7 @@ const signets = {
         },
         {
           time: "Mid",
-          sigils: "Memory/ Rainbow Of Absence",
+          sigils: "Memory / Rainbow Of Absence",
           support_1: "AE",
           support_2: "LE / HB",
         },
