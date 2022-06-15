@@ -8,11 +8,11 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "9be32ce4-b6e8-4237-bf4d-e091f2d8ee4d",
   name: "Palatinus Equinox",
-  imageSrc: "/images/palatinus-equinox.png",
+  imageSrc: "/images/palatinus-equinox.jpg",
   imageAlt: "Palatinus Equinox",
   position: "object-center",
   derp: {
-    imageSrc: "/images/derp/palatinus-equinox.png",
+    imageSrc: "/images/derp/palatinus-equinox.jpg",
     imageAlt: "Derp Palatinus Equinox",
     position: "object-center",
   }
