@@ -213,7 +213,6 @@
         <FallenRosemary :key="key" v-if="'fr fallen rosemary rita'.includes(query)" />
         <FerventTempo :key="key" v-if="'ft fervent tempo rozaliya'.includes(query)" />
         <GoldenDiva :key="key" v-if="'golden diva eden gd'.includes(query)" />
-        <Griseo :key="key" v-if="'griseo'.includes(query)" />
         <HerrscherOfFlamescion :key="key" v-if="'herrscher of flamescion hofs hfs fk kiana'.includes(query)" />
         <HerrscherOfReason :key="key" v-if="'herrscher of reason hor hr bronya'.includes(query)" />
         <HerrscherOfSentience :key="key" v-if="
@@ -231,6 +230,7 @@
         <SilverwingNEX :key="key" v-if="'silverwing nex bronya n-ex sw'.includes(query)" />
         <SpinaAstera :key="key" v-if="'spina astera spa rita'.includes(query)" />
         <StarchasmNyx :key="key" v-if="'starchasm nyx seele'.includes(query)" />
+        <StarryImpression :key="key" v-if="'griseo starry impression'.includes(query)" />
         <StrikerFulminata :key="key" v-if="'striker fulminata mei stfu'.includes(query)" />
         <StygianNymph :key="key" v-if="'stygnian nymph seele sn'.includes(query)" />
         <SweetNSpicy :key="key" v-if="'sweet n spicy carole sns'.includes(query)" />
@@ -252,7 +252,6 @@ import DisciplinaryPerdition from "./Valkyries/DisciplinaryPerdition.vue";
 import FallenRosemary from "./Valkyries/FallenRosemary.vue";
 import FerventTempo from "./Valkyries/FerventTempo.vue";
 import GoldenDiva from "./Valkyries/GoldenDiva.vue";
-import Griseo from "./Valkyries/Griseo.vue";
 import HerrscherOfFlamescion from "./Valkyries/HerrscherOfFlamescion.vue";
 import HerrscherOfReason from "./Valkyries/HerrscherOfReason.vue";
 import HerrscherOfSentience from "./Valkyries/HerrscherOfSentience.vue";
@@ -268,6 +267,7 @@ import RitualImayoh from "./Valkyries/RitualImayoh.vue";
 import SilverwingNEX from "./Valkyries/SilverwingNEX.vue";
 import SpinaAstera from "./Valkyries/SpinaAstera.vue";
 import StarchasmNyx from "./Valkyries/StarchasmNyx.vue";
+import StarryImpression from "./Valkyries/StarryImpression.vue";
 import StrikerFulminata from "./Valkyries/StrikerFulminata.vue";
 import StygianNymph from "./Valkyries/StygianNymph.vue";
 import SweetNSpicy from "./Valkyries/SweetNSpicy.vue";
