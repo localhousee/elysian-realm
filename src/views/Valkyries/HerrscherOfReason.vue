@@ -8,7 +8,7 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "fe0f3b33-485c-4827-b943-d9688d257033",
   name: "Herrscher Of Reason",
-  imageSrc: "/images/herrscher-of-reason.png",
+  imageSrc: "/images/herrscher-of-reason.jpg",
   imageAlt: "Herrscher Of Reason",
   position: "object-top",
   derp: {
