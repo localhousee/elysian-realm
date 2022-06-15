@@ -1,6 +1,6 @@
 # Elysian Realm Guide For Honkai Impact 3rd
 
-> For v 5.7
+> For v 5.8
 
 Elysian realm is ~~hard~~ fun 😉. I made this web-based guide because ~~why not?~~ i challenge myself since rentry just a bunch of text and hard to do some styling 💩.
 
