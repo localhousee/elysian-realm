@@ -211,7 +211,9 @@
         <DeaAnchora :key="key" v-if="'durandal dea anchora dudu da'.includes(query)" />
         <DisciplinaryPerdition :key="key" v-if="'disciplinary perdition aponia dpe dip'.includes(query)" />
         <FallenRosemary :key="key" v-if="'fr fallen rosemary rita'.includes(query)" />
+        <FerventTempo :key="key" v-if="'ft fervent tempo rozaliya'.includes(query)" />
         <GoldenDiva :key="key" v-if="'golden diva eden gd'.includes(query)" />
+        <Griseo :key="key" v-if="'griseo'.includes(query)" />
         <HerrscherOfFlamescion :key="key" v-if="'herrscher of flamescion hofs hfs fk kiana'.includes(query)" />
         <HerrscherOfReason :key="key" v-if="'herrscher of reason hor hr bronya'.includes(query)" />
         <HerrscherOfSentience :key="key" v-if="
