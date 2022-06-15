@@ -20,21 +20,23 @@ const signets = {
       supports: [
         {
           time: "",
-          sigils: "",
-          support_1: "",
-          support_2: "",
+          sigils: "kevin skill",
+          support_1: "SA",
+          support_2: "SS",
         },
         {
           time: "Mid",
-          sigils: "",
-          support_1: "",
-          support_2: "",
+          sigils: "eden skill",
+          support_1: "BR",
+          support_2: "SS",
         },
         {
           time: "Late",
           sigils: "eden skill",
-          support_1: "SA",
+          support_1: "SA/BR",
           support_2: "SS",
+          recommend: "SA for husk,BR for HoDom",
+          Boss: "Möbius FT have type advantage",
         },
       ],
       signets: [
