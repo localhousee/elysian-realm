@@ -32,9 +32,9 @@ const signets = {
         },
         {
           time: "Late",
-          sigils: "",
-          support_1: "",
-          support_2: "",
+          sigils: "eden skill",
+          support_1: "SA",
+          support_2: "SS",
         },
       ],
       signets: [
