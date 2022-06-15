@@ -11,6 +11,11 @@ const valkyrie = {
   imageSrc: "/images/starry-impression.jpg",
   imageAlt: "Starry Impression",
   position: "object-left",
+  derp: {
+    imageSrc: "/images/starry-impression.jpg",
+    imageAlt: "Derp Starry Impression",
+    position: "object-center",
+  }
 };
 
 const signets = {
