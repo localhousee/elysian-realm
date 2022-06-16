@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Auto Attack Spam",
+      recommended: "Husk",
+      boss: "",
       supports: [
         {
           time: "Early",
@@ -167,6 +169,8 @@ const signets = {
     },
     {
       name: "Ultimate & Golden Spam",
+      recommended: "Husk",
+      boss: "",
       supports: [
         {
           time: "Early",
