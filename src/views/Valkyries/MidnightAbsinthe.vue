@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "5 Core",
+      recommended: "HoD",
+      boss: "",
       supports: [
         {
           time: "Early",
