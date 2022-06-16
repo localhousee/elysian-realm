@@ -1,7 +1,6 @@
 <template>
   <Disclosure v-slot="{ open }" as="div" class="group">
-    <DisclosureButton
-      class="
+    <DisclosureButton class="
         flex
         justify-between
         w-full
@@ -20,33 +19,20 @@
         rounded-lg
         focus:outline-none
         focus-visible:ring
-      "
-    >
+      ">
       <span>{{ signet.name }}</span>
-      <ChevronUpIcon
-        :class="open ? 'transform rotate-180' : ''"
-        class="w-5 h-5 text-slate-900 dark:text-white group-hover:text-white"
-      />
+      <ChevronUpIcon :class="open ? 'transform rotate-180' : ''"
+        class="w-5 h-5 text-slate-900 dark:text-white group-hover:text-white" />
     </DisclosureButton>
     <DisclosurePanel class="px-4 text-sm flex flex-col bg-white dark:bg-slate-800">
       <div
         class="mt-2 text-slate-100 bg-cyan-600 dark:bg-gray-700 dark:text-white rounded-lg mb-2 flex items-center py-2"
-        v-if="signet.info"
-      >
+        v-if="signet.info">
         <div class="px-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8 text-white"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-            />
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
         <span v-text="signet.info" />
@@ -61,22 +47,16 @@
         <tr v-for="(signet, index) in signet.lists" :key="index">
           <td class="border border-slate-600 dark:text-white">
             <div class="flex flex-col px-4 py-2">
-              <span
-                class="font-semibold underline text-base"
-                v-text="signet.name"
-              />
+              <span class="font-semibold underline text-base" v-text="signet.name" />
               <span class="text-sm text-gray-600 dark:text-gray-400" v-text="signet.desc" />
             </div>
           </td>
           <td class="border border-slate-600 dark:text-white text-center">
-            <span
-              v-text="signet.priority"
-              :class="
-                ['YES', 'Start', 'CORE'].includes(signet.priority)
-                  ? 'font-bold'
-                  : ''
-              "
-            />
+            <span v-text="signet.priority" :class="
+              ['YES', 'Start', 'CORE'].includes(signet.priority)
+                ? 'font-bold'
+                : ''
+            " />
           </td>
         </tr>
       </table>

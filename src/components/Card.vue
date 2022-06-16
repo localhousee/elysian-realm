@@ -1,20 +1,14 @@
 <template>
   <a class="group z-0" @click="open = true">
-    <div
-      class="
+    <div class="
         w-full
         bg-gray-200
         rounded-tr-[30px]
         overflow-hidden
         aspect-w-7 aspect-h-8
         group-hover:rounded-none
-      "
-    >
-      <img v-if="derpMode"
-        loading="lazy"
-        :src="valkyrie.derp?.imageSrc"
-        :alt="valkyrie.derp?.imageAlt"
-        class="
+      ">
+      <img v-if="derpMode" loading="lazy" :src="valkyrie.derp?.imageSrc" :alt="valkyrie.derp?.imageAlt" class="
           w-full
           h-full
           object-cover
@@ -23,15 +17,8 @@
           duration-500
           transform
           group-hover:scale-110
-        "
-        :class="valkyrie.position"
-      />
-      <img
-        v-else
-        loading="lazy"
-        :src="valkyrie.imageSrc"
-        :alt="valkyrie.imageAlt"
-        class="
+        " :class="valkyrie.position" />
+      <img v-else loading="lazy" :src="valkyrie.imageSrc" :alt="valkyrie.imageAlt" class="
           w-full
           h-full
           object-cover
@@ -40,12 +27,9 @@
           duration-500
           transform
           group-hover:scale-110
-        "
-        :class="valkyrie.position"
-      />
+        " :class="valkyrie.position" />
     </div>
-    <h3
-      class="
+    <h3 class="
         bg-slate-900
         group-hover:bg-slate-700
         dark:bg-cyan-600
@@ -58,51 +42,33 @@
         font-semibold
         group-hover:font-bold group-hover:rounded-none
         text-xs
-      "
-    >
-      <p
-        class="
+      ">
+      <p class="
           transform
           ml-4
           group-hover:translate-x-2
           transition-transform
           ease-in-out
           duration-500
-        "
-      >
+        ">
         {{ valkyrie.name }}
       </p>
     </h3>
   </a>
 
   <TransitionRoot as="template" :show="open" :id="valkyrie.id">
-    <Dialog
-      as="div"
-      class="fixed inset-0 overflow-hidden"
-      @close="open = false"
-      :id="valkyrie.id"
-    >
+    <Dialog as="div" class="fixed inset-0 overflow-hidden" @close="open = false" :id="valkyrie.id">
       <div class="absolute inset-0 overflow-hidden">
-        <TransitionChild
-          as="template"
-          enter="ease-in-out duration-500"
-          enter-from="opacity-0"
-          enter-to="opacity-100"
-          leave="ease-in-out duration-500"
-          leave-from="opacity-100"
-          leave-to="opacity-0"
-        >
-          <DialogOverlay
-            class="
+        <TransitionChild as="template" enter="ease-in-out duration-500" enter-from="opacity-0" enter-to="opacity-100"
+          leave="ease-in-out duration-500" leave-from="opacity-100" leave-to="opacity-0">
+          <DialogOverlay class="
               absolute
               inset-0
               bg-gray-500 bg-opacity-75
               transition-opacity
-            "
-          />
+            " />
         </TransitionChild>
-        <div
-          class="
+        <div class="
             pointer-events-none
             fixed
             inset-y-0
@@ -110,29 +76,15 @@
             flex
             max-w-full
             pl-10
-          "
-        >
-          <TransitionChild
-            as="template"
-            enter="transform transition ease-in-out duration-500 sm:duration-700"
-            enter-from="translate-x-full"
-            enter-to="translate-x-0"
-            leave="transform transition ease-in-out duration-500 sm:duration-700"
-            leave-from="translate-x-0"
-            leave-to="translate-x-full"
-          >
+          ">
+          <TransitionChild as="template" enter="transform transition ease-in-out duration-500 sm:duration-700"
+            enter-from="translate-x-full" enter-to="translate-x-0"
+            leave="transform transition ease-in-out duration-500 sm:duration-700" leave-from="translate-x-0"
+            leave-to="translate-x-full">
             <DialogPanel class="pointer-events-auto relative w-screen lg:max-w-xl">
-              <TransitionChild
-                as="template"
-                enter="ease-in-out duration-500"
-                enter-from="opacity-0"
-                enter-to="opacity-100"
-                leave="ease-in-out duration-500"
-                leave-from="opacity-100"
-                leave-to="opacity-0"
-              >
-                <div
-                  class="
+              <TransitionChild as="template" enter="ease-in-out duration-500" enter-from="opacity-0"
+                enter-to="opacity-100" leave="ease-in-out duration-500" leave-from="opacity-100" leave-to="opacity-0">
+                <div class="
                     absolute
                     top-0
                     left-0
@@ -141,25 +93,19 @@
                     pt-4
                     pr-2
                     sm:-ml-10 sm:pr-4
-                  "
-                >
-                  <button
-                    type="button"
-                    class="
+                  ">
+                  <button type="button" class="
                       rounded-md
                       text-gray-300
                       hover:text-white
                       focus:outline-none focus:ring-2 focus:ring-white
-                    "
-                    @click="open = false"
-                  >
+                    " @click="open = false">
                     <span class="sr-only">Close panel</span>
                     <XIcon class="h-6 w-6" aria-hidden="true" />
                   </button>
                 </div>
               </TransitionChild>
-              <div
-                class="
+              <div class="
                   flex
                   h-full
                   flex-col
@@ -168,12 +114,9 @@
                   dark:bg-slate-900
                   py-6
                   shadow-xl
-                "
-              >
+                ">
                 <div class="px-4 sm:px-6">
-                  <DialogTitle
-                    class="text-lg font-semibold text-slate-900 dark:text-white uppercase"
-                  >
+                  <DialogTitle class="text-lg font-semibold text-slate-900 dark:text-white uppercase">
                     {{ valkyrie.name }}
                   </DialogTitle>
                 </div>
