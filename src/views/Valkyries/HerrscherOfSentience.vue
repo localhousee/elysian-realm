@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Stars (Griseo)",
+      recommended: "Husk",
+      boss: "",
       supports: [
         {
           time: "Early",
@@ -233,6 +235,8 @@ const signets = {
     },
     {
       name: "Ego (Summoned Entities)",
+      recommended: "Husk",
+      boss: "",
       supports: [
         {
           time: "Early",
@@ -449,6 +453,8 @@ const signets = {
     },
     {
       name: "Daybreak (Kosma)",
+      recommended: "Husk",
+      boss: "",
       supports: [
         {
           time: "Early",
