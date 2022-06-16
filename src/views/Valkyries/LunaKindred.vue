@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      recommended: "Husk",
+      boss: "",
       supports: [
         {
           time: "Early",
