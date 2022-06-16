@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Weapon Spam",
+      recommended: "HoD",
+      boss: "",
       signets: [
         {
           name: "Elysia",
@@ -162,6 +164,8 @@ const signets = {
     },
     {
       name: "Ultimate",
+      recommended: "HoD",
+      boss: "",
       signets: [
         {
           name: "Elysia",
@@ -345,6 +349,8 @@ const signets = {
     },
     {
       name: "Phyllis",
+      recommended: "HoD",
+      boss: "",
       signets: [
         {
           name: "Elysia",
