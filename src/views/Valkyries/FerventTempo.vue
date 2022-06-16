@@ -22,26 +22,26 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      recommended: "SA for Husk, BR for HoD",
+      boss: "Mobius (type advantage)",
       supports: [
         {
-          time: "",
-          sigils: "kevin skill",
+          time: "Early",
+          sigils: "It Will Be Written",
           support_1: "SA",
           support_2: "SS",
         },
         {
           time: "Mid",
-          sigils: "eden skill",
+          sigils: "Dreamful Gold",
           support_1: "BR",
           support_2: "SS",
         },
         {
           time: "Late",
-          sigils: "eden skill",
+          sigils: "Dreamful Gold",
           support_1: "SA/BR",
           support_2: "SS",
-          recommend: "SA for husk,BR for HoDom",
-          Boss: "Möbius FT have type advantage",
         },
       ],
       signets: [
