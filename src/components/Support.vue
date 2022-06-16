@@ -37,8 +37,8 @@
             </svg>
           </div>
           <div class="flex flex-col">
-            <span>Flamechaser: {{ support.boss }}</span>
-            <span>Recommended: {{ support.recommended }}</span>
+            <span v-if="support.boss">Flamechaser: {{ support.boss }}</span>
+            <span v-if="support.recommended">Recommended: {{ support.recommended }}</span>
           </div>
         </div>
         <table class="table-auto w-full mt-2">
