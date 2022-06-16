@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Combo Spam (No Ultimate)",
+      recommended: "HoD",
+      boss: "",
       supports: [
         {
           time: "Early",
