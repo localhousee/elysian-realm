@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Starchasm Nyx",
   imageSrc: "/images/starchasm-nyx.jpg",
   imageAlt: "Starchasm Nyx",
-  position: "object-top",
+  position: "object-left",
   derp: {
     imageSrc: "/images/derp/starchasm-nyx.png",
     imageAlt: "Derp Starchasm Nyx",
@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      recommended: "Husk",
+      boss: "",
       supports: [
         {
           time: "Early",
