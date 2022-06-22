@@ -221,8 +221,8 @@ const signets = {
       ],
     },
     {
-      name: "4/4 Finality",
-      recommended: "HoD",
+      name: "Hua Fast Clear",
+      recommended: "Choose HoD. Use LE if you don't have SP Regen source (See Eden / Su)",
       boss: "",
       supports: [
         {
@@ -235,7 +235,7 @@ const signets = {
           time: "Mid",
           sigils: "",
           support_1: "VC",
-          support_2: "SS",
+          support_2: "LE / SS",
         },
         {
           time: "Late",
@@ -266,12 +266,12 @@ const signets = {
             {
               name: "Blessing of Love",
               desc: "While Ultimate is active, Charged Shot: Cupid's Bolt consumes 100% bonus Infatuation and deals 700% ATK of bonus Physical DMG",
-              priority: "Filler",
+              priority: "No",
             },
             {
               name: "Blessing of Benevolence",
               desc: "Infatuation is fully restored when Ultimate Evasion Skill is triggered. If Infatuation drops below 100 after using Charged Shot: Cupid's Bolt, you can consume 1 Ultimate Evasion charge to trigger Ultimate Evasion Skill",
-              priority: "Filler",
+              priority: "No",
             },
           ],
         },
@@ -307,6 +307,7 @@ const signets = {
         },
         {
           name: "Aponia 1",
+          info: "Try to get \"You Shall Be Bound by Thy Body\". If fail, move on and Focus on Another Signets",
           lists: [
             {
               name: "First, No Betrayal",
@@ -324,11 +325,6 @@ const signets = {
               priority: "3rd",
             },
             {
-              name: "Second, No Deception",
-              desc: "Exhortation increases by 5 per second and caps at 200. Valkyrie has Total DMG Reduction equal to 0.3% of Exhortation. Summoning entities reduces 50% Exhortation",
-              priority: "4th",
-            },
-            {
               name: "Nexus Signet: You Shall Be Subject to Numerous Disciplines",
               desc: "Reaching 120 Exhortation induces Mortification where Valkyrie Total DMG increases by 25% of Exhortation. Also, for every Signet of Discipline unlocked, Valkyrie deals 5% bonus Physical DMG and Elemental DMG",
               priority: "CORE",
@@ -342,6 +338,7 @@ const signets = {
         },
         {
           name: "Vill-V 1",
+          info: "Pick \"Act VIII: Adorned Chamber\" when you have another SP regen source (Check Su or Eden or LE Supp), or just skip",
           lists: [
             {
               name: "Act II: Pendulum",
@@ -378,6 +375,11 @@ const signets = {
               desc: "Marvellous Magic costs 20 SP to boost its base Physical DMG by 35% and grants 30% Physical Breach for 6s",
               priority: "Optional",
             },
+            {
+              name: "Finale: Broken Truth",
+              desc: "Marvellous Magic deals 100% bonus DMG to shields, every cast boosts it's Total DMG by 4% up to 40%",
+              priority: "Optional",
+            },
           ],
         },
         {
@@ -407,6 +409,7 @@ const signets = {
         },
         {
           name: "Su 2 (Choose one)",
+          info: "\"Motto of Ceto-Pariya-Nana\" is one of SP Regen source for Vill-V",
           lists: [
             {
               name: "Motto of Dibba-Cakkhu",
@@ -432,6 +435,7 @@ const signets = {
         },
         {
           name: "Eden 2 (Choose one)",
+          info: "Recitatif of Fine Jade become 1st for switching support (LE to SS). If can't get it, keep LE",
           lists: [
             {
               name: "Recitatif of Eden",
@@ -471,17 +475,17 @@ const signets = {
             {
               name: "Yellow & Warm",
               desc: "Using an Ultimate taints enemies nearby with yellow paint for 8s and makes them take 30% bonus Total DMG. Triggering it again resets the duration",
-              priority: "2nd",
+              priority: "Filler",
             },
             {
               name: "Grey & Empty",
               desc: "Enemies stay tainted for 5s longer",
-              priority: "3rd",
+              priority: "Filler",
             },
             {
               name: "Nexus Signet: Shine like Stars",
               desc: "When there are enemies tainted with 1/2/3 different paints, Valkyries deal 20%/50%/100% bonus Total DMG to enemies of countering types",
-              priority: "CORE",
+              priority: "Filler",
             },
           ],
         },
