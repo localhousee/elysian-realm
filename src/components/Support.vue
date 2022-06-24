@@ -37,8 +37,8 @@
             </svg>
           </div>
           <div class="flex flex-col">
-            <span v-if="support.boss">Flamechaser: {{ support.boss }}</span>
-            <span v-if="support.recommended">Recommended: {{ support.recommended }}</span>
+            <p v-if="support.recommended">Info:  <span v-html="support.recommended" /></p>
+            <p v-if="support.boss">Flamechaser: {{ support.boss }}</p>
           </div>
         </div>
         <table class="table-auto w-full mt-2">
@@ -77,6 +77,6 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { ChevronUpIcon } from "@heroicons/vue/solid";
 
 defineProps({
-  support: Array,
+  support: Object,
 });
 </script>
