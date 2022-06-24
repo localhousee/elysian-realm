@@ -222,7 +222,7 @@ const signets = {
     },
     {
       name: "Hua Fast Clear",
-      recommended: "Choose HoD. Use LE if you don't have SP Regen source (See Eden / Su)",
+      recommended: "Choose HoD. Use LE if you don't have SP Regen source (See Eden / Su). Ref: <a class='italic font-bold underline' href='https://www.youtube.com/watch?v=PANm8iHz53U'>here</a>",
       boss: "",
       supports: [
         {
@@ -306,39 +306,8 @@ const signets = {
           ],
         },
         {
-          name: "Aponia 1",
-          info: "Try to get \"You Shall Be Bound by Thy Body\". If fail, move on and Focus on Another Signets",
-          lists: [
-            {
-              name: "First, No Betrayal",
-              desc: "Exhortation increases by 5 per second and caps at 200. Basic ATK's Total DMG increases by 0.3% of Exhortation. Triggering Ultimate Evasion Skill reduces 50% Exhortation",
-              priority: "1st",
-            },
-            {
-              name: "Third, No Brutality",
-              desc: "Exhortation increases by 5 per second and caps at 200. Valkyrie has bonus SP regen per second equal to 1% of Exhortation. Reaching 160 combo reduces 50% Exhortation",
-              priority: "2nd",
-            },
-            {
-              name: "Fifth, No Falsehood",
-              desc: "Valkyrie starts with 70 bonus Exhortation. Whenever Exhortation is reduced, enemies take 25% bonus Total DMG for 5s. Can be refreshed",
-              priority: "3rd",
-            },
-            {
-              name: "Nexus Signet: You Shall Be Subject to Numerous Disciplines",
-              desc: "Reaching 120 Exhortation induces Mortification where Valkyrie Total DMG increases by 25% of Exhortation. Also, for every Signet of Discipline unlocked, Valkyrie deals 5% bonus Physical DMG and Elemental DMG",
-              priority: "CORE",
-            },
-            {
-              name: "You Shall Be Bound by Thy Body",
-              desc: "In Mortification, Basic ATK has 30% Physical Breach and Elemental Breach but Ultimate deals 20% less Total DMG",
-              priority: "1st",
-            },
-          ],
-        },
-        {
           name: "Vill-V 1",
-          info: "Pick \"Act VIII: Adorned Chamber\" when you have another SP regen source (Check Su or Eden or LE Supp), or just skip",
+          info: "Based on RNG luck, if in F5 u get Vill-V, try get double bonus on F7.  Pick \"Act VIII: Adorned Chamber\" when you have another SP regen source (Check Su or Eden or LE Supp), or just skip",
           lists: [
             {
               name: "Act II: Pendulum",
@@ -379,6 +348,37 @@ const signets = {
               name: "Finale: Broken Truth",
               desc: "Marvellous Magic deals 100% bonus DMG to shields, every cast boosts it's Total DMG by 4% up to 40%",
               priority: "Optional",
+            },
+          ],
+        },
+        {
+          name: "Aponia 1",
+          info: "Based on RNG luck, if in F5 u get Aponia, try get double bonus on F7. Try to get \"You Shall Be Bound by Thy Body\". If fail, move on and Focus on Another Signets",
+          lists: [
+            {
+              name: "First, No Betrayal",
+              desc: "Exhortation increases by 5 per second and caps at 200. Basic ATK's Total DMG increases by 0.3% of Exhortation. Triggering Ultimate Evasion Skill reduces 50% Exhortation",
+              priority: "1st",
+            },
+            {
+              name: "Third, No Brutality",
+              desc: "Exhortation increases by 5 per second and caps at 200. Valkyrie has bonus SP regen per second equal to 1% of Exhortation. Reaching 160 combo reduces 50% Exhortation",
+              priority: "2nd",
+            },
+            {
+              name: "Fifth, No Falsehood",
+              desc: "Valkyrie starts with 70 bonus Exhortation. Whenever Exhortation is reduced, enemies take 25% bonus Total DMG for 5s. Can be refreshed",
+              priority: "3rd",
+            },
+            {
+              name: "Nexus Signet: You Shall Be Subject to Numerous Disciplines",
+              desc: "Reaching 120 Exhortation induces Mortification where Valkyrie Total DMG increases by 25% of Exhortation. Also, for every Signet of Discipline unlocked, Valkyrie deals 5% bonus Physical DMG and Elemental DMG",
+              priority: "CORE",
+            },
+            {
+              name: "You Shall Be Bound by Thy Body",
+              desc: "In Mortification, Basic ATK has 30% Physical Breach and Elemental Breach but Ultimate deals 20% less Total DMG",
+              priority: "1st",
             },
           ],
         },
