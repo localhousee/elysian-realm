@@ -8,7 +8,7 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "d60e06e4-9aa4-4269-a73f-9cce683beb79",
   name: "Stygian Nymph",
-  imageSrc: "/images/stygian-nymph.jpg",
+  imageSrc: "/images/stygian-nymph.png",
   imageAlt: "Stygian Nymph",
   position: "object-center",
   derp: {
@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      recommended: "Husk",
+      boss: "",
       supports: [
         {
           time: "Early",
