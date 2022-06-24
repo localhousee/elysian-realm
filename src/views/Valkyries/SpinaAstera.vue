@@ -10,7 +10,7 @@ const valkyrie = {
   name: "Spina Astera",
   imageSrc: "/images/spina-astera.jpg",
   imageAlt: "Spina Astera",
-  position: "object-top",
+  position: "object-center",
   derp: {
     imageSrc: "/images/spina-astera.jpg",
     imageAlt: "Derp Spina Astera",
@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "First Variation",
+      recommended: "HoD",
+      boss: "",
       supports: [
         {
           time: "Early",
@@ -212,6 +214,8 @@ const signets = {
     },
     {
       name: "Second Variation",
+      recommended: "HoD",
+      boss: "",
       supports: [
         {
           time: "Early",
