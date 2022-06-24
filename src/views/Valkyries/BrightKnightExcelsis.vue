@@ -8,9 +8,9 @@ import Card from "../../components/Card.vue";
 const valkyrie = {
   id: "f41a008a-a2db-4a0e-b11d-3dfaaa2a198a",
   name: "Bright Knight: Excelsis",
-  imageSrc: "/images/bright-knight-excelsis.jpg",
+  imageSrc: "/images/bright-knight-excelsis.png",
   imageAlt: "Bright Knight: Excelsis",
-  position: "object-center",
+  position: "object-top",
   derp: {
     imageSrc: "/images/derp/bright-knight-excelsis.jpg",
     imageAlt: "Derp Bright Knight: Excelsis",
@@ -22,6 +22,8 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
+      recommended: "HoD",
+      boss: "",
       supports: [
         {
           time: "Early",
