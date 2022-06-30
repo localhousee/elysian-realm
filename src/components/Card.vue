@@ -7,6 +7,7 @@
         overflow-hidden
         aspect-w-7 aspect-h-8
         group-hover:rounded-none
+        cursor-pointer
       ">
       <img v-if="derpMode" loading="lazy" :src="valkyrie.derp?.imageSrc" :alt="valkyrie.derp?.imageAlt" class="
           w-full
