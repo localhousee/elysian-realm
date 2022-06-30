@@ -22,7 +22,7 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
-      recommended: "SA for Husk, BR for HoD",
+      recommended: "SA for Husk, BR for HoD. Need Sleeper's Dream",
       boss: "Mobius (type advantage)",
       supports: [
         {
@@ -62,6 +62,16 @@ const signets = {
               name: "?",
               desc: "Fervent Mode normal attacks deal 30% (40%) additional phys dmg. Final hit of ultimate deals additional 400% (600%) phys dmg",
               priority: "2nd",
+            },
+            {
+              name: "?",
+              desc: "When in Fervent Mode, nearby enemies take 20/25% more Physical DMG (independent effect), juice bar consumption rate increased by 50%",
+              priority: "3rd",
+            },
+            {
+              name: "?",
+              desc: "When using Charged ATK or ult, pulls enemies in a large radius in front of the Valkyrie and increases their Total DMG taken by 30/40% for 8s, can be refreshed",
+              priority: "Filler",
             },
           ],
         },
@@ -154,7 +164,7 @@ const signets = {
               priority: "4th",
             },
             {
-              name: "Nexus Signet: ?",
+              name: "Nexus Signet: Dim Like Stars",
               desc: "?",
               priority: "CORE",
             },
