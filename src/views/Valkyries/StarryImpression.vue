@@ -19,32 +19,30 @@ const valkyrie = {
 };
 
 const signets = {
-  builds: [
-    {
-      name: "Recommendation",
-      boss: "Aponia",
-      recommended: "",
-      supports: [
-        {
-          time: "Early",
-          sigils: "Because of You / It will be Written",
-          support_1: "SA",
-          support_2: "SS",
-        },
-        {
-          time: "Mid",
-          sigils: "Dreamful Gold",
-          support_1: "BR",
-          support_2: "SS",
-        },
-        {
-          time: "Late",
-          sigils: "Dreamful Gold",
-          support_1: "SS",
-          support_2: "SA / BR",
-        },
-      ],
-      signets: [
+builds: [
+     {
+       name: "Recommendation",
+       supports: [
+         {
+           time: "Early",
+           sigils: "Because of You",
+           support_1: "",
+           support_2: "",
+         },
+         {
+           time: "Mid",
+           sigils: "",
+           support_1: "",
+           support_2: "SA",
+         },
+         {
+           time: "Late",
+           sigils: "Dreamful Gold",
+           support_1: "SS",
+           support_2: "SA",
+         },
+       ],
+       signets: [
         {
           name: "Elysia",
           lists: [
@@ -123,11 +121,11 @@ const signets = {
               desc: "Every time an enemy is tainted, Valkyries deals 10% bonus Physical and Elemental DMG for 20s. 6 stacks max",
               priority: "2nd",
             },
-            {
-              name: "Yellow & Warm",
-              desc: "Using an Ultimate taints enemies nearby with yellow paint for 8s and makes them take 30% bonus Total DMG. Triggering it again resets the duration",
-              priority: "3rd",
-            },
+              {
+                name: "Yellow & Warm",
+                desc: "Using an Ultimate taints enemies nearby with yellow paint for 8s and makes them take 30% bonus Total DMG. Triggering it again resets the duration",
+                priority: "3rd",
+              },
             {
               name: "White & Bright",
               desc: "Every time an enemy is tainted, Valkyrie restores 12 SP. CD: 5s",
@@ -200,8 +198,8 @@ const signets = {
             },
           ],
         },
-      ],
-    },
-  ],
+       ],
+     },
+   ],
 };
 </script>
