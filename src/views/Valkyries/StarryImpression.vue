@@ -19,56 +19,58 @@ const valkyrie = {
 };
 
 const signets = {
-builds: [
-     {
-       name: "Omni Ego",
-       supports: [
-         {
-           time: "Early",
-           sigils: "Because of You",
-           support_1: "",
-           support_2: "",
-         },
-         {
-           time: "Mid",
-           sigils: "",
-           support_1: "",
-           support_2: "SA",
-         },
-         {
-           time: "Late",
-           sigils: "Dreamful Gold",
-           support_1: "SS",
-           support_2: "SA",
-         },
-       ],
-       signets: [
+  builds: [
+    {
+      name: "Recommendation",
+      boss: "Aponia",
+      recommended: "",
+      supports: [
+        {
+          time: "Early",
+          sigils: "Because of You / It will be Written",
+          support_1: "SA",
+          support_2: "SS",
+        },
+        {
+          time: "Mid",
+          sigils: "Dreamful Gold",
+          support_1: "BR",
+          support_2: "SS",
+        },
+        {
+          time: "Late",
+          sigils: "Dreamful Gold",
+          support_1: "SS",
+          support_2: "SA / BR",
+        },
+      ],
+      signets: [
         {
           name: "Elysia",
           lists: [
             {
-              name: "?",
-              desc: "For every stack of bleed on enemies, gain Total DMG +8/10%. When using combo attack to consume all 3 colors, deal an additional 800/1000%ATK Physical Bleed damage, CD 0.5s",
+              name: "Blessing of Feathers",
+              desc: "Total DMG dealt to enemies inflicted with Bleed increases 8% for every stack inflicted. Combo ATKs grant buffs upon consuming all Color Markers and deal 800% ATK of Bleed DMG on hit. CD: 0.5s",
               priority: "Start",
             },
             {
-              name: "?",
-              desc: "When activating ultimate evasion, gain 3 different ink colors and make all enemies on field take 30/40% more TDM for 10s",
+              name: "Blessing of Azure Wind",
+              desc: "Triggering Ultimate Evasion Skill grants 3 Color Markers and boosts Total DMG taken by all enemies by 40% for 20s",
               priority: "1st",
             },
             {
-              name: "?",
-              desc: "Physical DMG 30/40%. Normal attack sequence 4 gathers enemies",
+              name: "Blessing of Cloud Valley",
+              desc: "Physical DMG increases 40% and SEQ 4 of Basic ATKs draw in surrounding enemies within a wide radius",
               priority: "2nd",
             },
             {
-              name: "?",
-              desc: "Combo ATK deals an additional 100/200% 1000/2000% 1000/1200% ATK Physical DMG for each color consumed. When consuming red/yellow/blue color, reduce weapon active/ultimate/evasion CD by 1s respectively. Combo attack that consumes all colors can also chain to 3rd sequence of normal attack",
+              name: "Blessing of Starry Night",
+              desc: "Combo ATKs deal an additional 1000% ATK Physical DMG for every Color Marker consumed. This DMG counts as bleeding DMG. Upon consuming Red, Yellow, or Blue Color Marker, Valkyrie's Weapon Skill, Ultimate, and Ultimate Evasion CDs are reduced 1s. Combo ATKs consuming all Color Markers can be connected into Basic ATK SEQ 3",
               priority: "2nd",
             },
             {
-              name: "?",
-              desc: "During ultimate, gain +25% attack speed and 3rd/5th sequence of normal attack grant an additional color (same as normal attack color). During ultimate, all enemies take 10/20% more Total DMG (independent effect)",
+              name: "Blessing of River Forest",
+              desc: "Valkyrie's ATK Speed increases 25% during Ultimate, and SEQ 3 and SEQ 5 of Basic ATKs gain an additional Color Markers (samecolor as would be normally granted). DMG dealt to all enemies during Ultimate increases 10% (cannot stack)",
               priority: "No",
             },
           ],
@@ -121,11 +123,11 @@ builds: [
               desc: "Every time an enemy is tainted, Valkyries deals 10% bonus Physical and Elemental DMG for 20s. 6 stacks max",
               priority: "2nd",
             },
-              {
-                name: "Yellow & Warm",
-                desc: "Using an Ultimate taints enemies nearby with yellow paint for 8s and makes them take 30% bonus Total DMG. Triggering it again resets the duration",
-                priority: "3rd",
-              },
+            {
+              name: "Yellow & Warm",
+              desc: "Using an Ultimate taints enemies nearby with yellow paint for 8s and makes them take 30% bonus Total DMG. Triggering it again resets the duration",
+              priority: "3rd",
+            },
             {
               name: "White & Bright",
               desc: "Every time an enemy is tainted, Valkyrie restores 12 SP. CD: 5s",
@@ -198,8 +200,8 @@ builds: [
             },
           ],
         },
-       ],
-     },
-   ],
+      ],
+    },
+  ],
 };
 </script>
