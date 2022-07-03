@@ -67,6 +67,7 @@ If you want to update guide recommendation (signets, builds), **just make a new 
 - [Remove Background](https://www.remove.bg)
 - [Color Pallete](https://tailwindcss.com)
 - [Design Inspiration](https://www.leagueoflegends.com/en-us/champions)
+- [Opengraph](https://www.pixiv.net/en/artworks/97129345)
 - [Argent Knight: Artemis](https://www.pixiv.net/en/artworks/77713036)
 - [Bright Knight: Excelsis](https://www.pixiv.net/en/artworks/81986704)
 - [Bright Knight: Excelsis (Derp)](https://arca.live/b/hk3rd/44117766?p=1)
