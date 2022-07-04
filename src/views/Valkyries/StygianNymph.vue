@@ -12,7 +12,7 @@ const valkyrie = {
   imageAlt: "Stygian Nymph",
   position: "object-center",
   derp: {
-    imageSrc: "/images/stygian-nymph.jpg",
+    imageSrc: "/images/stygian-nymph.png",
     imageAlt: "Derp Stygian Nymph",
     position: "object-center",
   }
