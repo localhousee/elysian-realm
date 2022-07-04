@@ -242,7 +242,7 @@
 </template>
 
 <script setup>
-import { ref, watchEffect } from "vue";
+import { ref, onMounted, watchEffect } from "vue";
 import { Switch, SwitchGroup, SwitchLabel } from "@headlessui/vue";
 import Modal from "../components/Modal.vue";
 import ArgentKnightArtemis from "./Valkyries/ArgentKnightArtemis.vue";
@@ -284,6 +284,14 @@ let isDarkMode = ref(theme.value === "dark" ? true : false);
 let html = document.getElementById("theme");
 let body = document.getElementById("derp");
 let key = ref(Number.MIN_SAFE_INTEGER);
+
+onMounted(() => {
+  if (! 'theme' in localStorage) {
+    if (window.matchMedia('(prefers-color-scheme: dark)')) {
+      isDarkMode.value = true;
+    }
+  }
+});
 
 watchEffect(() => {
   if (query.value.length > 0) {
