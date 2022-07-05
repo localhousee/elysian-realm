@@ -362,7 +362,7 @@ const signets = {
         },
         {
           name: "Su 2 (Choose one)",
-          info: "\"Motto of Ceto-Pariya-Nana\" can be paired with \"Withered Soil\"(Eden 2)",
+          info: "\"Motto of Ceto-Pariya-Nana\" can be paired with Eden: \"Withered Soil\"",
           lists: [
             {
               name: "Motto of Dibba-Cakkhu",

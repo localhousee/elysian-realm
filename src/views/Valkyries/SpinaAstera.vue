@@ -502,7 +502,7 @@ const signets = {
         },
         {
           name: "Eden 2",
-          info: "Build this or Griseo based on RNG Luck. Build Griseo after this build complete. \"Withered Soil\" is not necessary but can paired with \"Radiant Formation\"",
+          info: "Build this or Griseo based on RNG Luck. Build Griseo after this build complete. \"Withered Soil\" is not necessary but can paired with Elysia: \"Radiant Formation\"",
           lists: [
             {
               name: "Recitatif of Creeks",
