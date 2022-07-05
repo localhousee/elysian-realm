@@ -675,13 +675,18 @@ const signets = {
             {
               name: "Act VI: Sneer",
               desc: "Using a weapon active restores 12 SP in 5s and reduces its CD by 15%",
-              priority: "1st",
+              priority: "Filler",
             },
             {
               name: "Act II: Pendulum",
               desc: "Using a weapon active makes enemies take 20% bonus Total DMG for 3.5s. Triggering it again resets the duration",
-              priority: "2nd",
+              priority: "Filler",
             },
+            {
+              name: "Act IV: Spoon",
+              desc: "Using a weapon active boosts Physical DMG and Elemental DMG from Charge ATK and Combo ATK by 25% for 3.5s Triggering it again resets the duration",
+              priority: "Filler",
+            }
           ],
         },
       ],
