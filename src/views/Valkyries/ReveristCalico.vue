@@ -22,7 +22,27 @@ const signets = {
   builds: [
     {
       name: "Weapon Spam",
-      recommended: "HoD",
+      recommended: "Choose HoD (type Advantage)",
+      supports: [
+        {
+          time: "Early",
+          sigils: "Falling in Past Light",
+          support_1: "AE",
+          support_2: "BR",
+        },
+        {
+          time: "Mid",
+          sigils: "Falling in Past Light",
+          support_1: "AE",
+          support_2: "BR",
+        },
+        {
+          time: "Late",
+          sigils: "Falling in Past Light",
+          support_1: "AE",
+          support_2: "BR",
+        },
+      ],
       boss: "",
       signets: [
         {
@@ -164,7 +184,27 @@ const signets = {
     },
     {
       name: "Ultimate",
-      recommended: "HoD",
+      recommended: "Choose HoD (type Advantage)",
+      supports: [
+        {
+          time: "Early",
+          sigils: "It Will Be Written",
+          support_1: "AE",
+          support_2: "BR",
+        },
+        {
+          time: "Mid",
+          sigils: "It Will Be Written",
+          support_1: "AE",
+          support_2: "BR",
+        },
+        {
+          time: "Late",
+          sigils: "It Will Be Written",
+          support_1: "AE",
+          support_2: "BR",
+        },
+      ],
       boss: "",
       signets: [
         {
@@ -349,7 +389,27 @@ const signets = {
     },
     {
       name: "Phyllis",
-      recommended: "HoD",
+      recommended: "Choose HoD (type Advantage)",
+      supports: [
+        {
+          time: "Early",
+          sigils: "It Will Be Written",
+          support_1: "AE",
+          support_2: "BR",
+        },
+        {
+          time: "Mid",
+          sigils: "It Will Be Written",
+          support_1: "AE",
+          support_2: "BR",
+        },
+        {
+          time: "Late",
+          sigils: "It Will Be Written",
+          support_1: "AE",
+          support_2: "BR",
+        },
+      ],
       boss: "",
       signets: [
         {
