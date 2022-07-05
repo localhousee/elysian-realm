@@ -275,7 +275,7 @@ const signets = {
         },
         {
           name: "Eden 2",
-          info: "Build this or Griseo based on RNG Luck. On 3rd Priority, can take the other one from shop if not have it (Optional)",
+          info: "Build this or Griseo based on RNG Luck. Build this Griseo after this build complete. On 3rd Priority, can take the other one from shop if not have it (Optional)",
           lists: [
             {
               name: "Recitatif of Creeks",
@@ -316,7 +316,7 @@ const signets = {
         },
         {
           name: "Griseo 2",
-          info: "Build this or Eden based on RNG Luck",
+          info: "Build this or Eden based on RNG Luck. Build Eden After this build complete",
           lists: [
             {
               name: "Red & Hot",
