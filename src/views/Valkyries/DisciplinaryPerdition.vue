@@ -22,7 +22,7 @@ const signets = {
   builds: [
     {
       name: "Auto Attack Spam",
-      recommended: "Husk",
+      recommended: "Choose Husk",
       boss: "",
       supports: [
         {
@@ -169,7 +169,7 @@ const signets = {
     },
     {
       name: "Ultimate & Golden Spam",
-      recommended: "Husk",
+      recommended: "Choose Husk",
       boss: "",
       supports: [
         {

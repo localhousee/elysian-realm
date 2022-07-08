@@ -22,7 +22,7 @@ const signets = {
   builds: [
     {
       name: "5 Core",
-      recommended: "HoD",
+      recommended: "Choose HoD",
       boss: "",
       supports: [
         {

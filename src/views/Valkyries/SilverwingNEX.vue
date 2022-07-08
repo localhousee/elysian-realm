@@ -22,7 +22,7 @@ const signets = {
   builds: [
     {
       name: "Recommendation",
-      recommended: "Husk",
+      recommended: "Choose Husk",
       boss: "Kalpas",
       supports: [
         {

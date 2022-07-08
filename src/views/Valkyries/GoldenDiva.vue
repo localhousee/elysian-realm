@@ -22,7 +22,7 @@ const signets = {
   builds: [
     {
       name: "Combo Spam (No Ultimate)",
-      recommended: "HoD",
+      recommended: "Choose HoD",
       boss: "",
       supports: [
         {

@@ -22,7 +22,7 @@ const signets = {
   builds: [
     {
       name: "First Variation",
-      recommended: "HoD",
+      recommended: "Choose HoD",
       boss: "",
       supports: [
         {
@@ -214,7 +214,7 @@ const signets = {
     },
     {
       name: "Second Variation",
-      recommended: "HoD",
+      recommended: "Choose HoD",
       boss: "",
       supports: [
         {

@@ -22,7 +22,7 @@ const signets = {
   builds: [
     {
       name: "Stars (Griseo)",
-      recommended: "Husk",
+      recommended: "Choose Husk",
       boss: "",
       supports: [
         {
@@ -235,7 +235,7 @@ const signets = {
     },
     {
       name: "Ego (Summoned Entities)",
-      recommended: "Husk",
+      recommended: "Choose Husk",
       boss: "",
       supports: [
         {
@@ -453,7 +453,7 @@ const signets = {
     },
     {
       name: "Daybreak (Kosma)",
-      recommended: "Husk",
+      recommended: "Choose Husk",
       boss: "",
       supports: [
         {
