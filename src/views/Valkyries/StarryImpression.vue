@@ -19,30 +19,30 @@ const valkyrie = {
 };
 
 const signets = {
-builds: [
-     {
-       name: "Recommendation",
-       supports: [
-         {
-           time: "Early",
-           sigils: "Because of You",
-           support_1: "",
-           support_2: "",
-         },
-         {
-           time: "Mid",
-           sigils: "",
-           support_1: "",
-           support_2: "SA",
-         },
-         {
-           time: "Late",
-           sigils: "Dreamful Gold",
-           support_1: "SS",
-           support_2: "SA",
-         },
-       ],
-       signets: [
+  builds: [
+    {
+      name: "Variation 1",
+      supports: [
+        {
+          time: "Early",
+          sigils: "Because of You",
+          support_1: "",
+          support_2: "",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "",
+          support_2: "SA",
+        },
+        {
+          time: "Late",
+          sigils: "Dreamful Gold",
+          support_1: "SS",
+          support_2: "SA",
+        },
+      ],
+      signets: [
         {
           name: "Elysia",
           lists: [
@@ -121,11 +121,11 @@ builds: [
               desc: "Every time an enemy is tainted, Valkyries deals 10% bonus Physical and Elemental DMG for 20s. 6 stacks max",
               priority: "2nd",
             },
-              {
-                name: "Yellow & Warm",
-                desc: "Using an Ultimate taints enemies nearby with yellow paint for 8s and makes them take 30% bonus Total DMG. Triggering it again resets the duration",
-                priority: "3rd",
-              },
+            {
+              name: "Yellow & Warm",
+              desc: "Using an Ultimate taints enemies nearby with yellow paint for 8s and makes them take 30% bonus Total DMG. Triggering it again resets the duration",
+              priority: "3rd",
+            },
             {
               name: "White & Bright",
               desc: "Every time an enemy is tainted, Valkyrie restores 12 SP. CD: 5s",
@@ -198,8 +198,123 @@ builds: [
             },
           ],
         },
-       ],
-     },
-   ],
+      ],
+    },
+    {
+      name: "Omni Ego Build",
+      supports: [
+        {
+          time: "Early",
+          sigils: "Because of You",
+          support_1: "",
+          support_2: "",
+        },
+        {
+          time: "Mid",
+          sigils: "",
+          support_1: "",
+          support_2: "SA",
+        },
+        {
+          time: "Late",
+          sigils: "Dreamful Gold",
+          support_1: "SS",
+          support_2: "SA",
+        },
+      ],
+      signets: [
+        {
+          name: "Elysia",
+          lists: [
+            {
+              name: "Blessing of Feathers",
+              desc: "Total DMG dealt to enemies inflicted with Bleed increases 8% for every stack inflicted. Combo ATKs grant buffs upon consuming all Color Markers and deal 800% ATK of Bleed DMG on hit. CD: 0.5s",
+              priority: "Start",
+            },
+            {
+              name: "Blessing of Azure Wind",
+              desc: "Triggering Ultimate Evasion Skill grants 3 Color Markers and boosts Total DMG taken by all enemies by 40% for 20s",
+              priority: "Start",
+            },
+            {
+              name: "Blessing of Cloud Valley",
+              desc: "Physical DMG increases 40% and SEQ 4 of Basic ATKs draw in surrounding enemies within a wide radius",
+              priority: "1st",
+            },
+            {
+              name: "Blessing of Starry Night",
+              desc: "Combo ATKs deal an additional 1000% ATK Physical DMG for every Color Marker consumed. This DMG counts as bleeding DMG. Upon consuming Red, Yellow, or Blue Color Marker, Valkyrie's Weapon Skill, Ultimate, and Ultimate Evasion CDs are reduced 1s. Combo ATKs consuming all Color Markers can be connected into Basic ATK SEQ 3",
+              priority: "2nd",
+            },
+            {
+              name: "Blessing of River Forest",
+              desc: "Valkyrie's ATK Speed increases 25% during Ultimate, and SEQ 3 and SEQ 5 of Basic ATKs gain an additional Color Markers (samecolor as would be normally granted). DMG dealt to all enemies during Ultimate increases 10% (cannot stack)",
+              priority: "3rd",
+            },
+          ],
+        },
+        {
+          name: "Griseo 2",
+          lists: [
+            {
+              name: "Red & Hot",
+              desc: "Using a weapon active taints enemies nearby with red paint for 8s and makes them take 25% bonus Physical and Elemental MG (cannot stack). Triggering it again resets the duration",
+              priority: "1st",
+            },
+            {
+              name: "Black & Dark",
+              desc: "Every time an enemy is tainted, Valkyries deals 10% bonus Physical and Elemental DMG for 20s. 6 stacks max",
+              priority: "2nd",
+            },
+            {
+              name: "Yellow & Warm",
+              desc: "Using an Ultimate taints enemies nearby with yellow paint for 8s and makes them take 30% bonus Total DMG. Triggering it again resets the duration",
+              priority: "3rd",
+            },
+            {
+              name: "White & Bright",
+              desc: "Every time an enemy is tainted, Valkyrie restores 12 SP. CD: 5s",
+              priority: "4th",
+            },
+            {
+              name: "Blue & Cold",
+              desc: "Triggering an Ultimate Evasion Skill taints enemies nearby with blue paint for 8s and reduces their Total DMG and Move Speed by 30%. Triggering it again resets the duration",
+              priority: "Filler",
+            },
+            {
+              name: "Black & Dark",
+              desc: "Every time an enemy is tainted, Valkyries deals 10% bonus Physical and Elemental DMG for 20s. 6 stacks max",
+              priority: "Filler",
+            },
+            {
+              name: "White & Bright",
+              desc: "Every time an enemy is tainted, Valkyrie restores 12 SP. CD: 5s",
+              priority: "Filler",
+            },
+            {
+              name: "Grey & Empty",
+              desc: "Enemies stay tainted for 5s longer",
+              priority: "Filler",
+            },
+            {
+              name: "Nexus Signet: Faded Stars",
+              desc: "When tainted enemies are tainted another color, Blending is triggered, dealing 300% ATK of Adaptive DMG to enemies within 15m and tainting enemies purple, green, or orange based on the Enhanced Signet; CD: 1s. Total DMG increases 15% for each layer of taint, plus an additional 15% for enemies of a countered type",
+              priority: "CORE",
+            },
+            {
+              name: "A Flame Extinguished",
+              desc: "When red and yellow taint triggers Blending you become tainted orange for 15s, triggering Time Fracture for 2.5s and reducing enemy Physical Defense 40% and Elemental Resist 15% for 10s; CD: 7s. Triggering it again resets the duration",
+              priority: "1st",
+            },
+            {
+              name: "Fallen Leaves",
+              desc: "When yellow and blue taint triggers Blending along with an AoE ATK dealing 800% ATK of Adaptive DMG; CD: 3s. Also taints yourself green for 15s, increasing Total DMG 20% for each taint in Faded Stars. Triggering it again resets the duration",
+              priority: "2nd",
+            },
+          ],
+        },
+      ],
+    },
+  ],
 };
 </script>
